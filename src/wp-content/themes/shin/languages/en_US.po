@@ -1,0 +1,3530 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-05-06 09:36-0500\n"
+"PO-Revision-Date: 2024-05-06 09:38-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:5
+msgid "La página que estás buscando no existe."
+msgstr "The page you are looking for does not exist."
+
+#: admin/class-eps.php:27
+msgid "Error: La API Key es inválida."
+msgstr "Error: API Key is invalid."
+
+#: admin/class-eps.php:27 admin/panel.php:1938
+msgid "Más información"
+msgstr "More info"
+
+#: admin/class-eps.php:36
+msgid "Error: No hay URL de Playstore en este post"
+msgstr "Error: There is no Playstore URL in this post"
+
+#: admin/class-eps.php:46
+msgid "Error: Al parecer la URL no existe. Verifique nuevamente."
+msgstr "Error: Apparently the URL does not exist. Check again."
+
+#: admin/class-eps.php:195
+msgid "Información importada."
+msgstr "Imported information."
+
+#: admin/class-eps.php:196
+#, php-format
+msgid "Entrada \"%s\" creada."
+msgstr "\"%s\" post created."
+
+#: admin/class-eps.php:196 admin/panel.php:168 includes/ajax.php:621
+msgid "Ver post"
+msgstr "View post"
+
+#: admin/class-eps.php:246 admin/class-eps.php:292
+msgid "Información actualizada."
+msgstr "Updated information."
+
+#: admin/class-eps.php:247 admin/class-eps.php:293
+#, php-format
+msgid "Entrada \"%s\" actualizada."
+msgstr "\"%s\" post updated."
+
+#: admin/class-eps.php:480
+msgid "Se encontró un archivo APK y OBB"
+msgstr "An APK and OBB file was found"
+
+#: admin/class-eps.php:481 admin/class-eps.php:489
+msgid "Descargando archivo..."
+msgstr "Downloading file..."
+
+#: admin/class-eps.php:481 admin/class-eps.php:489 includes/ajax.php:251
+#: includes/ajax.php:284
+msgid "En proceso..."
+msgstr "In progress..."
+
+#: admin/class-eps.php:482
+#, php-format
+msgid "Subiendo a %s en ZIP"
+msgstr "Uploading to %s in ZIP"
+
+#: admin/class-eps.php:485
+msgid "Se encontró un archivo APK"
+msgstr "APK file found"
+
+#: admin/class-eps.php:487
+msgid "Se encontró un archivo ZIP"
+msgstr "ZIP file found"
+
+#: admin/class-eps.php:490
+#, php-format
+msgid "Subiendo a %s"
+msgstr "Uploading to %s"
+
+#: admin/class-eps.php:501
+#, php-format
+msgid "Error: La aplicación que desea importar ya existe. %s"
+msgstr "Error: The app you want to import already exists. %s"
+
+#: admin/class-eps.php:501
+msgid "Ver entrada"
+msgstr "View post"
+
+#: admin/panel.php:13
+msgid "Importar contenido"
+msgstr "Import content"
+
+#: admin/panel.php:17 admin/panel.php:286 admin/panel.php:1196 functions.php:2155
+#: includes/admin.php:87 includes/admin.php:239
+msgid "Apps modificadas"
+msgstr "MOD apps"
+
+#: admin/panel.php:19 admin/panel.php:29 admin/panel.php:226
+#: includes/admin.php:87 includes/admin.php:273
+msgid "Apps por actualizar"
+msgstr "Apps to update"
+
+#: admin/panel.php:21 admin/panel.php:129 includes/admin.php:212
+msgid "Reportes"
+msgstr "Reports"
+
+#: admin/panel.php:27 admin/panel.php:70 includes/admin.php:230
+msgid "Importar contenido (Google Play)"
+msgstr "Import content (Google Play)"
+
+#: admin/panel.php:31
+msgid "Registro de cambios"
+msgstr "Changelog"
+
+#: admin/panel.php:33
+msgid "Documentación"
+msgstr "Documentation"
+
+#: admin/panel.php:41
+msgid "Importante:"
+msgstr "Important:"
+
+#: admin/panel.php:42
+msgid ""
+"* La información que se importa es el título, información de la app, versión, "
+"enlace de descarga y peso del archivo. Todos los demás campos serán rellenados "
+"con la información obtenida de Google Play siempre y cuando exista."
+msgstr ""
+"The information that is imported is the title, app information, version, "
+"download link and file size. All other fields will be filled in with "
+"information obtained from Google Play as long as it exists."
+
+#: admin/panel.php:43
+msgid "* El contenido en su mayoría solo está disponible en idioma inglés."
+msgstr "* The content is mostly only available in English language."
+
+#: admin/panel.php:44
+msgid ""
+"* Si no está disponible un enlace de descarga no se completará la importación."
+msgstr "* If a download link is not available the import will not complete."
+
+#: admin/panel.php:45
+msgid ""
+"* Al \"Re-importar\" un app se volverá a importar toda la información en el "
+"post ya creado."
+msgstr ""
+"* When \"Re-importing\" an app, all the information in the post already "
+"created will be imported again."
+
+#: admin/panel.php:48
+msgid "Buscar apps modificadas"
+msgstr "Search MOD apps"
+
+#: admin/panel.php:53 admin/panel.php:234 includes/template-functions.php:1426
+#: template-parts/content-search.php:18 template-parts/content-search.php:67
+msgid "Buscar"
+msgstr "Search"
+
+#: admin/panel.php:61 admin/panel.php:106
+msgid "Actualizar esta lista"
+msgstr "Update this list"
+
+#: admin/panel.php:73 includes/admin.php:54
+msgid "Importar datos"
+msgstr "Import data"
+
+#: admin/panel.php:77
+msgid ""
+"Al hacer clic en \"Importar datos\" se creará un post con toda la información "
+"importada basándose en las opciones mostradas a continuación..."
+msgstr ""
+"Clicking on \"Import data\" will create a post with all the information "
+"extracted based on the options shown below..."
+
+#: admin/panel.php:78
+msgid "Opciones al importar datos"
+msgstr "Options when importing data"
+
+#: admin/panel.php:80 admin/panel.php:1036 admin/panel.php:1218
+msgid "Estado del post"
+msgstr "Post status"
+
+#: admin/panel.php:80 admin/panel.php:1041 admin/panel.php:1226
+msgid "Publicado"
+msgstr "Publish"
+
+#: admin/panel.php:80 admin/panel.php:1039 admin/panel.php:1224
+msgid "Borrador"
+msgstr "Draft"
+
+#: admin/panel.php:81
+msgid "Crear categoría si no existe"
+msgstr "Create category if it does not exist"
+
+#: admin/panel.php:81 admin/panel.php:82 admin/panel.php:83 admin/panel.php:93
+#: admin/panel.php:94
+msgid "No"
+msgstr "No"
+
+#: admin/panel.php:81 admin/panel.php:82 admin/panel.php:83 admin/panel.php:93
+#: admin/panel.php:94
+msgid "Sí"
+msgstr "Yes"
+
+#: admin/panel.php:82
+msgid "Crear taxonomía <i>Desarrollador</i> si no existe"
+msgstr "Create taxonomy <i>Developer</i> if it does not exist"
+
+#: admin/panel.php:83 admin/panel.php:1061
+msgid "Obtener APK"
+msgstr "Get APK"
+
+#: admin/panel.php:86 admin/panel.php:1072
+msgid "Servidor de subida"
+msgstr "Upload server"
+
+#: admin/panel.php:89
+msgid "Acortar enlace"
+msgstr "Shorten link"
+
+#: admin/panel.php:92
+msgid "Cantidad de imágenes importadas"
+msgstr "Number of imported images"
+
+#: admin/panel.php:93 admin/panel.php:1116 admin/panel.php:1270 functions.php:615
+#: functions.php:619
+msgid "Rating"
+msgstr "Rating"
+
+#: admin/panel.php:94 admin/panel.php:1123
+msgid "Apps duplicadas"
+msgstr "Duplicate apps"
+
+#: admin/panel.php:96
+msgid "Cambiar opciones"
+msgstr "Change options"
+
+#: admin/panel.php:99
+msgid "Últimas aplicaciones"
+msgstr "Latest Apps"
+
+#: admin/panel.php:130
+#, php-format
+msgid "%s entrada reportada"
+msgstr "%s reported post"
+
+#: admin/panel.php:130
+#, php-format
+msgid "%s entradas reportadas"
+msgstr "%s reported posts"
+
+#: admin/panel.php:136 admin/panel.php:850 admin/panel.php:1156 functions.php:435
+#: includes/admin.php:52 includes/widget-categories.php:51
+#: includes/widget-facebook.php:43 includes/widget-fixed.php:37
+#: includes/widget-mas-calificados.php:81 includes/widget-mas-vistos-blog.php:60
+#: includes/widget-mas-vistos.php:81 includes/widget-mejor-calificados.php:82
+#: includes/widget-twitter.php:43 includes/widget-ultimos-posts-blog.php:59
+#: includes/widget-ultimos-posts.php:80 includes/widget-youtube.php:40
+msgid "Título"
+msgstr "Title"
+
+#: admin/panel.php:137 includes/ajax.php:183
+msgid "Detalles"
+msgstr "Details"
+
+#: admin/panel.php:138
+msgid "Acción"
+msgstr "Action"
+
+#: admin/panel.php:150 includes/class-list-table-atul.php:98
+msgid "Editar post"
+msgstr "Edit post"
+
+#: admin/panel.php:174
+msgid "No hay reportes"
+msgstr "No reports"
+
+#: admin/panel.php:181
+msgid "Borrar reportes"
+msgstr "Delete reports"
+
+#: admin/panel.php:240
+#, php-format
+msgid "Esta lista se actualiza cada hora. Próxima actualización: %s"
+msgstr "This list is updated every hour. Next update: %s"
+
+#: admin/panel.php:270
+msgid "Theme"
+msgstr "Theme"
+
+#: admin/panel.php:271 functions.php:434 functions.php:587 functions.php:1909
+#: functions.php:2011 includes/admin.php:53 includes/ajax.php:35
+#: includes/class-list-table-latestapps.php:189
+#: includes/class-list-table-modapps.php:240 includes/template-actions.php:515
+#: includes/template-actions.php:1751 includes/template-functions.php:1481
+#: template-parts/template-download.php:18
+msgid "Versión"
+msgstr "Version"
+
+#: admin/panel.php:274 admin/panel.php:327 admin/panel.php:1542
+msgid "Opciones generales"
+msgstr "General Options"
+
+#: admin/panel.php:277 admin/panel.php:845
+msgid "Home"
+msgstr "Home"
+
+#: admin/panel.php:280 admin/panel.php:1503
+msgid "Single"
+msgstr "Single"
+
+#: admin/panel.php:283 admin/panel.php:1005 includes/admin.php:87
+msgid "Importador de contenido"
+msgstr "Content importer"
+
+#: admin/panel.php:289 admin/panel.php:1288
+msgid "Servidores externos"
+msgstr "External servers"
+
+#: admin/panel.php:292 admin/panel.php:1097 admin/panel.php:1255
+#: admin/panel.php:2123
+msgid "Acortadores"
+msgstr "Shorteners"
+
+#: admin/panel.php:295 admin/panel.php:1755
+msgid "Historial de versiones"
+msgstr "Version history"
+
+#: admin/panel.php:298 includes/template-actions.php:162
+#: template-parts/content-search.php:48
+msgid "Blog"
+msgstr "Blog"
+
+#: admin/panel.php:301 admin/panel.php:1828
+msgid "Colores"
+msgstr "Colors"
+
+#: admin/panel.php:304 admin/panel.php:765
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: admin/panel.php:307 admin/panel.php:1991
+msgid "Anuncios"
+msgstr "Advertisements"
+
+#: admin/panel.php:310 admin/panel.php:1933 admin/panel.php:1936
+msgid "AMP"
+msgstr "AMP"
+
+#: admin/panel.php:313
+msgid "Footer"
+msgstr "Footer"
+
+#: admin/panel.php:316 admin/panel.php:2191
+msgid "Info"
+msgstr "Info"
+
+#: admin/panel.php:319
+msgid "Guardar cambios"
+msgstr "Save changes"
+
+#: admin/panel.php:331
+msgid "Logo"
+msgstr "Logo"
+
+#: admin/panel.php:332
+msgid "La imagen debe tener un límite de 60px de altura."
+msgstr "The image must have a height limit of 60px."
+
+#: admin/panel.php:343
+msgid "Favicon"
+msgstr "Favicon"
+
+#: admin/panel.php:352
+#, php-format
+msgid "Sube tus favicons de distintos tamaños para todos los dispositivos. %s"
+msgstr "Upload your favicons of different sizes for all devices. %s"
+
+#: admin/panel.php:352 admin/panel.php:2127
+msgid "Leer tutorial"
+msgstr "Read tutorial"
+
+#: admin/panel.php:357
+msgid "Redes sociales"
+msgstr "Social networks"
+
+#: admin/panel.php:361 admin/panel.php:364
+msgid "Color"
+msgstr "Color"
+
+#: admin/panel.php:363
+msgid "Gris"
+msgstr "Gray"
+
+#: admin/panel.php:363 admin/panel.php:600 admin/panel.php:709
+#: admin/panel.php:725 admin/panel.php:782 admin/panel.php:794
+#: admin/panel.php:923 admin/panel.php:1534 admin/panel.php:1558
+#: admin/panel.php:1619 admin/panel.php:1735
+msgid "(Por defecto)"
+msgstr "(Default)"
+
+#: admin/panel.php:398
+msgid "Textos"
+msgstr "Texts"
+
+#: admin/panel.php:399
+msgid "Modifica algunos textos por defecto"
+msgstr "Modify some default texts"
+
+#: admin/panel.php:404 functions.php:152 includes/template-functions.php:1194
+msgid "Aplicaciones más calificadas"
+msgstr "Top rated apps"
+
+#: admin/panel.php:407 functions.php:153 includes/template-functions.php:1195
+msgid "Últimas aplicaciones de nuestra web"
+msgstr "Latest Apps"
+
+#: admin/panel.php:410 functions.php:154 includes/template-functions.php:1196
+msgid "Buscar una aplicación"
+msgstr "App search"
+
+#: admin/panel.php:413
+msgid "Botón descargar APK"
+msgstr "APK download button"
+
+#: admin/panel.php:419 admin/panel.php:1649 includes/template-functions.php:1376
+msgid "Comentarios"
+msgstr "Comments"
+
+#: admin/panel.php:420
+msgid "Puedes mostrar los comentarios de Wordpress y también los de Facebook."
+msgstr "You can display the comments of Wordpress and also those of Facebook."
+
+#: admin/panel.php:424
+msgid "Comentarios de Wordpress"
+msgstr "Wordpress comments"
+
+#: admin/panel.php:427 comments.php:39
+msgid "Comentarios de Facebook"
+msgstr "Facebook comments"
+
+#: admin/panel.php:430
+msgid "Comentarios de Wordpress y Facebook"
+msgstr "Wordpress and Facebook comments"
+
+#: admin/panel.php:433
+msgid "Desactivar comentarios"
+msgstr "Disable comments"
+
+#: admin/panel.php:438 admin/panel.php:1952
+msgid "Códigos header"
+msgstr "Header codes"
+
+#: admin/panel.php:439
+msgid ""
+"Coloca los códigos en el header, como: Google Analytics, Webmasters, Alexa, "
+"etc."
+msgstr ""
+"Place the codes in the header, such as: Google Analytics, Webmasters, Alexa, "
+"etc."
+
+#: admin/panel.php:444
+msgid "Códigos Recaptcha v3"
+msgstr "Keys Recaptcha v3"
+
+#: admin/panel.php:445
+msgid ""
+"Para poder evitar que robots envíen los reportes automáticamente se recomienda "
+"usar recaptcha."
+msgstr ""
+"In order to prevent robots from sending reports automatically, it is "
+"recommended to use recaptcha."
+
+#: admin/panel.php:445 admin/panel.php:465
+msgid "Obtener claves"
+msgstr "Get keys"
+
+#: admin/panel.php:452 admin/panel.php:472
+msgid "Clave del sitio"
+msgstr "Site key"
+
+#: admin/panel.php:456 admin/panel.php:476
+msgid "Clave secreta"
+msgstr "Secret key"
+
+#: admin/panel.php:464
+msgid "Códigos Recaptcha v2"
+msgstr "Keys Recaptcha v2"
+
+#: admin/panel.php:465
+msgid "Complete los códigos de reCaptcha v2."
+msgstr "Fill in the reCaptcha v2 codes."
+
+#: admin/panel.php:484
+msgid "Lazy loading"
+msgstr "Lazy loading"
+
+#: admin/panel.php:484
+msgid ""
+"Con esta función podrás retrasar la carga de imágenes. Esto hará que la web en "
+"general cargue más rápido debido a que las imágenes no cargarán inicialmente."
+msgstr ""
+"With this function you can delay the loading of images. This will make the web "
+"in general load faster because the images will not load initially."
+
+#: admin/panel.php:485
+msgid "Retrasar carga de imágenes"
+msgstr "Delay loading images"
+
+#: admin/panel.php:495
+msgid "Apps de versiones anteriores"
+msgstr "Previous versions apps"
+
+#: admin/panel.php:496
+msgid ""
+"Controla la aparición de apps de versiones anteriores en diferentes partes. "
+"Solo aparecerán las últimas versiones."
+msgstr ""
+"Control the appearance of apps from previous versions in different parts. Only "
+"the latest versions will appear."
+
+#: admin/panel.php:503
+msgid "Inicio"
+msgstr "Home"
+
+#: admin/panel.php:510
+msgid "Categorías (Inicio)"
+msgstr "Categories (Home)"
+
+#: admin/panel.php:517
+msgid "Apps más calificadas (Inicio)"
+msgstr "Most rated apps (Home)"
+
+#: admin/panel.php:524
+msgid "Buscador"
+msgstr "Search"
+
+#: admin/panel.php:531
+msgid "Taxonomía desarrollador"
+msgstr "Developer Taxonomy"
+
+#: admin/panel.php:538 functions.php:290 functions.php:295
+#: includes/widget-categories.php:9 includes/widget-categories.php:19
+#: includes/widget-categories.php:46
+msgid "Categorías"
+msgstr "Categories"
+
+#: admin/panel.php:545 admin/panel.php:1640 functions.php:303 functions.php:308
+msgid "Etiquetas"
+msgstr "Tags"
+
+#: admin/panel.php:552
+msgid "Widgets"
+msgstr "Widgets"
+
+#: admin/panel.php:559
+msgid "Apps más calificadas (página)"
+msgstr "Most rated apps (page)"
+
+#: admin/panel.php:566
+msgid "Apps más vistas (página)"
+msgstr "Most viewed apps (pages)"
+
+#: admin/panel.php:574
+msgid "Fecha de cada post"
+msgstr "Post date"
+
+#: admin/panel.php:575
+msgid ""
+"Muestra la fecha en que fue creado el post en todas partes (Inicio, Widgets,"
+"etc.)"
+msgstr "Shows the post date everywhere (Home, Widgets, etc.)"
+
+#: admin/panel.php:585
+msgid "Tipo de fecha"
+msgstr "Date type"
+
+#: admin/panel.php:587
+msgid "Fecha de creación del post"
+msgstr "Post creation date"
+
+#: admin/panel.php:589
+msgid "Fecha de última actualización de la app"
+msgstr "Date of last update of the app"
+
+#: admin/panel.php:593 admin/panel.php:1637 includes/template-actions.php:795
+msgid "Apps relacionadas"
+msgstr "Related apps"
+
+#: admin/panel.php:594
+msgid "Escoger la manera de mostrar apps relacionadas"
+msgstr "Choose how to display related apps"
+
+#: admin/panel.php:600
+msgid "Por categoría(s)"
+msgstr "By category"
+
+#: admin/panel.php:603
+msgid "Por etiqueta(s)"
+msgstr "By tags"
+
+#: admin/panel.php:606
+msgid "Por título similar"
+msgstr "By similar title"
+
+#: admin/panel.php:609
+msgid "Al azar"
+msgstr "Random"
+
+#: admin/panel.php:613
+msgid "Información para descargar los archivos"
+msgstr "Information to download the files"
+
+#: admin/panel.php:614
+msgid "Escribe los pasos que servirán de ayuda para el usuario."
+msgstr "Write the steps that will help the user."
+
+#: admin/panel.php:615
+msgid "Autocompletar texto por defecto"
+msgstr "Autocomplete text by default"
+
+#: admin/panel.php:625
+msgid "Título de la aplicación"
+msgstr "Application title"
+
+#: admin/panel.php:626
+msgid "Para archivos APK"
+msgstr "For APK files"
+
+#: admin/panel.php:629
+msgid "Para archivos ZIP"
+msgstr "For ZIP files"
+
+#: admin/panel.php:630
+msgid ""
+"Algunos ZIP pueden obtener archivos APK y OBB necesarios para la instalación, "
+"por ello se debe recomendar usar una aplicación para instalar ese tipo de "
+"archivos, nosotros recomendamos \"Split APKs Installer\"."
+msgstr ""
+"Some ZIPs can obtain APK and OBB files necessary for the installation, so it "
+"should be recommended to use an application to install this type of files, we "
+"recommend \"Split APKs Installer\"."
+
+#: admin/panel.php:630
+msgid "Ver aplicación"
+msgstr "View app"
+
+#: admin/panel.php:635
+msgid "Encriptar enlaces"
+msgstr "Encrypt links"
+
+#: admin/panel.php:636
+msgid "Con esta función podrás encriptar los enlaces de descarga."
+msgstr "With this function you will be able to encrypt the download links."
+
+#: admin/panel.php:646
+msgid "Solicitar correo electrónico en reportes"
+msgstr "Request email in reports"
+
+#: admin/panel.php:647
+msgid ""
+"Activa esta opción si quieres que se le solicite el correo electrónico al "
+"usuario que realiza el reporte."
+msgstr ""
+"Activate this option if you want the user who is making the report to be "
+"prompted for the email address."
+
+#: admin/panel.php:657
+msgid "Enviar reporte por correo electrónico"
+msgstr "Send report by email"
+
+#: admin/panel.php:658
+msgid ""
+"Activa esta opción si quieres que el reporte enviado por el usuario sea "
+"enviado a tu email de administrador."
+msgstr ""
+"Activate this option if you want the report sent by the user to be sent to "
+"your administrator email."
+
+#: admin/panel.php:668
+msgid "Cinta \"actualizado\" desde la modificación del post"
+msgstr "Ribbon \"updated\" since post modification"
+
+#: admin/panel.php:668
+msgid ""
+"La cinta de \"Actualizado\" se muestra en los posts durante 15 días de creado "
+"el post. Al activar esta opción se basará en los 15 días de modificado el post."
+msgstr ""
+"The \"Updated\" ribbon is displayed on posts for 15 days after the post is "
+"created. Activating this option will be based on the 15 days after the post "
+"was modified."
+
+#: admin/panel.php:669
+msgid "Opción que permitirá mostrar la cinta desde la modificación del post"
+msgstr ""
+"Option that will allow to show the tape from the modification of the post"
+
+#: admin/panel.php:679
+msgid "Desactivar notificaciones de apps por actualizar"
+msgstr "Disable app update notifications"
+
+#: admin/panel.php:689
+msgid "Cabecera fija"
+msgstr "Fixed header"
+
+#: admin/panel.php:699
+msgid "Apps por fila (Pc)"
+msgstr "Apps per row (Pc)"
+
+#: admin/panel.php:700
+msgid "Escoge la cantidad de apps por fila para la versión pc."
+msgstr "Choose the number of apps per row for the pc version."
+
+#: admin/panel.php:717
+msgid "Apps por fila (Móvil)"
+msgstr "Apps per row (Mobile)"
+
+#: admin/panel.php:718
+msgid "Escoge la cantidad de apps por fila para la versión móvil."
+msgstr "Choose the number of apps per row for the mobile version."
+
+#: admin/panel.php:732
+msgid "Título en 2 líneas"
+msgstr "Title in 2 rows"
+
+#: admin/panel.php:733
+msgid ""
+"Por defecto el título se muestra en una sola línea. Con esta opción podrá "
+"mostrarlo en dos líneas."
+msgstr ""
+"By default the title is displayed on a single row. With this option you can "
+"display it on two rows."
+
+#: admin/panel.php:743
+msgid "Versión redondeada"
+msgstr "Rounded version"
+
+#: admin/panel.php:744
+msgid ""
+"Diseño que mostrará las esquinas redondeadas de las cajas, botones y enlaces "
+"del tema."
+msgstr ""
+"Design that will show the rounded corners of the boxes, buttons and links of "
+"the theme."
+
+#: admin/panel.php:754
+msgid "Resultados automáticos"
+msgstr "Automatic results"
+
+#: admin/panel.php:755
+msgid ""
+"Activa o desactiva los resultados automáticos cuando el usuario realiza una "
+"búsqueda."
+msgstr "Turn automatic results on or off when the user performs a search."
+
+#: admin/panel.php:766
+msgid "Sidebar para la página de inicio, categorías, buscador, etiquetas, etc."
+msgstr "Sidebar for the home page, categories, search page, tags, etc."
+
+#: admin/panel.php:772 admin/panel.php:1926
+msgid "Agregar Widgets"
+msgstr "Add Widgets"
+
+#: admin/panel.php:777
+msgid "Ancho de página"
+msgstr "Page width"
+
+#: admin/panel.php:778
+msgid "Por defecto el ancho de la página es de 1100px"
+msgstr "By default the width of the page is 1100px"
+
+#: admin/panel.php:782 admin/panel.php:1520 functions.php:578
+msgid "Normal"
+msgstr "Normal"
+
+#: admin/panel.php:789
+msgid "Vista de apps"
+msgstr "App view"
+
+#: admin/panel.php:790
+msgid "Escoge entre el diseño vertical y horizontal para las listas de apps"
+msgstr "Choose between vertical and horizontal layout for app lists"
+
+#: admin/panel.php:794
+msgid "Vertical"
+msgstr "Vertical"
+
+#: admin/panel.php:796
+msgid "Horizontal"
+msgstr "Horizontal"
+
+#: admin/panel.php:801 functions.php:41
+msgid "Menú inferior fijo (Móvil)"
+msgstr "Fixed bottom menu (Mobile)"
+
+#: admin/panel.php:802
+msgid ""
+"Activa esta opción para que aparezca un menu inferior solo en versión móvil"
+msgstr ""
+"Activate this option so that a lower menu appears only in the mobile version"
+
+#: admin/panel.php:808
+msgid "Crear menú"
+msgstr "Create menu"
+
+#: admin/panel.php:813
+msgid "Buscador de Google"
+msgstr "Google search"
+
+#: admin/panel.php:814
+msgid "Coloca el ID del buscador de Google"
+msgstr "Enter the Google search ID"
+
+#: admin/panel.php:821
+msgid "Crea tu buscador"
+msgstr "Create your search engine"
+
+#: admin/panel.php:826
+msgid "Mostrar apps modificadas en el área \"Apps por actualizar\""
+msgstr "Show mod apps in the \"Apps to update\" area"
+
+#: admin/panel.php:827
+msgid "Por defecto las apps modificadas no se muestran en esa área"
+msgstr "By default, mod apps are not displayed in that area"
+
+#: admin/panel.php:834
+msgid "Scroll infinito"
+msgstr "Infinite scroll"
+
+#: admin/panel.php:835
+msgid "Muestra posts infinitamente mientras deslizas el scroll"
+msgstr "Show posts infinitely while scrolling"
+
+#: admin/panel.php:851
+msgid "Coloca el título del Home"
+msgstr "Put the title of the Home"
+
+#: admin/panel.php:857 admin/panel.php:1158 admin/panel.php:1630
+#: includes/template-actions.php:468
+msgid "Descripción"
+msgstr "Description"
+
+#: admin/panel.php:858
+msgid "Coloca la descripción del Home"
+msgstr "Put the description of the Home"
+
+#: admin/panel.php:863
+msgid "Imágenes de Portada"
+msgstr "Cover Images"
+
+#: admin/panel.php:864
+msgid ""
+"Sube hasta 5 imágenes para que aparezca en el Home aleatoriamente. De "
+"preferencia imágenes mayores de 1300px de ancho y 300px de altura"
+msgstr ""
+"Upload up to 5 images to appear in the Home randomly. Preferably images larger "
+"than 1300px wide and 300px high"
+
+#: admin/panel.php:882 functions.php:202 includes/widget-mas-calificados.php:9
+#: includes/widget-mas-calificados.php:21 includes/widget-mas-calificados.php:77
+msgid "Apps más calificadas"
+msgstr "Most rated apps"
+
+#: admin/panel.php:883
+msgid "Slider con las aplicaciones más descargadas."
+msgstr "Slider with the most downloaded applications."
+
+#: admin/panel.php:895 admin/panel.php:915 admin/panel.php:956
+#: admin/panel.php:1761 admin/panel.php:1904 admin/panel.php:1914
+msgid "Entradas"
+msgstr "Posts"
+
+#: admin/panel.php:900
+msgid "Ocultar entradas"
+msgstr "Hide Posts"
+
+#: admin/panel.php:901
+msgid "Oculta las entradas del inicio."
+msgstr "Hide the home posts."
+
+#: admin/panel.php:909
+msgid "Entradas por página"
+msgstr "Posts per page"
+
+#: admin/panel.php:910
+msgid "Límite de entradas."
+msgstr "Posts limit."
+
+#: admin/panel.php:918
+msgid "Orden de las entradas"
+msgstr "Order posts"
+
+#: admin/panel.php:919
+msgid "Ordena las entradas del Home por fecha, por modificación o aleatorio."
+msgstr "Sort Home posts by date, by modification or random."
+
+#: admin/panel.php:923
+msgid "Por fecha"
+msgstr "By date"
+
+#: admin/panel.php:925
+msgid "Por modificación"
+msgstr "By last modified date"
+
+#: admin/panel.php:927
+msgid "Aleatorio"
+msgstr "Random"
+
+#: admin/panel.php:931
+msgid "Posts Categorías Home"
+msgstr "Posts Categories Home"
+
+#: admin/panel.php:932
+msgid ""
+"Escoge qué categorías y cuántos de estos quieres que aparezca en el Home "
+"debajo de los últimos posts"
+msgstr ""
+"Choose which categories and how many of these you want to appear in the Home "
+"under the last posts"
+
+#: admin/panel.php:961
+msgid "Ocultar blog"
+msgstr "Hide blog"
+
+#: admin/panel.php:962
+msgid "Oculta las entradas del blog"
+msgstr "Hide blog posts"
+
+#: admin/panel.php:970
+msgid "Publicaciones destacadas"
+msgstr "Featured Posts"
+
+#: admin/panel.php:971
+msgid "Muestra hasta 5 posts destacados que solo aparecen en el home"
+msgstr "Show up to 5 featured posts that only appear on the home"
+
+#: admin/panel.php:975
+msgid "Buscar posts..."
+msgstr "Search posts..."
+
+#: admin/panel.php:987
+msgid "Descripciones"
+msgstr "Descriptions"
+
+#: admin/panel.php:988
+msgid "Muestra contenido encima y por debajo de los posts del home"
+msgstr "Show content above and below home posts"
+
+#: admin/panel.php:995
+msgid "En la parte superior"
+msgstr "On top"
+
+#: admin/panel.php:997
+msgid "En la parte inferior"
+msgstr "On bottom"
+
+#: admin/panel.php:1013 admin/panel.php:1433
+msgid "API Key"
+msgstr "API Key"
+
+#: admin/panel.php:1014
+msgid ""
+"Clave única que se necesita para poder utilizar el importador de contenido."
+msgstr "Unique key that is required to be able to use the content importer."
+
+#: admin/panel.php:1014
+msgid "¿Cómo obtengo el mio?"
+msgstr "How do I get mine?"
+
+#: admin/panel.php:1019 admin/panel.php:1201
+msgid "Roles"
+msgstr "Roles"
+
+#: admin/panel.php:1020
+msgid "Tipo de usuario a quienes aparecerá el importador de contenido."
+msgstr "Type of user to whom the content importer will appear."
+
+#: admin/panel.php:1028 admin/panel.php:1210
+msgid "Administrador"
+msgstr "Administrator"
+
+#: admin/panel.php:1029 admin/panel.php:1211
+msgid "Administrador y Editor"
+msgstr "Administrator and Editor"
+
+#: admin/panel.php:1030 admin/panel.php:1212
+msgid "Administrador, Editor y Autor"
+msgstr "Administrator, Editor and Author"
+
+#: admin/panel.php:1031 admin/panel.php:1213
+msgid "Administrador, Editor, Autor y Colaborador"
+msgstr "Administrator, Editor, Author and Contributor"
+
+#: admin/panel.php:1045
+msgid "Crear categoría"
+msgstr "Create category"
+
+#: admin/panel.php:1046
+msgid "Crea la categoría si no existe"
+msgstr "Create the category if it doesn't exist"
+
+#: admin/panel.php:1053
+msgid "Crear taxonomía 'Desarrollador'"
+msgstr "Create taxonomy 'Developer'"
+
+#: admin/panel.php:1054
+msgid "Crea la taxonomía 'Desarrollador' si no existe"
+msgstr "Create the 'Developer' taxonomy if it doesn't exist"
+
+#: admin/panel.php:1073
+msgid "Seleccionar servidor para subir los archivos APK."
+msgstr "Select server to upload the APK files."
+
+#: admin/panel.php:1076 includes/template-functions.php:1163
+msgid "Mi servidor"
+msgstr "My server"
+
+#: admin/panel.php:1077 admin/panel.php:1296 includes/template-functions.php:1151
+msgid "Google Drive"
+msgstr "Google Drive"
+
+#: admin/panel.php:1078 admin/panel.php:1340 includes/template-functions.php:1153
+msgid "Dropbox"
+msgstr "Dropbox"
+
+#: admin/panel.php:1079 admin/panel.php:1380 includes/template-functions.php:1155
+msgid "FTP"
+msgstr "FTP"
+
+#: admin/panel.php:1080 admin/panel.php:1429 includes/template-functions.php:1157
+msgid "1Fichier"
+msgstr "1Fichier"
+
+#: admin/panel.php:1081 admin/panel.php:1444 includes/template-functions.php:1159
+msgid "OneDrive"
+msgstr "OneDrive"
+
+#: admin/panel.php:1082 admin/panel.php:1488 includes/template-functions.php:1161
+msgid "Telegram"
+msgstr "Telegram"
+
+#: admin/panel.php:1086 admin/panel.php:1244
+msgid "Acortador"
+msgstr "Shortener"
+
+#: admin/panel.php:1087 admin/panel.php:1245
+msgid "Seleccionar acortador de preferencia para los enlaces de descarga."
+msgstr "Select preference shortener for download links."
+
+#: admin/panel.php:1090 admin/panel.php:1248
+msgid "None"
+msgstr ""
+
+#: admin/panel.php:1097 admin/panel.php:1255
+#, php-format
+msgid ""
+"Importante: Coloque el API Key del acortador seleccionado en la sección %s."
+msgstr "Important: Put the API Key of the selected shortener in the %s section."
+
+#: admin/panel.php:1101
+msgid "Slug"
+msgstr "Slug"
+
+#: admin/panel.php:1102
+msgid "Agrega automáticamente un texto al final del nombre del archivo."
+msgstr "Automatically add text to the end of the file name."
+
+#: admin/panel.php:1105 admin/panel.php:1599 admin/panel.php:1611
+msgid "Ejemplo"
+msgstr "Example"
+
+#: admin/panel.php:1109 admin/panel.php:1166 admin/panel.php:1276
+msgid "Capturas de pantalla"
+msgstr "Screenshots"
+
+#: admin/panel.php:1110
+msgid "Cantidad de capturas de pantalla de la aplicación."
+msgstr "Amount of app screenshots."
+
+#: admin/panel.php:1113
+msgid "Capturas"
+msgstr "Screenshots"
+
+#: admin/panel.php:1117
+msgid "Tomar las calificaciones de la aplicación."
+msgstr "Take the app ratings."
+
+#: admin/panel.php:1124
+msgid "Poder importar aplicaciones duplicadas"
+msgstr "Be able to import duplicate applications"
+
+#: admin/panel.php:1130
+msgid "Idioma"
+msgstr "Language"
+
+#: admin/panel.php:1131
+msgid "Agrega el idioma de la información de la app importada"
+msgstr "Add the language of the imported app information"
+
+#: admin/panel.php:1134 includes/template-actions.php:171
+#: includes/template-actions.php:232
+msgid "Ver más"
+msgstr "View more"
+
+#: admin/panel.php:1139
+msgid "Al actualizar información de una app"
+msgstr "When updating information in an app"
+
+#: admin/panel.php:1143
+msgid "Crear una nueva versión"
+msgstr "Create a new version"
+
+#: admin/panel.php:1144
+msgid "Crea un post con la versión nueva cuando actualiza una app."
+msgstr "Create a message with the new version when you update an app."
+
+#: admin/panel.php:1150
+msgid "Deshabilitar campos"
+msgstr "Disable fields"
+
+#: admin/panel.php:1151
+msgid ""
+"Campos a deshabilitar al momento de actualizar la información de una "
+"aplicación."
+msgstr "Fields to disable when updating the information of an application."
+
+#: admin/panel.php:1160 includes/widget-fixed.php:41
+msgid "Contenido"
+msgstr "Content"
+
+#: admin/panel.php:1162 includes/template-actions.php:1781
+msgid "Ícono"
+msgstr "Icon"
+
+#: admin/panel.php:1164 admin/panel.php:1517 admin/panel.php:1529
+#: admin/panel.php:1636 functions.php:727 functions.php:732
+#: includes/template-actions.php:456 includes/template-actions.php:1220
+msgid "Enlaces de descarga"
+msgstr "Download links"
+
+#: admin/panel.php:1168 admin/panel.php:1275 admin/panel.php:1634
+#: includes/template-actions.php:724
+msgid "Video"
+msgstr "Video"
+
+#: admin/panel.php:1172
+msgid "Eliminar imagen destacada antigua"
+msgstr "Remove old featured image"
+
+#: admin/panel.php:1173
+msgid ""
+"Elimina la imagen destacada antigua del post. Afectará también a las versiones "
+"antiguas."
+msgstr ""
+"Remove the old featured image from the post. It will affect older versions as "
+"well."
+
+#: admin/panel.php:1179
+msgid "Mantener categorías"
+msgstr "Keep categories"
+
+#: admin/panel.php:1180
+msgid "Conserva las mismas categorías cuando un post es actualizado."
+msgstr "Keep the same categories when a post is updated."
+
+#: admin/panel.php:1186
+msgid "Eliminar archivos antiguos"
+msgstr "Delete old files"
+
+#: admin/panel.php:1187
+msgid "Cuando actualiza una app, el archivo antiguo será eliminado."
+msgstr "When you update an app, the old file will be deleted."
+
+#: admin/panel.php:1202
+msgid "Tipo de usuario a quienes le aparecerá el área \"apps modificadas\""
+msgstr "User type to whom the \"MOD apps\" area will appear"
+
+#: admin/panel.php:1219
+msgid "Estado de los posts importados"
+msgstr "Post status of imported"
+
+#: admin/panel.php:1230
+msgid "Contenido del post"
+msgstr "Post content"
+
+#: admin/panel.php:1231
+msgid ""
+"Obtener la información de la app modificada por defecto o tomarlo de Google "
+"Play"
+msgstr ""
+"Get the information of the mod app by default or take it from Google Play"
+
+#: admin/panel.php:1235 includes/template-actions.php:1787
+msgid "Por defecto"
+msgstr "Default"
+
+#: admin/panel.php:1237
+msgid "De Google Play"
+msgstr "From Google Play"
+
+#: admin/panel.php:1262
+msgid "Datos obtenidos de Google Play"
+msgstr "Data obtained from Google Play"
+
+#: admin/panel.php:1263
+msgid ""
+"Por defecto, la demás información de un post son tomadas de Google Play. Aquí "
+"puedes desactivar o activar qué datos serán extraídos de Google Play"
+msgstr ""
+"By default, the other information in a post is taken from Google Play. Here "
+"you can disable or activate what data will be extracted from Google Play"
+
+#: admin/panel.php:1268 functions.php:583
+msgid "Breve descripción"
+msgstr "Short description"
+
+#: admin/panel.php:1269 functions.php:603 includes/template-actions.php:517
+#: includes/template-actions.php:1757 includes/template-functions.php:1482
+#: template-parts/template-download.php:26
+msgid "Requerimientos"
+msgstr "Requirements"
+
+#: admin/panel.php:1271
+msgid "Número de descargas"
+msgstr "Number of downloads"
+
+#: admin/panel.php:1272 taxonomy-cblog.php:6
+msgid "Categoría"
+msgstr "Category"
+
+#: admin/panel.php:1273
+msgid "Desarollador"
+msgstr "Developer"
+
+#: admin/panel.php:1274 admin/panel.php:1632 functions.php:657
+#: includes/template-actions.php:617
+msgid "Novedades"
+msgstr "What's new"
+
+#: admin/panel.php:1297
+msgid ""
+"Crea una API de Google Drive y coloca el ID de cliente y código secreto en los "
+"siguientes campos."
+msgstr ""
+"Create a Google Drive API and put the client ID and secret code in the "
+"following fields."
+
+#: admin/panel.php:1297
+#, php-format
+msgid "Siga el %s para crear la API."
+msgstr "Follow the %s to create the API."
+
+#: admin/panel.php:1297
+msgid "Tutorial"
+msgstr "Tutorial"
+
+#: admin/panel.php:1300 admin/panel.php:1448
+msgid "ID de cliente"
+msgstr "Client ID"
+
+#: admin/panel.php:1304 admin/panel.php:1452
+msgid "Secreto del cliente"
+msgstr "Secret client"
+
+#: admin/panel.php:1308 admin/panel.php:1456
+msgid "Carpeta"
+msgstr "Folder"
+
+#: admin/panel.php:1308
+msgid ""
+"Coloca el nombre de una carpeta que se creará automáticamente y se subirán "
+"allí todos los archivos."
+msgstr ""
+"Put the name of a folder that will be created automatically and all the files "
+"will be uploaded there."
+
+#: admin/panel.php:1317 admin/panel.php:1357 admin/panel.php:1465
+msgid "Conectar nueva cuenta"
+msgstr "Connect new account"
+
+#: admin/panel.php:1317 admin/panel.php:1465
+msgid ""
+"Haga clic aquí solo si ha añadido un nuevo ID de cliente y Secreto. Aparecerá "
+"nuevamente el botón de conectar que deberá pulsar."
+msgstr ""
+"Click here only if you have added a new Client ID and Secret. The connect "
+"button that you must press will appear again."
+
+#: admin/panel.php:1324
+msgid "Conectado a Google Drive"
+msgstr "Connected to Google Drive"
+
+#: admin/panel.php:1326 admin/panel.php:1366 admin/panel.php:1474
+msgid "Recuerda guardar los cambios antes de realizar la conexión"
+msgstr "Remember to save the changes before making the connection"
+
+#: admin/panel.php:1327
+msgid "Conectar a Google Drive"
+msgstr "Connect to Google Drive"
+
+#: admin/panel.php:1341
+msgid ""
+"Crea una app en Dropbox y coloca el app key y app secret en los siguientes "
+"campos."
+msgstr ""
+"Create an app in Dropbox and put the app key and app secret in the following "
+"fields."
+
+#: admin/panel.php:1341 admin/panel.php:1430 admin/panel.php:1445
+#: admin/panel.php:1489
+#, php-format
+msgid "Siga el %s."
+msgstr "Follow the %s."
+
+#: admin/panel.php:1341 admin/panel.php:1430 admin/panel.php:1445
+#: admin/panel.php:1489
+msgid "tutorial"
+msgstr "tutorial"
+
+#: admin/panel.php:1344
+msgid "App key"
+msgstr "App key"
+
+#: admin/panel.php:1348
+msgid "App secret"
+msgstr "App secret"
+
+#: admin/panel.php:1357
+msgid ""
+"Haga clic aquí solo si ha añadido un nuevo app key y app secret. Aparecerá "
+"nuevamente el botón de conectar que deberá pulsar."
+msgstr ""
+"Click here only if you have added a new app key and app secret. The connect "
+"button will appear again, which you must press."
+
+#: admin/panel.php:1364
+msgid "Conectado a Dropbox"
+msgstr "Connected to Dropbox"
+
+#: admin/panel.php:1367
+msgid "Conectar a Dropbox"
+msgstr "Connect to Dropbox"
+
+#: admin/panel.php:1381
+msgid ""
+"¿Tienes un servidor externo? Realiza la conexión vía FTP para que los archivos "
+"importados sea subido a su propio servidor."
+msgstr ""
+"Do you have an external server? Make the connection via FTP so that the "
+"imported files can be uploaded to your own server."
+
+#: admin/panel.php:1384
+msgid "Nombre o IP del servidor"
+msgstr "Server name or IP"
+
+#: admin/panel.php:1388
+msgid "Puerto"
+msgstr "Port"
+
+#: admin/panel.php:1392 includes/widget-twitter.php:47
+msgid "Usuario"
+msgstr "User"
+
+#: admin/panel.php:1396
+msgid "Contraseña"
+msgstr "Password"
+
+#: admin/panel.php:1400
+msgid "Directorio"
+msgstr "Directory"
+
+#: admin/panel.php:1401
+msgid "Ubica la ruta exacta donde se guardarán los archivos"
+msgstr "Locate the exact path where the files will be saved"
+
+#: admin/panel.php:1408
+msgid "URL"
+msgstr "URL"
+
+#: admin/panel.php:1409
+msgid "Coloca la dirección con la que se accederá a tus archivos"
+msgstr "Put the address with which your files will be accessed"
+
+#: admin/panel.php:1416
+msgid "Recuerda guardar los cambios para probar la conexión"
+msgstr "Remember to save the changes to test the connection"
+
+#: admin/panel.php:1417
+msgid "Probar conexión FTP"
+msgstr "Test FTP connection"
+
+#: admin/panel.php:1430
+msgid "Genera una API Key en 1Fichier"
+msgstr "Generate an API Key in 1Fichier"
+
+#: admin/panel.php:1445
+msgid "Crea una app en OneDrive"
+msgstr "Create an app in OneDrive"
+
+#: admin/panel.php:1472
+msgid "Conectado a OneDrive"
+msgstr "Connected to OneDrive"
+
+#: admin/panel.php:1475
+msgid "Conectar a OneDrive"
+msgstr "Connect to OneDrive"
+
+#: admin/panel.php:1489
+msgid "Crea tu bot. Obtén el token e ID de chat"
+msgstr "Create your bot. Get the token and chat ID"
+
+#: admin/panel.php:1492
+msgid "Token"
+msgstr "Token"
+
+#: admin/panel.php:1496
+msgid "ID chat"
+msgstr "Chat ID"
+
+#: admin/panel.php:1506 functions.php:1472
+msgid "Leer más"
+msgstr "Read more"
+
+#: admin/panel.php:1507
+msgid "Muestra todo el contenido del post o déjalo con el botón 'leer más'"
+msgstr "Show all the content of the post or leave it with the button 'read more'"
+
+#: admin/panel.php:1511
+msgid "Leer más (defecto)"
+msgstr "Read more (default)"
+
+#: admin/panel.php:1513
+msgid "Mostrar todo"
+msgstr "Show all"
+
+#: admin/panel.php:1518
+msgid "¿Cómo funciona esto?"
+msgstr "How does this work?"
+
+#: admin/panel.php:1522
+msgid "Página interna"
+msgstr "Internal page"
+
+#: admin/panel.php:1523
+msgid "Página interna con doble paso"
+msgstr "Internal page with double step"
+
+#: admin/panel.php:1524
+msgid "Página única"
+msgstr "Single page"
+
+#: admin/panel.php:1529 admin/panel.php:1537
+msgid "Permalinks"
+msgstr "Permalinks"
+
+#: admin/panel.php:1537
+#, php-format
+msgid ""
+"Cuando realiza un cambio de opción debe refrescar los enlaces permanentes. "
+"Para ello vaya a %s y guarde los cambios. Recuerde que debe estar seleccionada "
+"la estructura \"%s\""
+msgstr ""
+"When you make an option change you should refresh the permalinks. To do this "
+"go to %s and save the changes. Remember that the structure \"%s\" must be "
+"selected"
+
+#: admin/panel.php:1537
+msgid "Post name"
+msgstr "Post name"
+
+#: admin/panel.php:1542
+msgid "Completar reCaptcha"
+msgstr "Complete reCaptcha"
+
+#: admin/panel.php:1542
+#, php-format
+msgid ""
+"Tiene que completar los códigos de reCaptcha v2 en los campos requeridos en %s"
+msgstr "You have to fill in the reCaptcha v2 codes in the required fields in %s"
+
+#: admin/panel.php:1543
+msgid ""
+"Opción que solicitará al usuario completar el reCaptcha para ver los enlaces "
+"de descarga."
+msgstr ""
+"Option that will ask the user to complete the reCaptcha to see the download "
+"links."
+
+#: admin/panel.php:1554
+msgid "Estilo de los enlaces de descarga"
+msgstr "Download links style"
+
+#: admin/panel.php:1555
+msgid "Escoge el estilo de los enlaces de descarga"
+msgstr "Choose the style of the download links"
+
+#: admin/panel.php:1558
+msgid "En fila"
+msgstr "In line"
+
+#: admin/panel.php:1560
+msgid "En fila centrado"
+msgstr "In line centered"
+
+#: admin/panel.php:1562
+msgid "En columna"
+msgstr "In column"
+
+#: admin/panel.php:1570
+msgid "Verificado por..."
+msgstr "Verified by..."
+
+#: admin/panel.php:1571
+msgid "Texto alternativo que se mostrará debajo de los enlaces de descarga"
+msgstr "Alternative text to be displayed below the download links"
+
+#: admin/panel.php:1575
+msgid "Centrado"
+msgstr "Center"
+
+#: admin/panel.php:1583
+msgid "Únete a nuestro grupo de telegram"
+msgstr "Join our Telegram group"
+
+#: admin/panel.php:1584
+msgid ""
+"Botón para unirse a Telegram que aparecerá debajo de \"Verificado por...\""
+msgstr "Button to join Telegram that appears below \"Verified by...\""
+
+#: admin/panel.php:1588 includes/template-actions.php:1309
+msgid "ÚNETE A NUESTRO GRUPO DE TELEGRAM"
+msgstr "JOIN OUR TELEGRAM GROUP"
+
+#: admin/panel.php:1593
+msgid "Temporizador de redirección"
+msgstr "Redirect Timer"
+
+#: admin/panel.php:1594
+msgid "Temporizador para la redirección del enlace de descarga"
+msgstr "Timer for download link redirection"
+
+#: admin/panel.php:1597 admin/panel.php:1609
+msgid "segundos"
+msgstr "seconds"
+
+#: admin/panel.php:1605
+msgid "Temporizador de descarga"
+msgstr "Download timer"
+
+#: admin/panel.php:1606
+msgid "Temporizador para mostrar los enlaces de descarga"
+msgstr "Timer to display download links"
+
+#: admin/panel.php:1617
+msgid "Diseño de temporizador"
+msgstr "Timer design"
+
+#: admin/panel.php:1619
+msgid "Tipo 1"
+msgstr "Type 1"
+
+#: admin/panel.php:1620
+msgid "Tipo 2"
+msgstr "Type 2"
+
+#: admin/panel.php:1624
+msgid "Ordenar cajas"
+msgstr "Sort boxes"
+
+#: admin/panel.php:1625
+msgid "Modifica el orden de las cajas a tu gusto"
+msgstr "Modify the order of the boxes to your liking"
+
+#: admin/panel.php:1629
+msgid "Información de la App"
+msgstr "App Information"
+
+#: admin/panel.php:1631
+msgid "ADS Single Center"
+msgstr "[ADS Single Center]"
+
+#: admin/panel.php:1633 functions.php:417 includes/template-actions.php:510
+msgid "Versiones"
+msgstr "Versions"
+
+#: admin/panel.php:1635 includes/template-actions.php:641
+msgid "Imágenes"
+msgstr "Images"
+
+#: admin/panel.php:1638
+msgid "Apps desarrollador"
+msgstr "Developer apps"
+
+#: admin/panel.php:1639 functions.php:422
+msgid "Cajas personalizadas"
+msgstr "Custom boxes"
+
+#: admin/panel.php:1645 functions.php:530 includes/ajax.php:122
+#, php-format
+msgid "Caja permanente %s"
+msgstr "Permanent box %s"
+
+#: admin/panel.php:1666
+msgid "Cajas a quitar en la página de (descarga / redirección) interna "
+msgstr "Boxes to remove on the internal (download / redirect) page "
+
+#: admin/panel.php:1667
+msgid ""
+"Marca las cajas que no quieres que aparezca en la página de descarga o "
+"redirección interna."
+msgstr ""
+"Check the boxes that you don't want to appear on the download or internal "
+"redirect page."
+
+#: admin/panel.php:1681 functions.php:517
+msgid "Ocultar botones sociales"
+msgstr "Hide social buttons"
+
+#: admin/panel.php:1693
+msgid "Botón Telegram"
+msgstr "Telegram button"
+
+#: admin/panel.php:1693
+msgid "Mostrar botón Telegram debajo del botón de descarga en el post."
+msgstr "Show Telegram button below download button in post."
+
+#: admin/panel.php:1704
+msgid "Botón YouTube"
+msgstr "YouTube button"
+
+#: admin/panel.php:1704
+msgid "Mostrar botón de YouTube debajo del botón de descarga en el post."
+msgstr "Show YouTube button below download button in post."
+
+#: admin/panel.php:1715
+msgid "Información de app"
+msgstr "App Information"
+
+#: admin/panel.php:1716
+msgid "Activa, desactiva, ordena la información de app y escoge el estilo"
+msgstr "Activate, deactivate, sort the app information and choose the style"
+
+#: admin/panel.php:1735
+msgid "Estilo 1"
+msgstr "Style 1"
+
+#: admin/panel.php:1736
+msgid "Estilo 2"
+msgstr "Style 2"
+
+#: admin/panel.php:1736
+msgid "Puedes cambiar la posición en la sección \"Ordenar cajas\""
+msgstr "You can change the position in the \"Sort boxes\" section"
+
+#: admin/panel.php:1741
+msgid "Ocultar la breve descripción de la app"
+msgstr "Hide the app short description"
+
+#: admin/panel.php:1758
+msgid "Cantidad en la entrada"
+msgstr "Amount in the post"
+
+#: admin/panel.php:1759
+msgid "Escoge la cantidad de versiones que aparecerá en la caja de la entrada"
+msgstr "Choose the number of versions that will appear in the post box"
+
+#: admin/panel.php:1764
+msgid "Cajas a quitar de la entrada de versión antigua"
+msgstr "Boxes to be removed from the old version entry"
+
+#: admin/panel.php:1765
+msgid ""
+"Marca las cajas que no quieres que aparezca en las entradas de historial de "
+"versiones."
+msgstr "Mark the boxes you do not want to appear in the version history posts."
+
+#: admin/panel.php:1779
+msgid "Mostrar enlace directo de descarga"
+msgstr "Show direct download link"
+
+#: admin/panel.php:1779
+msgid ""
+"Esta opción permitirá mostrar el enlace de descarga de la versión antigua sin "
+"necesidad que el usuario acceda al post a descargar. Mostrará el primer enlace "
+"de descarga. En caso no exista, el enlace será hacia el post."
+msgstr ""
+"This option will show the download link of the old version without the need "
+"for the user to access the post to download. It will show the first download "
+"link. If it does not exist, the link will be to the post."
+
+#: admin/panel.php:1780
+msgid "Permitir ir al primer enlace de descarga directamente"
+msgstr "Allow to go to the first download link directly"
+
+#: admin/panel.php:1788
+msgid "Noindex en versiones antiguas"
+msgstr "Noindex in old versions"
+
+#: admin/panel.php:1789
+msgid ""
+"Desactiva automáticamente las páginas de versiones antiguas para los "
+"buscadores."
+msgstr "Automatically disable pages from older versions for search engines."
+
+#: admin/panel.php:1804
+msgid "Activo"
+msgstr "Active"
+
+#: admin/panel.php:1805
+msgid "Activar o desactivar el sidebar."
+msgstr "Activate or deactivate the sidebar."
+
+#: admin/panel.php:1814
+msgid "Posición del sidebar"
+msgstr "Sidebar position"
+
+#: admin/panel.php:1815
+msgid "Escoja la ubicación del sidebar."
+msgstr "Choose the sidebar position."
+
+#: admin/panel.php:1819
+msgid "Derecha"
+msgstr "Right"
+
+#: admin/panel.php:1821
+msgid "Izquierda"
+msgstr "Left"
+
+#: admin/panel.php:1831
+msgid "Estilo de color"
+msgstr "Color Style"
+
+#: admin/panel.php:1832
+msgid "Escoja el tipo de tono que tendrá el tema."
+msgstr "Choose the type of tone the theme will have."
+
+#: admin/panel.php:1835
+msgid "Claro"
+msgstr "Light"
+
+#: admin/panel.php:1837
+msgid "Oscuro"
+msgstr "Dark"
+
+#: admin/panel.php:1839
+msgid "Navegador"
+msgstr "Browser"
+
+#: admin/panel.php:1843
+msgid "Que el usuario escoja color"
+msgstr "Let the user choose the color"
+
+#: admin/panel.php:1844
+msgid "Permitir que el usuario seleccione el color del tema."
+msgstr "Allow user to select theme color."
+
+#: admin/panel.php:1852
+msgid "Color principal"
+msgstr "Main color"
+
+#: admin/panel.php:1853
+msgid "Escoja el color principal del tema."
+msgstr "Choose the main color of the theme."
+
+#: admin/panel.php:1859
+msgid "Color botón de descarga"
+msgstr "Download button color"
+
+#: admin/panel.php:1865
+msgid "Color cinta nuevo"
+msgstr "New ribbon color"
+
+#: admin/panel.php:1871
+msgid "Color cinta actualizado"
+msgstr "Updated ribbon color"
+
+#: admin/panel.php:1878
+msgid "Color estrellas"
+msgstr "Stars color"
+
+#: admin/panel.php:1885
+msgid "Color etiqueta MOD"
+msgstr "MOD label color"
+
+#: admin/panel.php:1899
+msgid "Sección Blog en Home"
+msgstr "Blog Section on Home"
+
+#: admin/panel.php:1900
+msgid "Coloque la cantidad de posts que debe aparecer en el home."
+msgstr "Put the number of posts that should appear on the home page."
+
+#: admin/panel.php:1909
+msgid "Blog Page"
+msgstr "Blog Page"
+
+#: admin/panel.php:1910
+msgid "Coloque la cantidad de posts que debe aparecer en la página blog"
+msgstr "Place the number of posts that should appear on the blog page"
+
+#: admin/panel.php:1919
+msgid "Blog Sidebar"
+msgstr "Blog Sidebar"
+
+#: admin/panel.php:1920
+msgid ""
+"Activa esta opción para que puedas agregar widgets al sidebar exclusivo del "
+"área de blog"
+msgstr ""
+"Activate this option so that you can add widgets to the exclusive sidebar of "
+"the blog area"
+
+#: admin/panel.php:1947
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: admin/panel.php:1948
+msgid "Coloca el ID de Analytics"
+msgstr "Put the Analytics ID"
+
+#: admin/panel.php:1953
+#, php-format
+msgid "Coloca los códigos en el header (dentro de la etiqueta %s)"
+msgstr "Put the codes in the header (inside the %s tag)"
+
+#: admin/panel.php:1957
+msgid "Códigos body"
+msgstr "Body codes"
+
+#: admin/panel.php:1958
+#, php-format
+msgid "Coloca códigos debajo de la etiqueta %s"
+msgstr "Put codes under the %s tag"
+
+#: admin/panel.php:1962
+msgid "Añade el código de anuncio para la versión AMP"
+msgstr "Add the ad code for the AMP version"
+
+#: admin/panel.php:1968
+msgid "Añade el código de anuncio para el single y page en la versión AMP."
+msgstr "Add the ad code for the single and page in the AMP version."
+
+#: admin/panel.php:1975
+msgid ""
+"Añade el código de anuncio para el single y page en la parte central en la "
+"versión AMP."
+msgstr ""
+"Add the ad code for the single and page in the middle in the AMP version."
+
+#: admin/panel.php:1982 admin/panel.php:2039 admin/panel.php:2047
+#: admin/panel.php:2055 admin/panel.php:2063
+msgid "(Página interna)"
+msgstr "(Internal page)"
+
+#: admin/panel.php:1983
+msgid ""
+"Añade el código de anuncio para la parte superior de los enlaces de descarga "
+"en la página interna de la versión AMP."
+msgstr ""
+"Add the ad code to the top of the download links on the internal page of the "
+"AMP version."
+
+#: admin/panel.php:1995
+msgid "Texto encima de cada anuncio (Opcional)"
+msgstr "Text above each ad (Optional)"
+
+#: admin/panel.php:1996
+msgid "Coloca un texto encima de cada anuncio."
+msgstr "Place a text on top of each ad."
+
+#: admin/panel.php:2002
+msgid "Añade el código de anuncio debajo del header."
+msgstr "Add the ad code below the header."
+
+#: admin/panel.php:2007 admin/panel.php:2019 admin/panel.php:2031
+#: admin/panel.php:2055 admin/panel.php:2063 admin/panel.php:2095
+#: admin/panel.php:2103 admin/panel.php:2111
+msgid "Móvil"
+msgstr "Mobile"
+
+#: admin/panel.php:2008
+msgid "Añade el código de anuncio para la versión móvil"
+msgstr "Add the ad code for the mobile version"
+
+#: admin/panel.php:2014
+msgid "Añade el código de anuncio para el single y page."
+msgstr "Add the ad code for the single and page."
+
+#: admin/panel.php:2020
+msgid "Añade el código de anuncio para el single y page en la versión móvil."
+msgstr "Add the ad code for the single and page in the mobile version."
+
+#: admin/panel.php:2026
+msgid "Añade el código de anuncio para el single y page en la parte central."
+msgstr "Add the ad code for the single and page in the middle."
+
+#: admin/panel.php:2032
+msgid ""
+"Añade el código de anuncio para el single y page en la parte central en la "
+"versión móvil."
+msgstr ""
+"Add the ad code for the single and page in the middle in the mobile version."
+
+#: admin/panel.php:2040
+msgid ""
+"Añade el código de anuncio para la parte superior de los enlaces de descarga "
+"en la página interna."
+msgstr "Add the ad code to the top of the download links on the internal page."
+
+#: admin/panel.php:2048
+msgid ""
+"Añade el código de anuncio para la parte inferior de los enlaces de descarga "
+"en la página interna."
+msgstr ""
+"Add the ad code to the bottom of the download links on the internal page."
+
+#: admin/panel.php:2056
+msgid ""
+"Añade el código de anuncio para la parte superior de los enlaces de descarga "
+"en la página interna en la versión móvil."
+msgstr ""
+"Add the ad code to the top of the download links on the internal page in the "
+"mobile version."
+
+#: admin/panel.php:2064
+msgid ""
+"Añade el código de anuncio para la parte inferior de los enlaces de descarga "
+"en la página interna en la versión móvil."
+msgstr ""
+"Add the ad code to the bottom of the download links on the internal page in "
+"the mobile version."
+
+#: admin/panel.php:2071 admin/panel.php:2079 admin/panel.php:2087
+#: admin/panel.php:2095 admin/panel.php:2103 admin/panel.php:2111
+msgid "(Página única)"
+msgstr "(Single page)"
+
+#: admin/panel.php:2072
+msgid ""
+"Añade el código de anuncio para la parte superior de los enlaces de descarga "
+"en la página única."
+msgstr "Add the ad code to the top of the download links on the single page."
+
+#: admin/panel.php:2080 admin/panel.php:2088
+msgid ""
+"Añade el código de anuncio para la parte inferior de los enlaces de descarga "
+"en la página única."
+msgstr "Add the ad code to the bottom of the download links on the single page."
+
+#: admin/panel.php:2096
+msgid ""
+"Añade el código de anuncio para la parte superior de los enlaces de descarga "
+"en la página única en la versión móvil."
+msgstr ""
+"Add the ad code to the top of the download links on the single page in the "
+"mobile version."
+
+#: admin/panel.php:2104 admin/panel.php:2112
+msgid ""
+"Añade el código de anuncio para la parte inferior de los enlaces de descarga "
+"en la página única en la versión móvil."
+msgstr ""
+"Add the ad code to the bottom of the download links on the single page in the "
+"mobile version."
+
+#: admin/panel.php:2127
+#, php-format
+msgid "Coloca el API Key del acortador que prefieras. %s"
+msgstr "Put API Key of the shortener you prefer. %s"
+
+#: admin/panel.php:2160
+msgid "Mostrar enlace de descarga original"
+msgstr "Show original download link"
+
+#: admin/panel.php:2161
+msgid "Muestra el enlace de descarga original en vez de los enlaces acortados"
+msgstr "Show original download link instead of shortened links"
+
+#: admin/panel.php:2178
+msgid "Texto Footer"
+msgstr "Text Footer"
+
+#: admin/panel.php:2179
+msgid "Coloca cualquier texto en el footer. Permite HTML."
+msgstr "Put any text in the footer. Allows HTML."
+
+#: admin/panel.php:2184
+msgid "Códigos Footer"
+msgstr "Footer Codes"
+
+#: admin/panel.php:2226
+msgid ""
+"Estos valores son importantes para poder descargar y/o subir el APK de gran "
+"peso a su servidor o servidores externos."
+msgstr ""
+"These values ​​are important to be able to download or upload the heavy APK to "
+"your server or external servers."
+
+#: admin/panel.php:2226
+msgid "¿Cómo cambiar estos valores?"
+msgstr "How to change these values?"
+
+#: admin/panel.php:2231
+msgid "Activado"
+msgstr "Activated"
+
+#: admin/panel.php:2231
+msgid "Desactivado"
+msgstr "Deactivated"
+
+#: admin/panel.php:2235 admin/panel.php:2239
+msgid "Se recomienda mayor o igual a 300"
+msgstr "It is recommended greater than or equal to 300"
+
+#: admin/panel.php:2243 admin/panel.php:2247 admin/panel.php:2251
+msgid "Se recomienda mayor o igual a 4G"
+msgstr "It is recommended greater than or equal to 4G"
+
+#: admin/panel.php:2525
+msgid "Número de elementos por página"
+msgstr "Number of items per page"
+
+#: amp/single-versions.php:27 functions.php:2095 single-versions.php:27
+#: template-parts/single-infoapp.php:73 template-parts/single-infoapp.php:77
+#: template-parts/template-download.php:8
+msgid "Regresar"
+msgstr "Back"
+
+#: archive-blog.php:19 archive.php:33 category.php:28 includes/ajax.php:391
+#: includes/widget-mas-calificados.php:60 includes/widget-mas-vistos-blog.php:40
+#: includes/widget-mas-vistos.php:60 includes/widget-mejor-calificados.php:61
+#: includes/widget-ultimos-posts-blog.php:39 includes/widget-ultimos-posts.php:59
+#: tag.php:22 taxonomy-cblog.php:21 taxonomy-dev.php:23 taxonomy-tblog.php:22
+#: template-most-rated-apps.php:44 template-most-viewed-apps.php:44
+#: template-parts/content-search.php:69
+msgid "No hay entradas"
+msgstr "No entry"
+
+#: archive.php:8 archive.php:11
+msgid "Apps"
+msgstr "Apps"
+
+#: archive.php:14
+msgid "Apps de"
+msgstr "Apps by"
+
+#: comments.php:12
+msgid "Un comentario en"
+msgstr "A comment on"
+
+#: comments.php:12
+msgid "comentarios en"
+msgstr "comments on"
+
+#: functions.php:38
+msgid "Menú"
+msgstr "Menu"
+
+#: functions.php:39
+msgid "Menú movil"
+msgstr "Mobile menu"
+
+#: functions.php:40
+msgid "Menú footer"
+msgstr "Footer menu"
+
+#: functions.php:99
+msgid "Theme Appyn para aplicaciones Android"
+msgstr "Appyn Theme for Android Apps"
+
+#: functions.php:113
+msgid "Derechos reservados"
+msgstr "All rights reserved"
+
+#: functions.php:137 functions.php:229
+msgid "¿Cómo instalar [Title] APK?"
+msgstr "How to install [Title] APK?"
+
+#: functions.php:138 functions.php:230
+msgid "1. Toca el archivo [Title] APK descargado."
+msgstr "1. Tap the downloaded [Title] APK file."
+
+#: functions.php:139 functions.php:231
+msgid "2. Toca instalar."
+msgstr "2. Touch install."
+
+#: functions.php:140 functions.php:232
+msgid "3. Sigue los pasos que aparece en pantalla."
+msgstr "3. Follow the steps on the screen."
+
+#: functions.php:144 functions.php:237
+msgid "¿Cómo instalar [Title]?"
+msgstr "How to install [Title]?"
+
+#: functions.php:145 functions.php:238
+msgid "1. Descargar el archivo ZIP."
+msgstr "1. Download the ZIP file."
+
+#: functions.php:146 functions.php:239
+#, php-format
+msgid "2. Instale la aplicación %s"
+msgstr "2. Install the %s application"
+
+#: functions.php:147 functions.php:240
+msgid "3. Abra la aplicación y pulse en \"Instalar APKs\"."
+msgstr "3. Open the application and click on \"Install APKs\"."
+
+#: functions.php:148 functions.php:241
+msgid "4. Busque la carpeta donde se encuentra el ZIP descargado y selecciónelo."
+msgstr "4. Find the folder where the downloaded ZIP is located and select it."
+
+#: functions.php:149 functions.php:242
+msgid "5. Sigue los pasos que aparece en pantalla."
+msgstr "5. Follow the steps that appear on the screen."
+
+#: functions.php:155 template-parts/single-infoapp.php:92
+msgid "Descargar APK"
+msgstr "Download APK"
+
+#: functions.php:189 includes/widget-mas-vistos.php:9
+#: includes/widget-mas-vistos.php:21 includes/widget-mas-vistos.php:77
+msgid "Apps más vistas"
+msgstr "Most viewed apps"
+
+#: functions.php:277 functions.php:282 includes/ajax.php:39
+#: includes/template-actions.php:1715 includes/template-actions.php:1721
+#: includes/template-functions.php:1477 taxonomy-dev.php:6
+msgid "Desarrollador"
+msgstr "Developer"
+
+#: functions.php:338
+msgid "versiones"
+msgstr "versions"
+
+#: functions.php:418
+msgid "Información de la aplicación"
+msgstr "App Information"
+
+#: functions.php:419
+msgid "Video de la aplicación"
+msgstr "App Video"
+
+#: functions.php:420
+msgid "Imágenes de la aplicación"
+msgstr "App Images"
+
+#: functions.php:421
+msgid "Enlaces de descarga de la aplicación"
+msgstr "Download links of app"
+
+#: functions.php:423
+msgid "Cajas personalizadas permanentes"
+msgstr "Permanent custom boxes"
+
+#: functions.php:424
+msgid "Control de anuncios"
+msgstr "Ad control"
+
+#: functions.php:425
+msgid "Control de elementos"
+msgstr "Control of elements"
+
+#: functions.php:436 includes/class-list-table-atul.php:136
+msgid "Fecha de actualización"
+msgstr "Update date"
+
+#: functions.php:495
+msgid "No hay versiones"
+msgstr "No versions"
+
+#: functions.php:507
+msgid "Desactivar anuncios"
+msgstr "Disable Ads"
+
+#: functions.php:515
+msgid "Ocultar sidebar"
+msgstr "Hide sidebar"
+
+#: functions.php:516
+msgid "Ocultar post meta"
+msgstr "Hide Post meta"
+
+#: functions.php:531 functions.php:551 includes/ajax.php:104
+#: includes/ajax.php:123
+msgid "Título para la caja"
+msgstr "Box title"
+
+#: functions.php:535 functions.php:555 includes/ajax.php:110
+#: includes/ajax.php:127
+msgid "Borrar caja"
+msgstr "Delete box"
+
+#: functions.php:540 functions.php:560
+msgid "Añadir caja"
+msgstr "Add box"
+
+#: functions.php:569
+msgid "Estado de aplicación"
+msgstr "App status"
+
+#: functions.php:570
+msgid ""
+"Con esta opción aparecerá una franja en cada aplicación lo cual indicará si se "
+"ha actualizado o es una aplicación nueva. La opción activa tendrá un tiempo de "
+"duración de 2 semanas basada en la fecha de publicación del post. Por ejemplo, "
+"si usted marca \"Actualizado\" y la fecha de creación del post es hoy, la "
+"franja aparecerá solo por 2 semanas."
+msgstr ""
+"With this option a strip will appear in each app which will indicate if it has "
+"been updated or is a new app. The active option will have a duration of 2 "
+"weeks based on the publication date of the post. For example, if you check "
+"\"Updated\" and the post creation date is today, the strip will only appear "
+"for 2 weeks."
+
+#: functions.php:576
+msgid "Tipo de aplicación"
+msgstr "App type"
+
+#: functions.php:591 includes/template-actions.php:1745
+#: includes/template-functions.php:1480 template-parts/template-download.php:22
+msgid "Tamaño"
+msgstr "Size"
+
+#: functions.php:595 includes/template-actions.php:1733
+#: includes/template-functions.php:1478
+msgid "Lanzamiento"
+msgstr "Released on"
+
+#: functions.php:599
+msgid "Última actualización"
+msgstr "Updated"
+
+#: functions.php:607 includes/template-actions.php:1770
+#: includes/template-functions.php:1484
+msgid "Consíguelo en"
+msgstr "Get it on"
+
+#: functions.php:615
+msgid "Número de votos"
+msgstr "Number of votes"
+
+#: functions.php:619
+msgid "Media"
+msgstr "Average"
+
+#: functions.php:623 includes/template-actions.php:1763
+#: includes/template-functions.php:1483
+msgid "Descargas"
+msgstr "Downloads"
+
+#: functions.php:626
+msgid "Tipo de aplicación (Categoría)"
+msgstr "Type app (Category)"
+
+#: functions.php:635
+msgid "Sistema operativo"
+msgstr "Operating system"
+
+#: functions.php:643
+msgid "Gratis"
+msgstr "Free"
+
+#: functions.php:644
+msgid "Pago"
+msgstr "Payment"
+
+#: functions.php:677 functions.php:816
+msgid "Subir"
+msgstr "Upload"
+
+#: functions.php:715
+msgid "Añadir imágenes"
+msgstr "Add Images"
+
+#: functions.php:728 functions.php:733 functions.php:810
+msgid "Enlace directo / Redirección"
+msgstr "Direct link / Redirection"
+
+#: functions.php:730 functions.php:734 functions.php:815
+msgid "Descarga directa"
+msgstr "Direct download"
+
+#: functions.php:741
+msgid "Tipo de archivos"
+msgstr "Files type"
+
+#: functions.php:742
+#, php-format
+msgid ""
+"Marque qué tipo de archivo el usuario descargará. Gracias a esto podrá mostrar "
+"unos pasos según el tipo de opción escogida. <a href=\"%s\">Ver/Editar los "
+"pasos</a>"
+msgstr ""
+"Check what type of file the user will download. Thanks to this you will be "
+"able to show some steps according to the type of option chosen. <a "
+"href=\"%s\"> View/Edit the steps </a>"
+
+#: functions.php:757
+msgid "Para eliminar un campo solo déjelo vacío"
+msgstr "To delete a field just leave it empty"
+
+#: functions.php:758
+msgid "Enlaces 'nofollow' por defecto"
+msgstr "Links 'nofollow' for default"
+
+#: functions.php:765
+msgid "Enlace"
+msgstr "Link"
+
+#: functions.php:766
+msgid "Texto"
+msgstr "Text"
+
+#: functions.php:767
+msgid "Atributo"
+msgstr "Attribute"
+
+#: functions.php:802
+msgid "Añadir enlace"
+msgstr "Add Link"
+
+#: functions.php:803
+msgid "Ver en la documentación"
+msgstr "See in the documentation"
+
+#: functions.php:925
+msgid "Seguir leyendo"
+msgstr "Read more"
+
+#: functions.php:1470
+msgid "Votar"
+msgstr "Vote"
+
+#: functions.php:1471 includes/template-functions.php:47
+msgid "Votos"
+msgstr "Votes"
+
+#: functions.php:1473
+msgid "Leer menos"
+msgstr "Read less"
+
+#: functions.php:1474
+msgid "de"
+msgstr "of"
+
+#: functions.php:1475
+msgid "Gracias por enviarnos su reporte."
+msgstr "Thank you for sending us your report."
+
+#: functions.php:1619
+msgid "No hay archivo para descargar."
+msgstr "There is no file to download."
+
+#: functions.php:2163 includes/admin.php:223
+msgid "Enlaces de descarga rotos"
+msgstr "Broken download links"
+
+#: includes/admin.php:41
+msgid "Ocurrió un error"
+msgstr "An error occurred"
+
+#: includes/admin.php:48
+msgid "Importante: Este post es una versión antigua"
+msgstr "Important: This post is an old version"
+
+#: includes/admin.php:51
+msgid "Imagen"
+msgstr "Image"
+
+#: includes/admin.php:55
+msgid ""
+"¿Quiere actualizar la información de esta aplicación? Recuerda que reemplazará "
+"toda la información."
+msgstr ""
+"Do you want to update the information of this app? Remember that it will "
+"replace all the information."
+
+#: includes/admin.php:75
+#, php-format
+msgid "Está disponible una nueva versión del theme %s"
+msgstr "A new version of the theme %s is available"
+
+#: includes/admin.php:75
+#, php-format
+msgid "Revisa los detalles de la versión %s"
+msgstr "View version %s details"
+
+#: includes/admin.php:75
+msgid "Descárgala ahora"
+msgstr "Download now"
+
+#: includes/admin.php:87
+#, php-format
+msgid ""
+"Debe colocar una %s para hacer uso del %s, ver la lista de %s y el área de %s."
+msgstr "You must put a %s to make use the %s, see the %s list and the %s area."
+
+#: includes/admin.php:198
+msgid "Convertir en versión anterior"
+msgstr "Convert to previous version"
+
+#: includes/admin.php:250
+msgid "Actualizar información"
+msgstr "Update info"
+
+#: includes/admin.php:263
+msgid "Ver post padre"
+msgstr "View post parent"
+
+#: includes/admin.php:382
+msgid "Convertir a versión anterior"
+msgstr "Convert to previous version"
+
+#: includes/admin.php:446 includes/class-ftp.php:30
+#, php-format
+msgid "No se pudo conectar a \"%s\". Verifique nuevamente"
+msgstr "Could not connect to \"%s\". Check again"
+
+#: includes/admin.php:448
+msgid "Complete el campo URL"
+msgstr "Fill in the URL field"
+
+#: includes/admin.php:451 includes/class-ftp.php:35
+msgid "No se puede cambiar al modo pasivo"
+msgstr "Can't switch to passive mode"
+
+#: includes/admin.php:461
+msgid "¡Se ha creado el archivo \"test-file.txt\" en su servidor!"
+msgstr "The file \"test-file.txt\" has been created on your server!"
+
+#: includes/admin.php:464
+msgid ""
+"Es importante que coloque el campo URL ya que esa será la dirección con la que "
+"los usuarios accederán a descargar los archivos. Complete el campo y realice "
+"nuevamente el test de conexión."
+msgstr ""
+"It is important that you put the URL field since that will be the address with "
+"which users will access to download the files. Fill in the field and perform "
+"the connection test again."
+
+#: includes/admin.php:466
+#, php-format
+msgid "Accede al archivo a través de este %s"
+msgstr "Access the file through this %s"
+
+#: includes/admin.php:466
+msgid "enlace"
+msgstr "link"
+
+#: includes/admin.php:466
+msgid ""
+"Si no puede acceder al enlace debe colocar el campo URL de manera correcta."
+msgstr "If you cannot access the link, you must put the URL field correctly."
+
+#: includes/admin.php:467
+msgid ""
+"Si accedió al enlace y apareció el texto \"Hello World\" entonces la conexión "
+"fue exitosa."
+msgstr ""
+"If you accessed the link and the text \"Hello World\" appeared then the "
+"connection was successful."
+
+#: includes/admin.php:470
+msgid ""
+"No se pudo generar el archivo de prueba. Es posible que el directorio que ha "
+"colocado no exista."
+msgstr ""
+"The test file could not be generated. The directory you have placed may not "
+"exist."
+
+#: includes/admin.php:474 includes/class-ftp.php:49
+msgid "Datos del servidor incorrectos. Verifique nuevamente"
+msgstr "Incorrect server data. Check again"
+
+#: includes/ajax.php:178
+msgid "Post reportado"
+msgstr "Post reported"
+
+#: includes/ajax.php:179
+msgid "Hola, tienes un post reportado"
+msgstr "Hi, you have a reported post"
+
+#: includes/ajax.php:180
+msgid "Post"
+msgstr "Post"
+
+#: includes/ajax.php:181
+msgid "Asunto"
+msgstr "Subject"
+
+#: includes/ajax.php:187
+msgid "Email"
+msgstr "Email"
+
+#: includes/ajax.php:237
+msgid "Archivo subido y asignado al post."
+msgstr "File uploaded and assigned to the post."
+
+#: includes/ajax.php:439 includes/class-list-table-latestapps.php:165
+#: includes/class-list-table-modapps.php:216
+msgid "View post"
+msgstr "View post"
+
+#: includes/ajax.php:481
+msgid "Inténtelo nuevamente..."
+msgstr "Try again..."
+
+#: includes/ajax.php:623
+msgid ""
+"No se encontró el ID de la app por lo que no se importó datos como las "
+"calificaciones, capturas de pantalla, etc."
+msgstr ""
+"The app ID was not found so data such as ratings, screenshots, etc. was not "
+"imported."
+
+#: includes/class-dropbox.php:200
+msgid "Error: Token de acceso incorrecto"
+msgstr "Error: Bad access token"
+
+#: includes/class-ftp.php:43
+msgid "No se pudo subir el archivo"
+msgstr "The file could not be uploaded"
+
+#: includes/class-list-table-atul.php:87
+msgid "No hay apps para actualizar"
+msgstr "There are no apps to update"
+
+#: includes/class-list-table-atul.php:98
+#: includes/class-list-table-latestapps.php:169
+msgid "Ver en Google Play"
+msgstr "View on Google Play"
+
+#: includes/class-list-table-atul.php:121 includes/class-list-table-atul.php:153
+msgid "Actualizar"
+msgstr "Update"
+
+#: includes/class-list-table-atul.php:133
+#: includes/class-list-table-latestapps.php:188
+#: includes/class-list-table-modapps.php:239
+msgid "App"
+msgstr "App"
+
+#: includes/class-list-table-atul.php:134
+msgid "Versión actual"
+msgstr "Current version"
+
+#: includes/class-list-table-atul.php:135
+msgid "Nueva Versión"
+msgstr "New version"
+
+#: includes/class-list-table-atul.php:199
+#: includes/class-list-table-latestapps.php:235
+#: includes/class-list-table-modapps.php:289
+msgid "Todos"
+msgstr "All"
+
+#: includes/class-list-table-latestapps.php:157
+msgid "No hay apps"
+msgstr "There are no apps"
+
+#: includes/class-list-table-latestapps.php:177
+#: includes/class-list-table-modapps.php:228
+msgid "Re-importar"
+msgstr "Re-import"
+
+#: includes/class-list-table-latestapps.php:177
+#: includes/class-list-table-latestapps.php:198
+#: includes/class-list-table-modapps.php:228
+#: includes/class-list-table-modapps.php:249
+msgid "Importar"
+msgstr "Import"
+
+#: includes/class-list-table-latestapps.php:236
+#: includes/class-list-table-modapps.php:290
+msgid "Importados"
+msgstr "Imported"
+
+#: includes/class-list-table-latestapps.php:237
+#: includes/class-list-table-modapps.php:291
+msgid "No importados"
+msgstr "Not imported"
+
+#: includes/class-list-table-modapps.php:209
+msgid "No hay apps modificadas"
+msgstr "There are no mod apps"
+
+#: includes/class-list-table-modapps.php:287
+msgid "Últimas apps modificadas"
+msgstr "Latest mod apps"
+
+#: includes/class-upload-apk.php:89
+msgid "ERROR: El acortador seleccionado no tiene la API Key..."
+msgstr "ERROR: The selected shortener does not have the API Key..."
+
+#: includes/class-upload-apk.php:271 includes/class-upload-apk.php:275
+#, php-format
+msgid "Error: %s"
+msgstr "Error: %s"
+
+#: includes/class-upload-apk.php:275 includes/class-upload-apk.php:565
+msgid "Ocurrió un problema con el servidor de carga"
+msgstr "There was a problem with the upload server"
+
+#: includes/class-upload-apk.php:297
+msgid "El archivo pesa 0KB. No fue descargado ni subido"
+msgstr "The file is 0KB. It was neither downloaded nor uploaded"
+
+#: includes/class-upload-apk.php:349
+msgid "Falta la conexión con Dropbox"
+msgstr "Dropbox connection missing"
+
+#: includes/class-upload-apk.php:379
+msgid "No ha realizado la conexión a Google Drive"
+msgstr "You have not made a connection to Google Drive"
+
+#: includes/class-upload-apk.php:421
+msgid "Complete los campos para la conexión FTP"
+msgstr "Fill in the fields for the FTP connection"
+
+#: includes/class-upload-apk.php:450
+msgid "Coloque el API Key de 1Fichier"
+msgstr "Put the 1Fichier API Key"
+
+#: includes/class-upload-apk.php:483
+msgid "No ha realizado la conexión a OneDrive"
+msgstr "You haven't connected to OneDrive"
+
+#: includes/class-upload-apk.php:515
+msgid "Coloque el token y el ID de chat"
+msgstr "Put the token and chat ID"
+
+#: includes/template-actions.php:104 includes/template-actions.php:670
+msgid "Anterior"
+msgstr "Previous"
+
+#: includes/template-actions.php:105 includes/template-actions.php:670
+msgid "Siguiente"
+msgstr "Next"
+
+#: includes/template-actions.php:516
+msgid "Peso"
+msgstr "Size"
+
+#: includes/template-actions.php:518
+msgid "Fecha"
+msgstr "Date"
+
+#: includes/template-actions.php:588
+msgid "Para esta versión falta completar los datos"
+msgstr "For this version, the information is missing"
+
+#: includes/template-actions.php:599
+msgid "Ver más versiones"
+msgstr "View more versions"
+
+#: includes/template-actions.php:844
+msgid "Apps del desarrollador"
+msgstr "Developer's apps"
+
+#: includes/template-actions.php:866 single-blog.php:20
+msgid "TAGS"
+msgstr "TAGS"
+
+#: includes/template-actions.php:1218
+msgid "Enlace de descarga"
+msgstr "Download link"
+
+#: includes/template-actions.php:1260 template-parts/single-infoapp.php:89
+msgid "Descargar"
+msgstr "Download"
+
+#: includes/template-actions.php:1640
+msgid "Mostrar enlaces"
+msgstr "Show links"
+
+#: includes/template-actions.php:1739 includes/template-functions.php:1479
+msgid "Actualización"
+msgstr "Updated"
+
+#: includes/template-actions.php:1786 includes/template-functions.php:1287
+msgid "Ninguno"
+msgstr "None"
+
+#: includes/template-actions.php:2248 includes/widget-fixed.php:9
+#: includes/widget-fixed.php:19 includes/widget-fixed.php:33
+msgid "Widget Fijado"
+msgstr "Fixed Widget"
+
+#: includes/template-actions.php:2262
+msgid "Solo apps modificadas"
+msgstr "Only mod apps"
+
+#: includes/template-functions.php:37
+msgid "Calificación"
+msgstr "Score"
+
+#: includes/template-functions.php:37
+msgid "estrellas"
+msgstr "stars"
+
+#: includes/template-functions.php:145
+msgid "Navegación de comentarios"
+msgstr "Comment navigation"
+
+#: includes/template-functions.php:148
+msgid "Comentarios antiguos"
+msgstr "Older Comments"
+
+#: includes/template-functions.php:152
+msgid "Comentarios más nuevos"
+msgstr "Newer Comments"
+
+#: includes/template-functions.php:187
+msgid "No funcionan los enlaces de descarga"
+msgstr "Download links do not work"
+
+#: includes/template-functions.php:188
+msgid "Hay una nueva versión"
+msgstr "There is a new version"
+
+#: includes/template-functions.php:189
+msgid "Otros"
+msgstr "Others"
+
+#: includes/template-functions.php:300
+msgid ""
+"Error: Debe activar cURL. Contacte con el soporte de su hosting para que le "
+"habiliten cURL."
+msgstr ""
+"Error: You must activate cURL. Contact your hosting support to have cURL "
+"enabled for you."
+
+#: includes/template-functions.php:333
+msgid "Deja un comentario"
+msgstr "Leave a comment"
+
+#: includes/template-functions.php:353
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: includes/template-functions.php:353 includes/template-functions.php:359
+#: includes/template-functions.php:389
+msgid "(Editar)"
+msgstr "(Edit)"
+
+#: includes/template-functions.php:359
+msgid "Trackback:"
+msgstr "Trackback:"
+
+#: includes/template-functions.php:376
+msgid "dice"
+msgstr "says"
+
+#: includes/template-functions.php:379
+msgid "Tu comentario está en espera de aprobación."
+msgstr "Your comment is awaiting approval."
+
+#: includes/template-functions.php:384
+#, php-format
+msgid "%1$s a las %2$s"
+msgstr "%1$s at %2$s"
+
+#: includes/template-functions.php:604
+msgid "Reportar esta app"
+msgstr "Report this app"
+
+#: includes/template-functions.php:611
+msgid "Detalle del reporte (Opcional)"
+msgstr "Detail report (Optional)"
+
+#: includes/template-functions.php:616
+msgid "Email *"
+msgstr "Email *"
+
+#: includes/template-functions.php:618 template-parts/single-infoapp.php:114
+msgid "Reportar"
+msgstr "Report"
+
+#: includes/template-functions.php:839
+msgid "De pago"
+msgstr "Payment"
+
+#: includes/template-functions.php:1030 includes/template-functions.php:1276
+msgid "Nuevo"
+msgstr "New"
+
+#: includes/template-functions.php:1035 includes/template-functions.php:1039
+#: includes/template-functions.php:1277
+msgid "Actualizado"
+msgstr "Updated"
+
+#: includes/template-functions.php:1151 includes/template-functions.php:1159
+#: includes/template-functions.php:1161
+msgid "(No activado)"
+msgstr "(Not activated)"
+
+#: includes/template-functions.php:1153
+msgid "(Falta token de acceso)"
+msgstr "(Missing access token)"
+
+#: includes/template-functions.php:1161
+msgid "(Máximo 20 MB)"
+msgstr "(Maximum 20 MB)"
+
+#: includes/template-functions.php:1314
+msgid "Juegos"
+msgstr "Games"
+
+#: includes/template-functions.php:1315
+msgid "Juegos de acción"
+msgstr "Action games"
+
+#: includes/template-functions.php:1316
+msgid "Juegos de aventura"
+msgstr "Adventure games"
+
+#: includes/template-functions.php:1317
+msgid "Juegos de carreras"
+msgstr "Racing games"
+
+#: includes/template-functions.php:1318
+msgid "Juegos de cartas"
+msgstr "Card games"
+
+#: includes/template-functions.php:1319
+msgid "Juegos de casino"
+msgstr "Casino games"
+
+#: includes/template-functions.php:1320
+msgid "Juegos educativos"
+msgstr "Educational games"
+
+#: includes/template-functions.php:1321
+msgid "Juegos de estrategia"
+msgstr "Strategy games"
+
+#: includes/template-functions.php:1322
+msgid "Juegos de deportes"
+msgstr "Sports games"
+
+#: includes/template-functions.php:1323
+msgid "Juegos de mesa"
+msgstr "Board games"
+
+#: includes/template-functions.php:1324
+msgid "Juegos de palabras"
+msgstr "Word games"
+
+#: includes/template-functions.php:1325
+msgid "Juegos de rol"
+msgstr "Role playing games"
+
+#: includes/template-functions.php:1326
+msgid "Juegos ocasionales"
+msgstr "Casual games"
+
+#: includes/template-functions.php:1327
+msgid "Juegos de música"
+msgstr "Music games"
+
+#: includes/template-functions.php:1328
+msgid "Preguntas y respuestas"
+msgstr "Trivia games"
+
+#: includes/template-functions.php:1329
+msgid "Juegos de rompecabezas"
+msgstr "Puzzle games"
+
+#: includes/template-functions.php:1330
+msgid "Sala de juegos"
+msgstr "Arcade games"
+
+#: includes/template-functions.php:1331
+msgid "Juegos de simulación"
+msgstr "Simulation games"
+
+#: includes/template-functions.php:1332
+msgid "Aplicaciones de video"
+msgstr "Video Players & Editors"
+
+#: includes/template-functions.php:1333
+msgid "Apps de reloj"
+msgstr "Watch apps"
+
+#: includes/template-functions.php:1334
+msgid "Arte y diseño"
+msgstr "Art & Design"
+
+#: includes/template-functions.php:1335
+msgid "Autos y vehículos"
+msgstr "Auto & Vehicles"
+
+#: includes/template-functions.php:1336
+msgid "Belleza"
+msgstr "Beauty"
+
+#: includes/template-functions.php:1337
+msgid "Bibliotecas y demostración"
+msgstr "Libraries & Demo"
+
+#: includes/template-functions.php:1338
+msgid "Caras de reloj"
+msgstr "Watch faces"
+
+#: includes/template-functions.php:1339
+msgid "Comer y beber"
+msgstr "Food & Drink"
+
+#: includes/template-functions.php:1340
+msgid "Compras"
+msgstr "Shopping"
+
+#: includes/template-functions.php:1341
+msgid "Comunicación"
+msgstr "Communication"
+
+#: includes/template-functions.php:1342
+msgid "Conocer personas"
+msgstr "Dating"
+
+#: includes/template-functions.php:1343
+msgid "Cómics"
+msgstr "Comics"
+
+#: includes/template-functions.php:1344
+msgid "Deportes"
+msgstr "Sports"
+
+#: includes/template-functions.php:1345
+msgid "Educación"
+msgstr "Educational"
+
+#: includes/template-functions.php:1346
+msgid "Entretenimiento"
+msgstr "Entertainment"
+
+#: includes/template-functions.php:1347
+msgid "Estilo de vida"
+msgstr "Lifestyle"
+
+#: includes/template-functions.php:1348
+msgid "Eventos"
+msgstr "Events"
+
+#: includes/template-functions.php:1349
+msgid "Finanzas"
+msgstr "Finance"
+
+#: includes/template-functions.php:1350
+msgid "Fotografía"
+msgstr "Photography"
+
+#: includes/template-functions.php:1351
+msgid "Herramientas"
+msgstr "Utilities"
+
+#: includes/template-functions.php:1352
+msgid "Inmuebles y hogar"
+msgstr "House & Home"
+
+#: includes/template-functions.php:1353
+msgid "Libros y referencias"
+msgstr "Books & Reference"
+
+#: includes/template-functions.php:1354
+msgid "Mapas y navegación"
+msgstr "Maps & Navigation"
+
+#: includes/template-functions.php:1355
+msgid "Medicina"
+msgstr "Medical"
+
+#: includes/template-functions.php:1356
+msgid "Música y audio"
+msgstr "Music & Audio"
+
+#: includes/template-functions.php:1357
+msgid "Negocios"
+msgstr "Business"
+
+#: includes/template-functions.php:1358
+msgid "Noticias y revistas"
+msgstr "News & Magazines"
+
+#: includes/template-functions.php:1359
+msgid "Personalización"
+msgstr "Personalization"
+
+#: includes/template-functions.php:1360
+msgid "Productividad"
+msgstr "Productivity"
+
+#: includes/template-functions.php:1361
+msgid "Salud y bienestar"
+msgstr "Health & Fitness"
+
+#: includes/template-functions.php:1362
+msgid "Ser padres"
+msgstr "Parenting"
+
+#: includes/template-functions.php:1363
+msgid "Social"
+msgstr "Social Networking"
+
+#: includes/template-functions.php:1364
+msgid "Tiempo"
+msgstr "Time"
+
+#: includes/template-functions.php:1365
+msgid "Viajes"
+msgstr "Travel"
+
+#: includes/widget-categories.php:10
+msgid "Muestra las categorías"
+msgstr "Display the categories"
+
+#: includes/widget-categories.php:55
+msgid "Columnas"
+msgstr "Columns"
+
+#: includes/widget-categories.php:59
+msgid "Escoger categorías"
+msgstr "Choose categories"
+
+#: includes/widget-categories.php:60
+msgid "Seleccionar todos"
+msgstr "Select all"
+
+#: includes/widget-facebook.php:12
+msgid "Muestra la caja de tu página de Facebook"
+msgstr "Show the box of your Facebook page"
+
+#: includes/widget-facebook.php:39
+msgid "Facebook"
+msgstr "Facebook"
+
+#: includes/widget-fixed.php:10
+msgid "Muestra un widget que sigue al usuario cuando hace scroll en la página"
+msgstr "Shows a widget that follows the user when they scroll the page"
+
+#: includes/widget-fixed.php:42
+msgid "Se permite HTML también..."
+msgstr "HTML is allowed too..."
+
+#: includes/widget-mas-calificados.php:10
+msgid "Muestra las apps más calificadas de tu sitio"
+msgstr "Show the most rated apps on your site"
+
+#: includes/widget-mas-calificados.php:85 includes/widget-mas-vistos.php:85
+#: includes/widget-mejor-calificados.php:86 includes/widget-ultimos-posts.php:84
+msgid "De una categoría"
+msgstr "Category"
+
+#: includes/widget-mas-calificados.php:87 includes/widget-mas-vistos.php:87
+#: includes/widget-mejor-calificados.php:88 includes/widget-ultimos-posts.php:86
+msgid "Ninguna"
+msgstr "Nothing"
+
+#: includes/widget-mas-calificados.php:101 includes/widget-mas-vistos-blog.php:64
+#: includes/widget-mas-vistos.php:101 includes/widget-mejor-calificados.php:101
+#: includes/widget-ultimos-posts-blog.php:63
+#: includes/widget-ultimos-posts.php:100
+msgid "Número de entradas a mostrar"
+msgstr "Number of entries to display"
+
+#: includes/widget-mas-vistos-blog.php:9 includes/widget-mas-vistos-blog.php:19
+#: includes/widget-mas-vistos-blog.php:56
+msgid "Posts más vistos"
+msgstr "Most viewed posts"
+
+#: includes/widget-mas-vistos-blog.php:10
+msgid "Muestra los posts más vistos de tu sitio"
+msgstr "Show the most viewed posts on your site"
+
+#: includes/widget-mas-vistos.php:10
+msgid "Muestra las apps más vistas de tu sitio"
+msgstr "Show the most viewed apps on your site"
+
+#: includes/widget-mejor-calificados.php:9
+#: includes/widget-mejor-calificados.php:21
+#: includes/widget-mejor-calificados.php:78
+msgid "Apps mejor calificadas"
+msgstr "Best Rated Apps"
+
+#: includes/widget-mejor-calificados.php:10
+msgid "Muestra las apps mejor calificadas de tu sitio"
+msgstr "Show the best rated apps on your site"
+
+#: includes/widget-twitter.php:10
+msgid "Coloca tu nombre de usuario de Twitter y comenzarán a seguirte"
+msgstr "Enter your Twitter username and they will start following you"
+
+#: includes/widget-twitter.php:19 includes/widget-twitter.php:39
+msgid "Síguenos en Twitter"
+msgstr "Follow us on Twitter"
+
+#: includes/widget-ultimos-posts-blog.php:9
+#: includes/widget-ultimos-posts-blog.php:19
+#: includes/widget-ultimos-posts-blog.php:55
+msgid "Últimos posts"
+msgstr "Latest posts"
+
+#: includes/widget-ultimos-posts-blog.php:10
+msgid "Muestra los últimos posts de tu sitio"
+msgstr "Show the latest posts of your site"
+
+#: includes/widget-ultimos-posts.php:9 includes/widget-ultimos-posts.php:21
+#: includes/widget-ultimos-posts.php:76
+msgid "Últimas Aplicaciones"
+msgstr "Latest Apps"
+
+#: includes/widget-ultimos-posts.php:10
+msgid "Muestra las últimas aplicaciones de tu sitio"
+msgstr "Show the latest apps on your site"
+
+#: includes/widget-youtube.php:10
+msgid "Muestra cualquier video de YouTube colocando solo el ID"
+msgstr "Displays any YouTube video by placing only the ID"
+
+#: includes/widget-youtube.php:36
+msgid "Youtube"
+msgstr "Youtube"
+
+#: tag.php:5 taxonomy-tblog.php:7
+msgid "TAG"
+msgstr "TAG"
+
+#: template-parts/single-infoapp.php:26 template-parts/template-download.php:40
+msgid "No hay enlace de redirección..."
+msgstr "No redirect link..."
+
+#: template-parts/single-infoapp.php:29 template-parts/template-download.php:43
+msgid "Será redireccionado en unos segundos..."
+msgstr "You will be redirected in a few seconds ..."
+
+#: template-parts/single-infoapp.php:30 template-parts/template-download.php:44
+msgid "Si la redirección no funciona, haga clic"
+msgstr "If the redirect does not work, click"
+
+#: template-parts/single-infoapp.php:30 template-parts/template-download.php:44
+msgid "aquí"
+msgstr "here"
+
+#: template-parts/single-infoapp.php:82 template-parts/single-infoapp.php:98
+msgid "Última versión"
+msgstr "Lastest version"
+
+#: template-parts/template-download.php:14
+msgid "Nombre del paquete"
+msgstr "Package name"
+
+#, fuzzy
+#~| msgid "No hay reportes"
+#~ msgid "No hay apps recientes"
+#~ msgstr "No reports"
+
+#~ msgid "Añade el código de anuncio para esas secciones en la versión AMP."
+#~ msgstr "Add the ad code for those sections in the AMP version."
+
+#~ msgid "Añade el código de anuncio para esas secciones."
+#~ msgstr "Add the ad code for those sections."
+
+#~ msgid "Añade el código de anuncio para esas secciones en la versión móvil."
+#~ msgstr "Add the ad code for those sections in the mobile version."
+
+#~ msgid "Demo posts"
+#~ msgstr "Demo posts"
+
+#~ msgid "Demo opciones"
+#~ msgstr "Demo options"
+
+#~ msgid "Volver a importar esta lista"
+#~ msgstr "Re-import this list"
+
+#~ msgid "Sidebar General"
+#~ msgstr "Sidebar"
+
+#~ msgid "Sidebar Blog"
+#~ msgstr "Sidebar Blog"
+
+#, php-format
+#~ msgid "Aplica para la sección %s"
+#~ msgstr "Applies to section %s"
+
+#~ msgid "Fecha de lanzamiento"
+#~ msgstr "Released on"
+
+#~ msgid "Escribir..."
+#~ msgstr "Write..."
+
+#~ msgid "UptoBox"
+#~ msgstr "UptoBox"
+
+#~ msgid "No existe el token de acceso"
+#~ msgstr "Access token does not exist"
+
+#~ msgid "Error: Este dominio no está habilitado."
+#~ msgstr "Error: This domain is not enabled."
+
+#~ msgid "Error: No se pudo obtener los datos de esta app."
+#~ msgstr "Error: Cannot get data from this app."
+
+#~ msgid "Comentarios cerrados"
+#~ msgstr "Comments closed"
+
+#~ msgid "Menú inferior fijo (móvil)"
+#~ msgstr "Fixed bottom menu (Mobile)"
+
+#~ msgid "Seleccionar"
+#~ msgstr "Select"
+
+#~ msgid "Menú inferior fijo (movil)"
+#~ msgstr "Fixed bottom menu (mobile)"
+
+#~ msgid "Post meta"
+#~ msgstr "Post meta"
+
+#~ msgid "menu"
+#~ msgstr "menu"
+
+#~ msgid "Token de acceso"
+#~ msgstr "Access token"
+
+#~ msgid "Error: Falta token de acceso"
+#~ msgstr "Error: Access token is missing"
+
+#~ msgid "Icono"
+#~ msgstr "Icon"
+
+#~ msgid "y actualizar"
+#~ msgstr "and update"
+
+#~ msgid "No hay enlace de descarga..."
+#~ msgstr "No download link..."
+
+#~ msgid "Su descarga comenzará en un momento..."
+#~ msgstr "Your download will start in a moment ..."
+
+#~ msgid "Si no descarga el archivo, haga clic"
+#~ msgstr "If you do not download the file, click"
+
+#~ msgid "Esperar"
+#~ msgstr "Wait"
+
+#, fuzzy
+#~| msgid "Nueva Versión"
+#~ msgid "Current Version"
+#~ msgstr "New version"
+
+#~ msgid "Empresa"
+#~ msgstr "Business"
+
+#~ msgid "Automoción"
+#~ msgstr "Driver"
+
+#~ msgid "Salud"
+#~ msgstr "Health"
+
+#~ msgid "Seguridad"
+#~ msgstr "Security"
+
+#~ msgid "Multimedia"
+#~ msgstr "Multimedia"
+
+#~ msgid "Editar"
+#~ msgstr "Edit"
+
+#~ msgid "Acciones"
+#~ msgstr "Actions"
+
+#, fuzzy
+#~| msgid "(Editar)"
+#~ msgid "(Edit)"
+#~ msgstr "(Edit)"
+
+#~ msgid " (Por defecto)"
+#~ msgstr "(default)"
+
+#~ msgid "Por categoría(s) (Por defecto)"
+#~ msgstr "By categories (Default)"
+
+#~ msgid ""
+#~ "Coloque los datos, guarde los cambios y luego haga clic al botón \"Conectar "
+#~ "a Google Drive\"."
+#~ msgstr ""
+#~ "Put the data, save the changes and then click the \"Connect to Google "
+#~ "Drive\" button."
+
+#~ msgid "mi servidor"
+#~ msgstr "my server"
+
+#, php-format
+#~ msgid "Se encontró un archivo APK y OBB. Subiendo a %s en ZIP..."
+#~ msgstr "An APK and OBB file was found. Uploading to %s in ZIP..."
+
+#, php-format
+#~ msgid "Se encontró un archivo APK. Subiendo a %s..."
+#~ msgstr "An APK file was found. Uploading to %s..."
+
+#, php-format
+#~ msgid "Se encontró un archivo ZIP. Subiendo a %s..."
+#~ msgstr "An ZIP file was found. Uploading to %s..."
+
+#, php-format
+#~ msgid ""
+#~ "Siga el <a href=\"%s\" target=\"_blank\">Tutorial</a> para crear la API."
+#~ msgstr ""
+#~ "Follow the <a href=\"%s\" target=\"_blank\"> Tutorial </a> to create the "
+#~ "API."
+
+#~ msgid "Access Token"
+#~ msgstr "Access Token"
+
+#~ msgid ""
+#~ "Añade el código de anuncio para la parte inferior de los enlaces de "
+#~ "descarga en la página interna de la versión AMP."
+#~ msgstr ""
+#~ "Add the ad code to the bottom of the download links on the internal page of "
+#~ "the AMP version."
+
+#~ msgid "No hay resultados para esta búsqueda."
+#~ msgstr "There are no results for this search."
+
+#, php-format
+#~ msgid ""
+#~ "¿Cómo instalar [Title]?\n"
+#~ "1. Descargar el archivo ZIP.\n"
+#~ "2. Instale la aplicación %s.\n"
+#~ "3. Abra la aplicación y pulse en \"Instalar APKs\".\n"
+#~ "4. Busque la carpeta donde se encuentra el ZIP descargado y selecciónelo.\n"
+#~ "5. Sigue los pasos que aparece en pantalla."
+#~ msgstr ""
+#~ "How to install [Title]?\n"
+#~ "1. Download the ZIP file.\n"
+#~ "2. Install the% s application.\n"
+#~ "3. Open the application and click on \"Install APKs\".\n"
+#~ "4. Find the folder where the downloaded ZIP is located and select it.\n"
+#~ "5. Follow the steps that appear on the screen."
+
+#~ msgid ""
+#~ "¿Cómo instalar [Title] APK?\n"
+#~ "1. Toca el archivo [Title] APK descargado.\n"
+#~ "2. Toca instalar.\n"
+#~ "3. Sigue los pasos que aparece en pantalla."
+#~ msgstr ""
+#~ "How to install [Title] APK?\n"
+#~ "1. Tap the downloaded [Title] APK file.\n"
+#~ "2. Touch install.\n"
+#~ "3. Follow the steps on the screen."
+
+#~ msgid "Si"
+#~ msgstr "Yes"
+
+#~ msgid "Sí (Será subido a mi servidor)"
+#~ msgstr "Yes (It will be uploaded to my server)"
+
+#~ msgid "[ADS Single Center]"
+#~ msgstr "[ADS Single Center]"
+
+#~ msgid "Lo sentimos, no se encontró una APK."
+#~ msgstr "Sorry, an APK was not found."
+
+#~ msgid "Se encontró el Apk y se subió."
+#~ msgstr "The Apk was found and uploaded."
+
+#~ msgid "Orden de los posts"
+#~ msgstr "Order posts"
+
+#~ msgid "Límite de entradas"
+#~ msgstr "Posts limit"
+
+#~ msgid "Key"
+#~ msgstr "Key"
+
+#~ msgid "Crear taxonomía 'Desarrollador' si no existe"
+#~ msgstr "Create 'Developer' taxonomy if it does not exist"
+
+#~ msgid "Ejemplos"
+#~ msgstr "Examples"
+
+#~ msgid "Modifica el orden de las cajas a tu gusto."
+#~ msgstr "Modify the order of the boxes to your liking."
+
+#~ msgid "Límite"
+#~ msgstr "Limit"
+
+#~ msgid "Color de los botones"
+#~ msgstr "Button color"
+
+#~ msgid "Defecto"
+#~ msgstr "Default"
+
+#~ msgid "Mostrar"
+#~ msgstr "Show"
+
+#~ msgid ""
+#~ "Para poder evitar que robots envíen los reportes automáticamente se "
+#~ "recomienda usar recaptcha. El theme ya está adaptado a su función, solo "
+#~ "necesitará colocar las claves."
+#~ msgstr ""
+#~ "In order to prevent robots from sending reports automatically, it is "
+#~ "recommended to use recaptcha. The theme is already adapted to its function, "
+#~ "you just need to place the keys."
+
+#~ msgid "Clave del sitio:"
+#~ msgstr "Site key:"
+
+#~ msgid "Clave secreta:"
+#~ msgstr "Secret key:"
+
+#~ msgid "Activar"
+#~ msgstr "Activate"
+
+#~ msgid "Blog Template - Cantidad de posts"
+#~ msgstr "Blog Template - Number of entries"
+
+#, fuzzy
+#~| msgid "menu"
+#~ msgid "menu yep"
+#~ msgstr "menu"
+
+#~ msgid "Post publicado."
+#~ msgstr "Post published."
+
+#~ msgid "Página"
+#~ msgstr "Page"
+
+#, fuzzy
+#~| msgid "Versiones"
+#~ msgid "Version %s"
+#~ msgstr "Versions"
+
+#, fuzzy
+#~| msgid "Colores"
+#~ msgid "Color Scheme"
+#~ msgstr "Colors"
+
+#, fuzzy
+#~| msgid "Categorías"
+#~ msgid "Categories"
+#~ msgstr "Categories"
+
+#~ msgid "Leer más - Single"
+#~ msgstr "Read more - Single"
+
+#~ msgid "Si has colocado algún dato a los campos estos serán reemplazados"
+#~ msgstr "If you have placed some data in the fields these will be replaced"
+
+#~ msgid ""
+#~ "Debido a los cambios en el código fuente de Google Play, es posible que, en "
+#~ "ciertas aplicaciones, la información extraída para los campos de "
+#~ "\"Información de la aplicación\" no estén el orden correcto. Se recomienda "
+#~ "verificar antes de publicar el post."
+#~ msgstr ""
+#~ "Due to changes in the Google Play source code, it is possible that, in "
+#~ "certain applications, the information extracted for the \"Application "
+#~ "Information\" fields are not in the correct order. It is recommended to "
+#~ "verify before publishing the post."
+
+#~ msgid "Enlaces directos de capturas"
+#~ msgstr "Screenshots - Direct links"
+
+#~ msgid ""
+#~ "Puedes abrir cada captura, descargar la imagen y subir la que gustes o usar "
+#~ "las URLs directas (Hace más lento la carga debido a que esas capturas son "
+#~ "de gran tamaño)"
+#~ msgstr ""
+#~ "You can open each capture, download the image and upload the one you like "
+#~ "or use the direct URLs (It slows the load because those captures are large)"
+
+#~ msgid ""
+#~ "Esta categoría viene desde PlayStore. Si activas este casillero se creará "
+#~ "la categoría si no existe y se asociará a este post. Si has añadido alguna "
+#~ "categoría, esta será reemplazada."
+#~ msgstr ""
+#~ "This category comes from PlayStore. If you activate this box will create "
+#~ "the category if it does not exist and will be associated with this post. If "
+#~ "you have added a category, it will be replaced."
+
+#~ msgid "Crear taxonomía"
+#~ msgstr "Create taxonomy"
+
+#~ msgid "reportes"
+#~ msgstr "reports"
+
+#, fuzzy
+#~| msgid "Requerimientos"
+#~ msgid "Requerimientosx1"
+#~ msgstr "Requirements"
+
+#~ msgid "Varía"
+#~ msgstr "Varies"
+
+#~ msgid "No se encontró la página"
+#~ msgstr "Page not found"
+
+#~ msgid "Plantilla"
+#~ msgstr "Template"
+
+#~ msgid "¿Aún no creas una plantilla para la sección Blog?"
+#~ msgstr "Still do not create a template for the Blog section?"
+
+#~ msgid "Hazlo"
+#~ msgstr "Do it"
+
+#~ msgid "En \"Plantilla\" escoge \"Blog\""
+#~ msgstr "In \"template\" choose \"Blog\""
+
+#~ msgid "Remover \"blog\" de las urls"
+#~ msgstr "Remove \"blog\" from urls"
+
+#, fuzzy
+#~| msgid "Apps más calificadas"
+#~ msgid "Más calificadas"
+#~ msgstr "Most rated apps"
+
+#, fuzzy
+#~ msgid "Desripción"
+#~ msgstr "Description"

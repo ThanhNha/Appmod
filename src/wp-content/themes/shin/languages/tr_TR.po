@@ -1,0 +1,3277 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Appyn\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-06 10:23-0500\n"
+"PO-Revision-Date: 2024-05-06 10:24-0500\n"
+"Last-Translator: Sezgin Çavdar\n"
+"Language-Team: Türkçe\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Loco-Version: 2.5.8; wp-5.9.1\n"
+"X-Domain: appyn\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:5
+msgid "La página que estás buscando no existe."
+msgstr "Aradığınız sayfa mevcut değil."
+
+#: admin/class-eps.php:27
+msgid "Error: La API Key es inválida."
+msgstr "Hata: API Anahtarı geçersiz."
+
+#: admin/class-eps.php:27 admin/panel.php:1938
+msgid "Más información"
+msgstr "Daha fazla bilgi"
+
+#: admin/class-eps.php:36
+msgid "Error: No hay URL de Playstore en este post"
+msgstr "Hata: Bu yayında Play Store URL'si yok"
+
+#: admin/class-eps.php:46
+msgid "Error: Al parecer la URL no existe. Verifique nuevamente."
+msgstr "Hata: Görünüşe göre URL mevcut değil. Tekrar kontrol et."
+
+#: admin/class-eps.php:195
+msgid "Información importada."
+msgstr "İçe aktarılan bilgiler."
+
+#: admin/class-eps.php:196
+#, php-format
+msgid "Entrada \"%s\" creada."
+msgstr "\"%s\" gönderisi oluşturuldu."
+
+#: admin/class-eps.php:196 admin/panel.php:168 includes/ajax.php:621
+msgid "Ver post"
+msgstr "Gönderiyi görüntüle"
+
+#: admin/class-eps.php:246 admin/class-eps.php:292
+msgid "Información actualizada."
+msgstr "Güncellenmiş bilgi."
+
+#: admin/class-eps.php:247 admin/class-eps.php:293
+#, php-format
+msgid "Entrada \"%s\" actualizada."
+msgstr "\"%s\" gönderisi güncellendi."
+
+#: admin/class-eps.php:480
+msgid "Se encontró un archivo APK y OBB"
+msgstr "Bir APK ve OBB dosyası bulundu"
+
+#: admin/class-eps.php:481 admin/class-eps.php:489
+msgid "Descargando archivo..."
+msgstr "Dosya indiriliyor ..."
+
+#: admin/class-eps.php:481 admin/class-eps.php:489 includes/ajax.php:251
+#: includes/ajax.php:284
+msgid "En proceso..."
+msgstr "Devam etmekte..."
+
+#: admin/class-eps.php:482
+#, php-format
+msgid "Subiendo a %s en ZIP"
+msgstr "ZIP de %s ye yükleniyor"
+
+#: admin/class-eps.php:485
+msgid "Se encontró un archivo APK"
+msgstr "APK dosyası bulundu"
+
+#: admin/class-eps.php:487
+msgid "Se encontró un archivo ZIP"
+msgstr "ZIP dosyası bulundu"
+
+#: admin/class-eps.php:490
+#, php-format
+msgid "Subiendo a %s"
+msgstr "%s'e yükleniyor"
+
+#: admin/class-eps.php:501
+#, php-format
+msgid "Error: La aplicación que desea importar ya existe. %s"
+msgstr "Hata: İçe aktarmak istediğiniz uygulama zaten mevcut. %s"
+
+#: admin/class-eps.php:501
+msgid "Ver entrada"
+msgstr "Gönderiyi görüntüle"
+
+#: admin/panel.php:13
+msgid "Importar contenido"
+msgstr "İçeriği içe aktar"
+
+#: admin/panel.php:17 admin/panel.php:286 admin/panel.php:1196
+#: functions.php:2155 includes/admin.php:87 includes/admin.php:239
+msgid "Apps modificadas"
+msgstr "MOD uygulamalarında ara"
+
+#: admin/panel.php:19 admin/panel.php:29 admin/panel.php:226
+#: includes/admin.php:87 includes/admin.php:273
+msgid "Apps por actualizar"
+msgstr "Güncellenecek uygulamalar"
+
+#: admin/panel.php:21 admin/panel.php:129 includes/admin.php:212
+msgid "Reportes"
+msgstr "Raporlar"
+
+#: admin/panel.php:27 admin/panel.php:70 includes/admin.php:230
+msgid "Importar contenido (Google Play)"
+msgstr "İçeriği İçe Aktar (Google Play)"
+
+#: admin/panel.php:31
+msgid "Registro de cambios"
+msgstr "Günlüğü Değiştir"
+
+#: admin/panel.php:33
+msgid "Documentación"
+msgstr "Belgeler"
+
+#: admin/panel.php:41
+msgid "Importante:"
+msgstr "Önemli:"
+
+#: admin/panel.php:42
+msgid ""
+"* La información que se importa es el título, información de la app, "
+"versión, enlace de descarga y peso del archivo. Todos los demás campos serán "
+"rellenados con la información obtenida de Google Play siempre y cuando "
+"exista."
+msgstr ""
+"* İçe aktarılan bilgiler başlık, uygulama bilgileri, sürüm, indirme "
+"bağlantısı ve dosya ağırlığıdır. Diğer tüm alanlar, mevcut olduğu sürece "
+"Google Play'den alınan bilgilerle doldurulacaktır."
+
+#: admin/panel.php:43
+msgid "* El contenido en su mayoría solo está disponible en idioma inglés."
+msgstr "* İçerik çoğunlukla yalnızca İngilizce dilinde mevcuttur."
+
+#: admin/panel.php:44
+msgid ""
+"* Si no está disponible un enlace de descarga no se completará la "
+"importación."
+msgstr "* İndirme bağlantısı mevcut değilse içe aktarma tamamlanmayacaktır."
+
+#: admin/panel.php:45
+msgid ""
+"* Al \"Re-importar\" un app se volverá a importar toda la información en el "
+"post ya creado."
+msgstr ""
+"* Bir uygulamayı \"Yeniden içe aktarırken\", yayında önceden oluşturulmuş "
+"olan tüm bilgiler yeniden içe aktarılacaktır."
+
+#: admin/panel.php:48
+msgid "Buscar apps modificadas"
+msgstr "MOD uygulamalarında ara"
+
+#: admin/panel.php:53 admin/panel.php:234 includes/template-functions.php:1426
+#: template-parts/content-search.php:18 template-parts/content-search.php:67
+msgid "Buscar"
+msgstr "Arama"
+
+#: admin/panel.php:61 admin/panel.php:106
+msgid "Actualizar esta lista"
+msgstr "Bu listeyi güncelle"
+
+#: admin/panel.php:73 includes/admin.php:54
+msgid "Importar datos"
+msgstr "Verileri içe aktar"
+
+#: admin/panel.php:77
+msgid ""
+"Al hacer clic en \"Importar datos\" se creará un post con toda la "
+"información importada basándose en las opciones mostradas a continuación..."
+msgstr ""
+"\"Verileri içe aktar\"a tıklamak, aşağıda gösterilen seçeneklere dayalı "
+"olarak içe aktarılan tüm bilgileri içeren bir gönderi oluşturacaktır..."
+
+#: admin/panel.php:78
+msgid "Opciones al importar datos"
+msgstr "Verileri içe aktarırken seçenekler"
+
+#: admin/panel.php:80 admin/panel.php:1036 admin/panel.php:1218
+msgid "Estado del post"
+msgstr "Gönderi durumu"
+
+#: admin/panel.php:80 admin/panel.php:1041 admin/panel.php:1226
+msgid "Publicado"
+msgstr "Yayınla"
+
+#: admin/panel.php:80 admin/panel.php:1039 admin/panel.php:1224
+msgid "Borrador"
+msgstr "Taslak"
+
+#: admin/panel.php:81
+msgid "Crear categoría si no existe"
+msgstr "Mevcut değilse kategori oluştur"
+
+#: admin/panel.php:81 admin/panel.php:82 admin/panel.php:83 admin/panel.php:93
+#: admin/panel.php:94
+msgid "No"
+msgstr "Hayır"
+
+#: admin/panel.php:81 admin/panel.php:82 admin/panel.php:83 admin/panel.php:93
+#: admin/panel.php:94
+msgid "Sí"
+msgstr "Evet"
+
+#: admin/panel.php:82
+msgid "Crear taxonomía <i>Desarrollador</i> si no existe"
+msgstr "Mevcut değilse, taksonomi <i>Geliştiricisi</i> oluşturun"
+
+#: admin/panel.php:83 admin/panel.php:1061
+msgid "Obtener APK"
+msgstr "APK'yı edinin"
+
+#: admin/panel.php:86 admin/panel.php:1072
+msgid "Servidor de subida"
+msgstr "Sunucu yükle"
+
+#: admin/panel.php:89
+msgid "Acortar enlace"
+msgstr "Linki kısalt"
+
+#: admin/panel.php:92
+msgid "Cantidad de imágenes importadas"
+msgstr "İçe aktarılan görüntülerin sayısı"
+
+#: admin/panel.php:93 admin/panel.php:1116 admin/panel.php:1270
+#: functions.php:615 functions.php:619
+msgid "Rating"
+msgstr "Değerlendirme"
+
+#: admin/panel.php:94 admin/panel.php:1123
+msgid "Apps duplicadas"
+msgstr "Yinelenen uygulamalar"
+
+#: admin/panel.php:96
+msgid "Cambiar opciones"
+msgstr "Seçenekleri değiştir"
+
+#: admin/panel.php:99
+msgid "Últimas aplicaciones"
+msgstr "En Son Uygulamalar"
+
+#: admin/panel.php:130
+#, php-format
+msgid "%s entrada reportada"
+msgstr "%s rapor edildi"
+
+#: admin/panel.php:130
+#, php-format
+msgid "%s entradas reportadas"
+msgstr "%s bildirilen yayınlar"
+
+#: admin/panel.php:136 admin/panel.php:850 admin/panel.php:1156
+#: functions.php:435 includes/admin.php:52 includes/widget-categories.php:51
+#: includes/widget-facebook.php:43 includes/widget-fixed.php:37
+#: includes/widget-mas-calificados.php:81
+#: includes/widget-mas-vistos-blog.php:60 includes/widget-mas-vistos.php:81
+#: includes/widget-mejor-calificados.php:82 includes/widget-twitter.php:43
+#: includes/widget-ultimos-posts-blog.php:59
+#: includes/widget-ultimos-posts.php:80 includes/widget-youtube.php:40
+msgid "Título"
+msgstr "Başlık"
+
+#: admin/panel.php:137 includes/ajax.php:183
+msgid "Detalles"
+msgstr "Detaylar"
+
+#: admin/panel.php:138
+msgid "Acción"
+msgstr "Eylem"
+
+#: admin/panel.php:150 includes/class-list-table-atul.php:98
+msgid "Editar post"
+msgstr "Gönderiyi Düzenle"
+
+#: admin/panel.php:174
+msgid "No hay reportes"
+msgstr "Rapor yok"
+
+#: admin/panel.php:181
+msgid "Borrar reportes"
+msgstr "Raporları sil"
+
+#: admin/panel.php:240
+#, php-format
+msgid "Esta lista se actualiza cada hora. Próxima actualización: %s"
+msgstr "Bu liste her saat başı güncellenmektedir. Sonraki güncelleme: %s"
+
+#: admin/panel.php:270
+msgid "Theme"
+msgstr "Theme"
+
+#: admin/panel.php:271 functions.php:434 functions.php:587 functions.php:1909
+#: functions.php:2011 includes/admin.php:53 includes/ajax.php:35
+#: includes/class-list-table-latestapps.php:189
+#: includes/class-list-table-modapps.php:240 includes/template-actions.php:515
+#: includes/template-actions.php:1751 includes/template-functions.php:1481
+#: template-parts/template-download.php:18
+msgid "Versión"
+msgstr "Sürüm"
+
+#: admin/panel.php:274 admin/panel.php:327 admin/panel.php:1542
+msgid "Opciones generales"
+msgstr "Genel seçenekler"
+
+#: admin/panel.php:277 admin/panel.php:845
+msgid "Home"
+msgstr "Ev"
+
+#: admin/panel.php:280 admin/panel.php:1503
+msgid "Single"
+msgstr "Bekar"
+
+#: admin/panel.php:283 admin/panel.php:1005 includes/admin.php:87
+msgid "Importador de contenido"
+msgstr "İçerik İthalatçısı"
+
+#: admin/panel.php:289 admin/panel.php:1288
+msgid "Servidores externos"
+msgstr "Harici sunucular"
+
+#: admin/panel.php:292 admin/panel.php:1097 admin/panel.php:1255
+#: admin/panel.php:2123
+msgid "Acortadores"
+msgstr "Kısaltıcılar"
+
+#: admin/panel.php:295 admin/panel.php:1755
+msgid "Historial de versiones"
+msgstr "Sürüm geçmişi"
+
+#: admin/panel.php:298 includes/template-actions.php:162
+#: template-parts/content-search.php:48
+msgid "Blog"
+msgstr "Blog"
+
+#: admin/panel.php:301 admin/panel.php:1828
+msgid "Colores"
+msgstr "Renkler"
+
+#: admin/panel.php:304 admin/panel.php:765
+msgid "Sidebar"
+msgstr "Kenar çubuğu"
+
+#: admin/panel.php:307 admin/panel.php:1991
+msgid "Anuncios"
+msgstr "Reklamlar"
+
+#: admin/panel.php:310 admin/panel.php:1933 admin/panel.php:1936
+msgid "AMP"
+msgstr "AMP"
+
+#: admin/panel.php:313
+msgid "Footer"
+msgstr "Altbilgi"
+
+#: admin/panel.php:316 admin/panel.php:2191
+msgid "Info"
+msgstr "Bilgi"
+
+#: admin/panel.php:319
+msgid "Guardar cambios"
+msgstr "Değişiklikleri Kaydet"
+
+#: admin/panel.php:331
+msgid "Logo"
+msgstr "Logo"
+
+#: admin/panel.php:332
+msgid "La imagen debe tener un límite de 60px de altura."
+msgstr "Resmin yüksekliği 60 piksel ile sınırlı olmalıdır."
+
+#: admin/panel.php:343
+msgid "Favicon"
+msgstr "Favicon"
+
+#: admin/panel.php:352
+#, php-format
+msgid "Sube tus favicons de distintos tamaños para todos los dispositivos. %s"
+msgstr "Tüm cihazlar için farklı boyutlardaki favicon yükleyin. %s"
+
+#: admin/panel.php:352 admin/panel.php:2127
+msgid "Leer tutorial"
+msgstr "Eğiticiyi oku"
+
+#: admin/panel.php:357
+msgid "Redes sociales"
+msgstr "Sosyal medya"
+
+#: admin/panel.php:361 admin/panel.php:364
+msgid "Color"
+msgstr "Renk"
+
+#: admin/panel.php:363
+msgid "Gris"
+msgstr "Gri"
+
+#: admin/panel.php:363 admin/panel.php:600 admin/panel.php:709
+#: admin/panel.php:725 admin/panel.php:782 admin/panel.php:794
+#: admin/panel.php:923 admin/panel.php:1534 admin/panel.php:1558
+#: admin/panel.php:1619 admin/panel.php:1735
+msgid "(Por defecto)"
+msgstr "(Varsayılan)"
+
+#: admin/panel.php:398
+msgid "Textos"
+msgstr "Metinler"
+
+#: admin/panel.php:399
+msgid "Modifica algunos textos por defecto"
+msgstr "Bazı varsayılan metinleri değiştirin"
+
+#: admin/panel.php:404 functions.php:152 includes/template-functions.php:1194
+msgid "Aplicaciones más calificadas"
+msgstr "En cok oy alan uygulamalar"
+
+#: admin/panel.php:407 functions.php:153 includes/template-functions.php:1195
+msgid "Últimas aplicaciones de nuestra web"
+msgstr "Web sitemizdeki son uygulamalar"
+
+#: admin/panel.php:410 functions.php:154 includes/template-functions.php:1196
+msgid "Buscar una aplicación"
+msgstr "Uygulama arama"
+
+#: admin/panel.php:413
+msgid "Botón descargar APK"
+msgstr "APK indirme düğmesi"
+
+#: admin/panel.php:419 admin/panel.php:1649
+#: includes/template-functions.php:1376
+msgid "Comentarios"
+msgstr "Yorumlar"
+
+#: admin/panel.php:420
+msgid "Puedes mostrar los comentarios de Wordpress y también los de Facebook."
+msgstr ""
+"Wordpress'in yorumlarını ve ayrıca Facebook'un yorumlarını gösterebilirsiniz."
+
+#: admin/panel.php:424
+msgid "Comentarios de Wordpress"
+msgstr "Wordpress Yorumlar"
+
+#: admin/panel.php:427 comments.php:39
+msgid "Comentarios de Facebook"
+msgstr "Facebook Yorumları"
+
+#: admin/panel.php:430
+msgid "Comentarios de Wordpress y Facebook"
+msgstr "Wordpress ve Facebook yorumları"
+
+#: admin/panel.php:433
+msgid "Desactivar comentarios"
+msgstr "Yorumları devre dışı bırak"
+
+#: admin/panel.php:438 admin/panel.php:1952
+msgid "Códigos header"
+msgstr "Başlık kodları"
+
+#: admin/panel.php:439
+msgid ""
+"Coloca los códigos en el header, como: Google Analytics, Webmasters, Alexa, "
+"etc."
+msgstr ""
+"Google Analytics, Webmasters, Alexa vb. gibi kodları başlığa yerleştirin."
+
+#: admin/panel.php:444
+msgid "Códigos Recaptcha v3"
+msgstr "Recaptcha v3 kodları"
+
+#: admin/panel.php:445
+msgid ""
+"Para poder evitar que robots envíen los reportes automáticamente se "
+"recomienda usar recaptcha."
+msgstr ""
+"Robotların otomatik olarak rapor göndermesini önlemek için recaptcha "
+"kullanılması önerilir."
+
+#: admin/panel.php:445 admin/panel.php:465
+msgid "Obtener claves"
+msgstr "Anahtarları al"
+
+#: admin/panel.php:452 admin/panel.php:472
+msgid "Clave del sitio"
+msgstr "Site anahtarı"
+
+#: admin/panel.php:456 admin/panel.php:476
+msgid "Clave secreta"
+msgstr "Gizli anahtar"
+
+#: admin/panel.php:464
+msgid "Códigos Recaptcha v2"
+msgstr "Recaptcha v2 Kodları"
+
+#: admin/panel.php:465
+msgid "Complete los códigos de reCaptcha v2."
+msgstr "ReCaptcha v2 kodlarını doldurun."
+
+#: admin/panel.php:484
+msgid "Lazy loading"
+msgstr "Yavaş yüklenme"
+
+#: admin/panel.php:484
+msgid ""
+"Con esta función podrás retrasar la carga de imágenes. Esto hará que la web "
+"en general cargue más rápido debido a que las imágenes no cargarán "
+"inicialmente."
+msgstr ""
+"Bu işlevle görüntülerin yüklenmesini geciktirebilirsiniz. Bu, görüntüler "
+"başlangıçta yüklenmeyeceğinden genel web yükünü daha hızlı hale getirecektir."
+
+#: admin/panel.php:485
+msgid "Retrasar carga de imágenes"
+msgstr "Gecikmeli resim yükleme"
+
+#: admin/panel.php:495
+msgid "Apps de versiones anteriores"
+msgstr "Önceki sürüm uygulamaları"
+
+#: admin/panel.php:496
+msgid ""
+"Controla la aparición de apps de versiones anteriores en diferentes partes. "
+"Solo aparecerán las últimas versiones."
+msgstr ""
+"Farklı bölümlerdeki eski sürüm uygulamalarının görünümünü kontrol edin. "
+"Yalnızca en son sürümler görünecektir."
+
+#: admin/panel.php:503
+msgid "Inicio"
+msgstr "Ana Sayfa"
+
+#: admin/panel.php:510
+msgid "Categorías (Inicio)"
+msgstr "Kategoriler (Ev)"
+
+#: admin/panel.php:517
+msgid "Apps más calificadas (Inicio)"
+msgstr "En çok oy alan uygulamalar (Ev)"
+
+#: admin/panel.php:524
+msgid "Buscador"
+msgstr "Aramak"
+
+#: admin/panel.php:531
+msgid "Taxonomía desarrollador"
+msgstr "Geliştirici sınıflandırması"
+
+#: admin/panel.php:538 functions.php:290 functions.php:295
+#: includes/widget-categories.php:9 includes/widget-categories.php:19
+#: includes/widget-categories.php:46
+msgid "Categorías"
+msgstr "Kategoriler"
+
+#: admin/panel.php:545 admin/panel.php:1640 functions.php:303 functions.php:308
+msgid "Etiquetas"
+msgstr "Etiketler"
+
+#: admin/panel.php:552
+msgid "Widgets"
+msgstr "Widget'lar"
+
+#: admin/panel.php:559
+msgid "Apps más calificadas (página)"
+msgstr "Daha fazla onaylanan uygulamalar (sayfa)"
+
+#: admin/panel.php:566
+msgid "Apps más vistas (página)"
+msgstr "Uygulamaların daha fazla manzarası (sayfa)"
+
+#: admin/panel.php:574
+msgid "Fecha de cada post"
+msgstr "Post tarihi"
+
+#: admin/panel.php:575
+msgid ""
+"Muestra la fecha en que fue creado el post en todas partes (Inicio, Widgets,"
+"etc.)"
+msgstr ""
+"Gönderinin oluşturulduğu tarihi her yerde göster (Ana Sayfa, Widget'lar vb.)"
+
+#: admin/panel.php:585
+msgid "Tipo de fecha"
+msgstr "Tarih türü"
+
+#: admin/panel.php:587
+msgid "Fecha de creación del post"
+msgstr "Gönderi oluşturma tarihi"
+
+#: admin/panel.php:589
+msgid "Fecha de última actualización de la app"
+msgstr "Son uygulama güncelleme tarihi"
+
+#: admin/panel.php:593 admin/panel.php:1637 includes/template-actions.php:795
+msgid "Apps relacionadas"
+msgstr "İlgili Uygulamalar"
+
+#: admin/panel.php:594
+msgid "Escoger la manera de mostrar apps relacionadas"
+msgstr "İlgili uygulamaların nasıl görüntüleneceğini seçme"
+
+#: admin/panel.php:600
+msgid "Por categoría(s)"
+msgstr "Kategorilere göre"
+
+#: admin/panel.php:603
+msgid "Por etiqueta(s)"
+msgstr "Etiketlere göre"
+
+#: admin/panel.php:606
+msgid "Por título similar"
+msgstr "Benzer başlığa göre"
+
+#: admin/panel.php:609
+msgid "Al azar"
+msgstr "Rastgele"
+
+#: admin/panel.php:613
+msgid "Información para descargar los archivos"
+msgstr "Dosyaları indirmek için bilgiler"
+
+#: admin/panel.php:614
+msgid "Escribe los pasos que servirán de ayuda para el usuario."
+msgstr "Kullanıcıya yardımcı olacak adımları yazın."
+
+#: admin/panel.php:615
+msgid "Autocompletar texto por defecto"
+msgstr "Varsayılan olarak metni otomatik doldur"
+
+#: admin/panel.php:625
+msgid "Título de la aplicación"
+msgstr "Uygulama Başlığı"
+
+#: admin/panel.php:626
+msgid "Para archivos APK"
+msgstr "APK dosyaları için"
+
+#: admin/panel.php:629
+msgid "Para archivos ZIP"
+msgstr "ZIP dosyaları için"
+
+#: admin/panel.php:630
+msgid ""
+"Algunos ZIP pueden obtener archivos APK y OBB necesarios para la "
+"instalación, por ello se debe recomendar usar una aplicación para instalar "
+"ese tipo de archivos, nosotros recomendamos \"Split APKs Installer\"."
+msgstr ""
+"Bazı ZIP'ler kurulum için gerekli APK ve OBB dosyalarını alabilir, bu "
+"nedenle bu tür dosyaları yüklemek için bir uygulama kullanmanız önerilir, "
+"\"Split APKs Installer\"ı öneririz."
+
+#: admin/panel.php:630
+msgid "Ver aplicación"
+msgstr "Uygulamayı görüntüle"
+
+#: admin/panel.php:635
+msgid "Encriptar enlaces"
+msgstr "Bağlantıları şifrele"
+
+#: admin/panel.php:636
+msgid "Con esta función podrás encriptar los enlaces de descarga."
+msgstr "Bu fonksiyon ile indirme linklerini şifreleyebileceksiniz."
+
+#: admin/panel.php:646
+msgid "Solicitar correo electrónico en reportes"
+msgstr "Raporlarda e-posta iste"
+
+#: admin/panel.php:647
+msgid ""
+"Activa esta opción si quieres que se le solicite el correo electrónico al "
+"usuario que realiza el reporte."
+msgstr ""
+"E-postanın raporu yapan kullanıcıdan istenmesini istiyorsanız bu seçeneği "
+"etkinleştirin."
+
+#: admin/panel.php:657
+msgid "Enviar reporte por correo electrónico"
+msgstr "E-posta raporu"
+
+#: admin/panel.php:658
+msgid ""
+"Activa esta opción si quieres que el reporte enviado por el usuario sea "
+"enviado a tu email de administrador."
+msgstr ""
+"Kullanıcı tarafından gönderilen raporun yönetici e-postanıza gönderilmesini "
+"istiyorsanız bu seçeneği etkinleştirin."
+
+#: admin/panel.php:668
+msgid "Cinta \"actualizado\" desde la modificación del post"
+msgstr "Değişiklik sonrası şerit \"güncellendi\""
+
+#: admin/panel.php:668
+msgid ""
+"La cinta de \"Actualizado\" se muestra en los posts durante 15 días de "
+"creado el post. Al activar esta opción se basará en los 15 días de "
+"modificado el post."
+msgstr ""
+"\"Güncellendi\" şeridi, gönderi oluşturulduktan sonra 15 gün boyunca "
+"gönderilerde görüntülenir. Bu seçeneğin etkinleştirilmesi, gönderinin "
+"değiştirilmesinden sonraki 15 günü temel alacaktır."
+
+#: admin/panel.php:669
+msgid "Opción que permitirá mostrar la cinta desde la modificación del post"
+msgstr "Gönderinin modifikasyonundan bandın gösterilmesini sağlayan seçenek"
+
+#: admin/panel.php:679
+msgid "Desactivar notificaciones de apps por actualizar"
+msgstr "Güncelleme için uygulama bildirimlerini devre dışı bırak"
+
+#: admin/panel.php:689
+msgid "Cabecera fija"
+msgstr "Sabit başlık"
+
+#: admin/panel.php:699
+msgid "Apps por fila (Pc)"
+msgstr "Satır başına uygulama (PC)"
+
+#: admin/panel.php:700
+msgid "Escoge la cantidad de apps por fila para la versión pc."
+msgstr "Bilgisayar sürümü için satır başına uygulama sayısını seçin."
+
+#: admin/panel.php:717
+msgid "Apps por fila (Móvil)"
+msgstr "Satır başına uygulama (Mobil)"
+
+#: admin/panel.php:718
+msgid "Escoge la cantidad de apps por fila para la versión móvil."
+msgstr "Mobil sürüm için satır başına uygulama sayısını seçin."
+
+#: admin/panel.php:732
+msgid "Título en 2 líneas"
+msgstr "2 satırda başlık"
+
+#: admin/panel.php:733
+msgid ""
+"Por defecto el título se muestra en una sola línea. Con esta opción podrá "
+"mostrarlo en dos líneas."
+msgstr ""
+"Varsayılan olarak başlık tek bir satırda görüntülenir. Bu seçenek ile iki "
+"satırda görüntüleyebilirsiniz."
+
+#: admin/panel.php:743
+msgid "Versión redondeada"
+msgstr "Yuvarlak versiyon"
+
+#: admin/panel.php:744
+msgid ""
+"Diseño que mostrará las esquinas redondeadas de las cajas, botones y enlaces "
+"del tema."
+msgstr ""
+"Temanın kutularının, düğmelerinin ve bağlantılarının yuvarlatılmış "
+"köşelerini gösterecek tasarım."
+
+#: admin/panel.php:754
+msgid "Resultados automáticos"
+msgstr "Otomatik sonuçlar"
+
+#: admin/panel.php:755
+msgid ""
+"Activa o desactiva los resultados automáticos cuando el usuario realiza una "
+"búsqueda."
+msgstr "Kullanıcı bir arama yaptığında otomatik sonuçları açın veya kapatın."
+
+#: admin/panel.php:766
+msgid "Sidebar para la página de inicio, categorías, buscador, etiquetas, etc."
+msgstr "Ana sayfa, kategoriler, arama motoru, etiketler vb. için kenar çubuğu."
+
+#: admin/panel.php:772 admin/panel.php:1926
+msgid "Agregar Widgets"
+msgstr "Widget ekle"
+
+#: admin/panel.php:777
+msgid "Ancho de página"
+msgstr "Sayfa bağlantısı"
+
+#: admin/panel.php:778
+msgid "Por defecto el ancho de la página es de 1100px"
+msgstr "1100px sayfasındaki hata nedeniyle"
+
+#: admin/panel.php:782 admin/panel.php:1520 functions.php:578
+msgid "Normal"
+msgstr "Normal"
+
+#: admin/panel.php:789
+msgid "Vista de apps"
+msgstr "Uygulama görünümü"
+
+#: admin/panel.php:790
+msgid "Escoge entre el diseño vertical y horizontal para las listas de apps"
+msgstr "Uygulama listeleri için dikey ve yatay düzen arasında seçim yapın"
+
+#: admin/panel.php:794
+msgid "Vertical"
+msgstr "Dikey"
+
+#: admin/panel.php:796
+msgid "Horizontal"
+msgstr "Yatay"
+
+#: admin/panel.php:801 functions.php:41
+msgid "Menú inferior fijo (Móvil)"
+msgstr "Sabit alt menü (Mobil)"
+
+#: admin/panel.php:802
+msgid ""
+"Activa esta opción para que aparezca un menu inferior solo en versión móvil"
+msgstr ""
+"Alt menünün yalnızca mobil sürümde görünmesi için bu seçeneği etkinleştirin"
+
+#: admin/panel.php:808
+msgid "Crear menú"
+msgstr "Menü oluştur"
+
+#: admin/panel.php:813
+msgid "Buscador de Google"
+msgstr "Google arama motoru"
+
+#: admin/panel.php:814
+msgid "Coloca el ID del buscador de Google"
+msgstr "Google arama kimliğini girin"
+
+#: admin/panel.php:821
+msgid "Crea tu buscador"
+msgstr "Arama motorunuzu oluşturun"
+
+#: admin/panel.php:826
+msgid "Mostrar apps modificadas en el área \"Apps por actualizar\""
+msgstr "Mod uygulamalarını \"Güncellenecek uygulamalar\" alanında göster"
+
+#: admin/panel.php:827
+msgid "Por defecto las apps modificadas no se muestran en esa área"
+msgstr "Varsayılan olarak mod uygulamaları bu alanda görüntülenmez"
+
+#: admin/panel.php:834
+msgid "Scroll infinito"
+msgstr "Sonsuz kaydırma"
+
+#: admin/panel.php:835
+msgid "Muestra posts infinitamente mientras deslizas el scroll"
+msgstr "Kaydırırken gönderileri sonsuz olarak göster"
+
+#: admin/panel.php:851
+msgid "Coloca el título del Home"
+msgstr "Ana Sayfanın başlığını koyun"
+
+#: admin/panel.php:857 admin/panel.php:1158 admin/panel.php:1630
+#: includes/template-actions.php:468
+msgid "Descripción"
+msgstr "Tanım"
+
+#: admin/panel.php:858
+msgid "Coloca la descripción del Home"
+msgstr "Ana Sayfanın açıklamasını koyun"
+
+#: admin/panel.php:863
+msgid "Imágenes de Portada"
+msgstr "Kapak Resimleri"
+
+#: admin/panel.php:864
+msgid ""
+"Sube hasta 5 imágenes para que aparezca en el Home aleatoriamente. De "
+"preferencia imágenes mayores de 1300px de ancho y 300px de altura"
+msgstr ""
+"Ana Sayfada rastgele görünecek en fazla 5 resim yükleyin. Tercihen 1300px ve "
+"300px daha büyük resimler"
+
+#: admin/panel.php:882 functions.php:202 includes/widget-mas-calificados.php:9
+#: includes/widget-mas-calificados.php:21
+#: includes/widget-mas-calificados.php:77
+msgid "Apps más calificadas"
+msgstr "En çok oy alan uygulamalar"
+
+#: admin/panel.php:883
+msgid "Slider con las aplicaciones más descargadas."
+msgstr "En çok indirilen uygulamaları içeren kaydırıcı."
+
+#: admin/panel.php:895 admin/panel.php:915 admin/panel.php:956
+#: admin/panel.php:1761 admin/panel.php:1904 admin/panel.php:1914
+msgid "Entradas"
+msgstr "Gönderiler"
+
+#: admin/panel.php:900
+msgid "Ocultar entradas"
+msgstr "Gönderileri Gizle"
+
+#: admin/panel.php:901
+msgid "Oculta las entradas del inicio."
+msgstr "Ev gönderilerini gizle."
+
+#: admin/panel.php:909
+msgid "Entradas por página"
+msgstr "Sayfa başına gönderiler"
+
+#: admin/panel.php:910
+msgid "Límite de entradas."
+msgstr "Gönderiler limiti."
+
+#: admin/panel.php:918
+msgid "Orden de las entradas"
+msgstr "Gönderiler sırası"
+
+#: admin/panel.php:919
+msgid "Ordena las entradas del Home por fecha, por modificación o aleatorio."
+msgstr ""
+"Ana Sayfa gönderilerini tarihe göre, değişikliğe göre veya rastgele "
+"sıralayın."
+
+#: admin/panel.php:923
+msgid "Por fecha"
+msgstr "Tarihe göre"
+
+#: admin/panel.php:925
+msgid "Por modificación"
+msgstr "Son değiştirilme tarihine göre"
+
+#: admin/panel.php:927
+msgid "Aleatorio"
+msgstr "Rastgele"
+
+#: admin/panel.php:931
+msgid "Posts Categorías Home"
+msgstr "Yazılar Kategoriler Ana Sayfa"
+
+#: admin/panel.php:932
+msgid ""
+"Escoge qué categorías y cuántos de estos quieres que aparezca en el Home "
+"debajo de los últimos posts"
+msgstr ""
+"Ana Sayfada en son gönderilerin altında hangi kategorileri ve bunlardan "
+"kaçının görünmesini istediğinizi seçin"
+
+#: admin/panel.php:961
+msgid "Ocultar blog"
+msgstr "Blogu gizle"
+
+#: admin/panel.php:962
+msgid "Oculta las entradas del blog"
+msgstr "Blog gönderilerini gizle"
+
+#: admin/panel.php:970
+msgid "Publicaciones destacadas"
+msgstr "Öne çıkan gönderiler"
+
+#: admin/panel.php:971
+msgid "Muestra hasta 5 posts destacados que solo aparecen en el home"
+msgstr "Ana sayfadaki tek başına görüntülenen 5 gönderiyi kontrol et"
+
+#: admin/panel.php:975
+msgid "Buscar posts..."
+msgstr "Gönderileri bul..."
+
+#: admin/panel.php:987
+msgid "Descripciones"
+msgstr "Açıklamalar"
+
+#: admin/panel.php:988
+msgid "Muestra contenido encima y por debajo de los posts del home"
+msgstr "İçeriği ana sayfa gönderilerinin üstünde ve altında göster"
+
+#: admin/panel.php:995
+msgid "En la parte superior"
+msgstr "üstte"
+
+#: admin/panel.php:997
+msgid "En la parte inferior"
+msgstr "Altta"
+
+#: admin/panel.php:1013 admin/panel.php:1433
+msgid "API Key"
+msgstr "API Key"
+
+#: admin/panel.php:1014
+msgid ""
+"Clave única que se necesita para poder utilizar el importador de contenido."
+msgstr "İçerik aktarıcıyı kullanabilmek için gereken benzersiz anahtar."
+
+#: admin/panel.php:1014
+msgid "¿Cómo obtengo el mio?"
+msgstr "Benimkini nasıl alırım?"
+
+#: admin/panel.php:1019 admin/panel.php:1201
+msgid "Roles"
+msgstr "Roller"
+
+#: admin/panel.php:1020
+msgid "Tipo de usuario a quienes aparecerá el importador de contenido."
+msgstr "İçerik içe aktarıcının görüneceği kullanıcı türü."
+
+#: admin/panel.php:1028 admin/panel.php:1210
+msgid "Administrador"
+msgstr "Yönetici"
+
+#: admin/panel.php:1029 admin/panel.php:1211
+msgid "Administrador y Editor"
+msgstr "Yönetici ve Editör"
+
+#: admin/panel.php:1030 admin/panel.php:1212
+msgid "Administrador, Editor y Autor"
+msgstr "Yönetici, Editör ve Yazar"
+
+#: admin/panel.php:1031 admin/panel.php:1213
+msgid "Administrador, Editor, Autor y Colaborador"
+msgstr "Yönetici, Editör, Yazar ve Katkıda Bulunan"
+
+#: admin/panel.php:1045
+msgid "Crear categoría"
+msgstr "Kategori oluştur"
+
+#: admin/panel.php:1046
+msgid "Crea la categoría si no existe"
+msgstr "Kategori yoksa oluşturun"
+
+#: admin/panel.php:1053
+msgid "Crear taxonomía 'Desarrollador'"
+msgstr "'Geliştirici' taksonomisi oluşturun"
+
+#: admin/panel.php:1054
+msgid "Crea la taxonomía 'Desarrollador' si no existe"
+msgstr "Mevcut değilse, 'Geliştirici' sınıflandırmasını oluşturun"
+
+#: admin/panel.php:1073
+msgid "Seleccionar servidor para subir los archivos APK."
+msgstr "APK dosyalarını yüklemek için sunucu seçin."
+
+#: admin/panel.php:1076 includes/template-functions.php:1163
+msgid "Mi servidor"
+msgstr "Sunucum"
+
+#: admin/panel.php:1077 admin/panel.php:1296
+#: includes/template-functions.php:1151
+msgid "Google Drive"
+msgstr "Google Drive"
+
+#: admin/panel.php:1078 admin/panel.php:1340
+#: includes/template-functions.php:1153
+msgid "Dropbox"
+msgstr "Dropbox"
+
+#: admin/panel.php:1079 admin/panel.php:1380
+#: includes/template-functions.php:1155
+msgid "FTP"
+msgstr "FTP"
+
+#: admin/panel.php:1080 admin/panel.php:1429
+#: includes/template-functions.php:1157
+msgid "1Fichier"
+msgstr "1Fichier"
+
+#: admin/panel.php:1081 admin/panel.php:1444
+#: includes/template-functions.php:1159
+msgid "OneDrive"
+msgstr "OneDrive"
+
+#: admin/panel.php:1082 admin/panel.php:1488
+#: includes/template-functions.php:1161
+msgid "Telegram"
+msgstr "Telegram"
+
+#: admin/panel.php:1086 admin/panel.php:1244
+msgid "Acortador"
+msgstr "Kısaltıcı"
+
+#: admin/panel.php:1087 admin/panel.php:1245
+msgid "Seleccionar acortador de preferencia para los enlaces de descarga."
+msgstr "İndirme bağlantıları için tercih kısaltıcıyı seçin."
+
+#: admin/panel.php:1090 admin/panel.php:1248
+msgid "None"
+msgstr "None"
+
+#: admin/panel.php:1097 admin/panel.php:1255
+#, php-format
+msgid ""
+"Importante: Coloque el API Key del acortador seleccionado en la sección %s."
+msgstr "Önemli: Seçilen kısaltıcının API Anahtarını %s bölümüne koyun."
+
+#: admin/panel.php:1101
+msgid "Slug"
+msgstr "Slug"
+
+#: admin/panel.php:1102
+msgid "Agrega automáticamente un texto al final del nombre del archivo."
+msgstr "Dosya adının sonuna otomatik olarak bir metin ekler."
+
+#: admin/panel.php:1105 admin/panel.php:1599 admin/panel.php:1611
+msgid "Ejemplo"
+msgstr "Misal"
+
+#: admin/panel.php:1109 admin/panel.php:1166 admin/panel.php:1276
+msgid "Capturas de pantalla"
+msgstr "Ekran görüntüleri"
+
+#: admin/panel.php:1110
+msgid "Cantidad de capturas de pantalla de la aplicación."
+msgstr "Uygulamanın ekran görüntüsü sayısı."
+
+#: admin/panel.php:1113
+msgid "Capturas"
+msgstr "Ekran görüntüleri"
+
+#: admin/panel.php:1117
+msgid "Tomar las calificaciones de la aplicación."
+msgstr "Uygulama derecelendirmelerini alın."
+
+#: admin/panel.php:1124
+msgid "Poder importar aplicaciones duplicadas"
+msgstr "Yinelenen uygulamaları içe aktarabilme"
+
+#: admin/panel.php:1130
+msgid "Idioma"
+msgstr "Dil"
+
+#: admin/panel.php:1131
+msgid "Agrega el idioma de la información de la app importada"
+msgstr "İçe aktarılan uygulama bilgilerinin dilini ekleyin"
+
+#: admin/panel.php:1134 includes/template-actions.php:171
+#: includes/template-actions.php:232
+msgid "Ver más"
+msgstr "Daha fazla gör"
+
+#: admin/panel.php:1139
+msgid "Al actualizar información de una app"
+msgstr "Bir uygulamadaki bilgileri güncellerken"
+
+#: admin/panel.php:1143
+msgid "Crear una nueva versión"
+msgstr "Yeni bir sürüm oluştur"
+
+#: admin/panel.php:1144
+msgid "Crea un post con la versión nueva cuando actualiza una app."
+msgstr "Bir uygulamayı güncellerken yeni sürümle bir gönderi oluşturun."
+
+#: admin/panel.php:1150
+msgid "Deshabilitar campos"
+msgstr "Alanları devre dışı bırak"
+
+#: admin/panel.php:1151
+msgid ""
+"Campos a deshabilitar al momento de actualizar la información de una "
+"aplicación."
+msgstr ""
+"Bir uygulamanın bilgileri güncellenirken devre dışı bırakılacak alanlar."
+
+#: admin/panel.php:1160 includes/widget-fixed.php:41
+msgid "Contenido"
+msgstr "İçindekiler"
+
+#: admin/panel.php:1162 includes/template-actions.php:1781
+msgid "Ícono"
+msgstr "Ikon"
+
+#: admin/panel.php:1164 admin/panel.php:1517 admin/panel.php:1529
+#: admin/panel.php:1636 functions.php:727 functions.php:732
+#: includes/template-actions.php:456 includes/template-actions.php:1220
+msgid "Enlaces de descarga"
+msgstr "Bağlantıları İndir"
+
+#: admin/panel.php:1168 admin/panel.php:1275 admin/panel.php:1634
+#: includes/template-actions.php:724
+msgid "Video"
+msgstr "Video"
+
+#: admin/panel.php:1172
+msgid "Eliminar imagen destacada antigua"
+msgstr "Eski öne çıkan resmi kaldır"
+
+#: admin/panel.php:1173
+msgid ""
+"Elimina la imagen destacada antigua del post. Afectará también a las "
+"versiones antiguas."
+msgstr ""
+"Eski öne çıkan görseli gönderiden kaldırın. Ayrıca eski sürümleri de etkiler."
+
+#: admin/panel.php:1179
+msgid "Mantener categorías"
+msgstr "Kategorileri koru"
+
+#: admin/panel.php:1180
+msgid "Conserva las mismas categorías cuando un post es actualizado."
+msgstr "Bir gönderi güncellendiğinde aynı kategorileri koruyun."
+
+#: admin/panel.php:1186
+msgid "Eliminar archivos antiguos"
+msgstr "Eski dosyaları sil"
+
+#: admin/panel.php:1187
+msgid "Cuando actualiza una app, el archivo antiguo será eliminado."
+msgstr "Bir uygulamayı güncellediğinizde eski dosya silinir."
+
+#: admin/panel.php:1202
+msgid "Tipo de usuario a quienes le aparecerá el área \"apps modificadas\""
+msgstr "\"Mod uygulamaları\" alanının görüneceği kullanıcı türü"
+
+#: admin/panel.php:1219
+msgid "Estado de los posts importados"
+msgstr "İçe aktarılan gönderiler"
+
+#: admin/panel.php:1230
+msgid "Contenido del post"
+msgstr "Gönderi içeriği"
+
+#: admin/panel.php:1231
+msgid ""
+"Obtener la información de la app modificada por defecto o tomarlo de Google "
+"Play"
+msgstr ""
+"Mod uygulaması bilgilerini varsayılan olarak alın veya Google Play'den alın"
+
+#: admin/panel.php:1235 includes/template-actions.php:1787
+msgid "Por defecto"
+msgstr "Varsayılan"
+
+#: admin/panel.php:1237
+msgid "De Google Play"
+msgstr "Google Play'den"
+
+#: admin/panel.php:1262
+msgid "Datos obtenidos de Google Play"
+msgstr "Google Play'den elde edilen veriler"
+
+#: admin/panel.php:1263
+msgid ""
+"Por defecto, la demás información de un post son tomadas de Google Play. "
+"Aquí puedes desactivar o activar qué datos serán extraídos de Google Play"
+msgstr ""
+"Varsayılan olarak bir yayındaki diğer bilgiler Google Play'den alınır. "
+"Burada Google Play'den hangi verilerin çıkarılacağını devre dışı bırakabilir "
+"veya etkinleştirebilirsiniz."
+
+#: admin/panel.php:1268 functions.php:583
+msgid "Breve descripción"
+msgstr "Kısa Açıklama"
+
+#: admin/panel.php:1269 functions.php:603 includes/template-actions.php:517
+#: includes/template-actions.php:1757 includes/template-functions.php:1482
+#: template-parts/template-download.php:26
+msgid "Requerimientos"
+msgstr "Gereksinimler"
+
+#: admin/panel.php:1271
+msgid "Número de descargas"
+msgstr "İndirilen dosya sayısı"
+
+#: admin/panel.php:1272 taxonomy-cblog.php:6
+msgid "Categoría"
+msgstr "Kategori"
+
+#: admin/panel.php:1273
+msgid "Desarollador"
+msgstr "Geliştirici"
+
+#: admin/panel.php:1274 admin/panel.php:1632 functions.php:657
+#: includes/template-actions.php:617
+msgid "Novedades"
+msgstr "Yenilikler"
+
+#: admin/panel.php:1297
+msgid ""
+"Crea una API de Google Drive y coloca el ID de cliente y código secreto en "
+"los siguientes campos."
+msgstr ""
+"Bir Google Drive API oluşturun ve aşağıdaki alanlara müşteri kimliğini ve "
+"gizli kodu girin."
+
+#: admin/panel.php:1297
+#, php-format
+msgid "Siga el %s para crear la API."
+msgstr "API'yi oluşturmak için %s'yi izleyin."
+
+#: admin/panel.php:1297
+msgid "Tutorial"
+msgstr "Öğretici"
+
+#: admin/panel.php:1300 admin/panel.php:1448
+msgid "ID de cliente"
+msgstr "Müşteri Kimliği"
+
+#: admin/panel.php:1304 admin/panel.php:1452
+msgid "Secreto del cliente"
+msgstr "Gizli müşteri"
+
+#: admin/panel.php:1308 admin/panel.php:1456
+msgid "Carpeta"
+msgstr "Klasör"
+
+#: admin/panel.php:1308
+msgid ""
+"Coloca el nombre de una carpeta que se creará automáticamente y se subirán "
+"allí todos los archivos."
+msgstr ""
+"Otomatik olarak oluşturulacak bir klasörün adını girin ve tüm dosyalar oraya "
+"yüklenecektir."
+
+#: admin/panel.php:1317 admin/panel.php:1357 admin/panel.php:1465
+msgid "Conectar nueva cuenta"
+msgstr "Yeni hesap bağla"
+
+#: admin/panel.php:1317 admin/panel.php:1465
+msgid ""
+"Haga clic aquí solo si ha añadido un nuevo ID de cliente y Secreto. "
+"Aparecerá nuevamente el botón de conectar que deberá pulsar."
+msgstr ""
+"Yalnızca yeni bir istemci kimliği ve sırrı eklediyseniz buraya tıklayın. "
+"Bağlan düğmesi tekrar görünecek ve üzerine basmanız gerekecektir."
+
+#: admin/panel.php:1324
+msgid "Conectado a Google Drive"
+msgstr "Google Drive'a bağlandı"
+
+#: admin/panel.php:1326 admin/panel.php:1366 admin/panel.php:1474
+msgid "Recuerda guardar los cambios antes de realizar la conexión"
+msgstr "Bağlantıyı yapmadan önce değişiklikleri kaydetmeyi unutmayın"
+
+#: admin/panel.php:1327
+msgid "Conectar a Google Drive"
+msgstr "Google Drive'a bağlanın"
+
+#: admin/panel.php:1341
+msgid ""
+"Crea una app en Dropbox y coloca el app key y app secret en los siguientes "
+"campos."
+msgstr ""
+"Dropbox'ta bir uygulama oluşturun ve aşağıdaki alanlara uygulama anahtarını "
+"ve uygulama sırrını girin."
+
+#: admin/panel.php:1341 admin/panel.php:1430 admin/panel.php:1445
+#: admin/panel.php:1489
+#, php-format
+msgid "Siga el %s."
+msgstr "%s takip edin."
+
+#: admin/panel.php:1341 admin/panel.php:1430 admin/panel.php:1445
+#: admin/panel.php:1489
+msgid "tutorial"
+msgstr "öğretici"
+
+#: admin/panel.php:1344
+msgid "App key"
+msgstr "App key"
+
+#: admin/panel.php:1348
+msgid "App secret"
+msgstr "App secret"
+
+#: admin/panel.php:1357
+msgid ""
+"Haga clic aquí solo si ha añadido un nuevo app key y app secret. Aparecerá "
+"nuevamente el botón de conectar que deberá pulsar."
+msgstr ""
+"Yalnızca yeni bir uygulama anahtarı ve uygulama sırrı eklediyseniz burayı "
+"tıklayın. Bağlan düğmesi, basmanız gereken yeniden görünecektir."
+
+#: admin/panel.php:1364
+msgid "Conectado a Dropbox"
+msgstr "Dropbox'a bağlandı"
+
+#: admin/panel.php:1367
+msgid "Conectar a Dropbox"
+msgstr "Dropbox'a bağlanın"
+
+#: admin/panel.php:1381
+msgid ""
+"¿Tienes un servidor externo? Realiza la conexión vía FTP para que los "
+"archivos importados sea subido a su propio servidor."
+msgstr ""
+"Harici bir sunucunuz var mı? FTP üzerinden bağlantı kurarak içe aktarılan "
+"dosyaların kendi sunucusuna yüklenmesini sağlar."
+
+#: admin/panel.php:1384
+msgid "Nombre o IP del servidor"
+msgstr "Sunucu adı veya IP"
+
+#: admin/panel.php:1388
+msgid "Puerto"
+msgstr "Liman"
+
+#: admin/panel.php:1392 includes/widget-twitter.php:47
+msgid "Usuario"
+msgstr "Kullanıcı"
+
+#: admin/panel.php:1396
+msgid "Contraseña"
+msgstr "Parola"
+
+#: admin/panel.php:1400
+msgid "Directorio"
+msgstr "Dizin"
+
+#: admin/panel.php:1401
+msgid "Ubica la ruta exacta donde se guardarán los archivos"
+msgstr "Dosyaların kaydedileceği tam yolu bulun"
+
+#: admin/panel.php:1408
+msgid "URL"
+msgstr "URL"
+
+#: admin/panel.php:1409
+msgid "Coloca la dirección con la que se accederá a tus archivos"
+msgstr "Dosyalarınıza erişilecek adresi girin"
+
+#: admin/panel.php:1416
+msgid "Recuerda guardar los cambios para probar la conexión"
+msgstr "Bağlantıyı test etmek için değişiklikleri kaydetmeyi unutmayın"
+
+#: admin/panel.php:1417
+msgid "Probar conexión FTP"
+msgstr "FTP bağlantısını test edin"
+
+#: admin/panel.php:1430
+msgid "Genera una API Key en 1Fichier"
+msgstr "1Fichier'de bir API Anahtarı Oluşturun"
+
+#: admin/panel.php:1445
+msgid "Crea una app en OneDrive"
+msgstr "OneDrive'da uygulama oluşturma"
+
+#: admin/panel.php:1472
+msgid "Conectado a OneDrive"
+msgstr "OneDrive'a bağlandı"
+
+#: admin/panel.php:1475
+msgid "Conectar a OneDrive"
+msgstr "OneDrive'a bağlanın"
+
+#: admin/panel.php:1489
+msgid "Crea tu bot. Obtén el token e ID de chat"
+msgstr "Botunuzu oluşturun. Jeton ve sohbet kimliğini alın"
+
+#: admin/panel.php:1492
+msgid "Token"
+msgstr "Token"
+
+#: admin/panel.php:1496
+msgid "ID chat"
+msgstr "Chat ID"
+
+#: admin/panel.php:1506 functions.php:1472
+msgid "Leer más"
+msgstr "Devamını oku"
+
+#: admin/panel.php:1507
+msgid "Muestra todo el contenido del post o déjalo con el botón 'leer más'"
+msgstr ""
+"Gönderinin tüm içeriğini göster veya 'daha fazlasını oku' düğmesiyle bırak"
+
+#: admin/panel.php:1511
+msgid "Leer más (defecto)"
+msgstr "Devamını oku (varsayılan)"
+
+#: admin/panel.php:1513
+msgid "Mostrar todo"
+msgstr "Her şeyi göster"
+
+#: admin/panel.php:1518
+msgid "¿Cómo funciona esto?"
+msgstr "Bu nasıl işliyor?"
+
+#: admin/panel.php:1522
+msgid "Página interna"
+msgstr "Dahili sayfa"
+
+#: admin/panel.php:1523
+msgid "Página interna con doble paso"
+msgstr "Çift geçişli iç sayfa"
+
+#: admin/panel.php:1524
+msgid "Página única"
+msgstr "Tek sayfa"
+
+#: admin/panel.php:1529 admin/panel.php:1537
+msgid "Permalinks"
+msgstr "Permalinks"
+
+#: admin/panel.php:1537
+#, php-format
+msgid ""
+"Cuando realiza un cambio de opción debe refrescar los enlaces permanentes. "
+"Para ello vaya a %s y guarde los cambios. Recuerde que debe estar "
+"seleccionada la estructura \"%s\""
+msgstr ""
+"Bir seçenek değişikliği yaptığınızda kalıcı bağlantıları yenilemeniz "
+"gerekir. Bunu yapmak için %s'e gidin ve değişiklikleri kaydedin. \"%s\" "
+"yapısının seçilmesi gerektiğini unutmayın"
+
+#: admin/panel.php:1537
+msgid "Post name"
+msgstr "Post name"
+
+#: admin/panel.php:1542
+msgid "Completar reCaptcha"
+msgstr "Recaptcha'yı tamamla"
+
+#: admin/panel.php:1542
+#, php-format
+msgid ""
+"Tiene que completar los códigos de reCaptcha v2 en los campos requeridos en "
+"%s"
+msgstr ""
+"ReCaptcha v2 kodlarını gerekli alanlara %s olarak doldurmanız gerekmektedir"
+
+#: admin/panel.php:1543
+msgid ""
+"Opción que solicitará al usuario completar el reCaptcha para ver los enlaces "
+"de descarga."
+msgstr ""
+"Kullanıcıdan indirme bağlantılarını görmek için recaptcha'yı tamamlamasını "
+"isteyecek seçenek."
+
+#: admin/panel.php:1554
+msgid "Estilo de los enlaces de descarga"
+msgstr "Bağlantı stilini indir"
+
+#: admin/panel.php:1555
+msgid "Escoge el estilo de los enlaces de descarga"
+msgstr "İndirme bağlantılarının stilini seçin"
+
+#: admin/panel.php:1558
+msgid "En fila"
+msgstr "Çizgide"
+
+#: admin/panel.php:1560
+msgid "En fila centrado"
+msgstr "Satır merkezli"
+
+#: admin/panel.php:1562
+msgid "En columna"
+msgstr "Sütunda"
+
+#: admin/panel.php:1570
+msgid "Verificado por..."
+msgstr "Tarafından doğrulanan..."
+
+#: admin/panel.php:1571
+msgid "Texto alternativo que se mostrará debajo de los enlaces de descarga"
+msgstr "İndirme bağlantılarının altında görüntülenecek alternatif metin"
+
+#: admin/panel.php:1575
+msgid "Centrado"
+msgstr "Ortalanmış"
+
+#: admin/panel.php:1583
+msgid "Únete a nuestro grupo de telegram"
+msgstr "Telegram grubumuza katılın"
+
+#: admin/panel.php:1584
+msgid ""
+"Botón para unirse a Telegram que aparecerá debajo de \"Verificado por...\""
+msgstr "\"Doğrulayan ...\" altında görünecek Telegram'a katılma düğmesi"
+
+#: admin/panel.php:1588 includes/template-actions.php:1309
+msgid "ÚNETE A NUESTRO GRUPO DE TELEGRAM"
+msgstr "TELEGRAM GRUBUMUZA KATILIN"
+
+#: admin/panel.php:1593
+msgid "Temporizador de redirección"
+msgstr "Yönlendirme zamanlayıcısı"
+
+#: admin/panel.php:1594
+msgid "Temporizador para la redirección del enlace de descarga"
+msgstr "İndirme bağlantısı yeniden yönlendirmesi için zamanlayıcı"
+
+#: admin/panel.php:1597 admin/panel.php:1609
+msgid "segundos"
+msgstr "saniye"
+
+#: admin/panel.php:1605
+msgid "Temporizador de descarga"
+msgstr "Deşarj zamanlayıcısı"
+
+#: admin/panel.php:1606
+msgid "Temporizador para mostrar los enlaces de descarga"
+msgstr "İndirme bağlantılarını göstermek için zamanlayıcı"
+
+#: admin/panel.php:1617
+msgid "Diseño de temporizador"
+msgstr "Zamanlayıcı tasarımı"
+
+#: admin/panel.php:1619
+msgid "Tipo 1"
+msgstr "Tip 1"
+
+#: admin/panel.php:1620
+msgid "Tipo 2"
+msgstr "Tip 2"
+
+#: admin/panel.php:1624
+msgid "Ordenar cajas"
+msgstr "Kutuları sırala"
+
+#: admin/panel.php:1625
+msgid "Modifica el orden de las cajas a tu gusto"
+msgstr "Kutuların sırasını beğeninize göre değiştirin"
+
+#: admin/panel.php:1629
+msgid "Información de la App"
+msgstr "Uygulama Bilgileri"
+
+#: admin/panel.php:1631
+msgid "ADS Single Center"
+msgstr "ADS Single Center"
+
+#: admin/panel.php:1633 functions.php:417 includes/template-actions.php:510
+msgid "Versiones"
+msgstr "Sürümler"
+
+#: admin/panel.php:1635 includes/template-actions.php:641
+msgid "Imágenes"
+msgstr "Görüntüler"
+
+#: admin/panel.php:1638
+msgid "Apps desarrollador"
+msgstr "Uygulama geliştiricisi"
+
+#: admin/panel.php:1639 functions.php:422
+msgid "Cajas personalizadas"
+msgstr "Özel kutular"
+
+#: admin/panel.php:1645 functions.php:530 includes/ajax.php:122
+#, php-format
+msgid "Caja permanente %s"
+msgstr "Kalıcı kutu %s"
+
+#: admin/panel.php:1666
+msgid "Cajas a quitar en la página de (descarga / redirección) interna "
+msgstr "Dahili (indirme / yönlendirme) sayfasında kaldırılacak kutular "
+
+#: admin/panel.php:1667
+msgid ""
+"Marca las cajas que no quieres que aparezca en la página de descarga o "
+"redirección interna."
+msgstr ""
+"Dahili indirme veya yönlendirme sayfasında görünmesini istemediğiniz "
+"kutuları işaretleyin."
+
+#: admin/panel.php:1681 functions.php:517
+msgid "Ocultar botones sociales"
+msgstr "Sosyal düğmeleri gizle"
+
+#: admin/panel.php:1693
+msgid "Botón Telegram"
+msgstr "Telegram düğmesi"
+
+#: admin/panel.php:1693
+msgid "Mostrar botón Telegram debajo del botón de descarga en el post."
+msgstr "Gönderideki indirme düğmesinin altındaki Telegram düğmesini göster."
+
+#: admin/panel.php:1704
+msgid "Botón YouTube"
+msgstr "YouTube düğmesi"
+
+#: admin/panel.php:1704
+msgid "Mostrar botón de YouTube debajo del botón de descarga en el post."
+msgstr "Gönderideki indirme düğmesinin altındaki YouTube düğmesini göster."
+
+#: admin/panel.php:1715
+msgid "Información de app"
+msgstr "Uygulama bilgisi"
+
+#: admin/panel.php:1716
+msgid "Activa, desactiva, ordena la información de app y escoge el estilo"
+msgstr ""
+"Uygulama bilgilerini etkinleştirin, devre dışı bırakın, sıralayın ve stili "
+"seçin"
+
+#: admin/panel.php:1735
+msgid "Estilo 1"
+msgstr "Stil 1"
+
+#: admin/panel.php:1736
+msgid "Estilo 2"
+msgstr "Stil 2"
+
+#: admin/panel.php:1736
+msgid "Puedes cambiar la posición en la sección \"Ordenar cajas\""
+msgstr "\"Kutuları sırala\" bölümünde konumu değiştirebilirsiniz"
+
+#: admin/panel.php:1741
+msgid "Ocultar la breve descripción de la app"
+msgstr "Uygulamanın kısa açıklamasını gizle"
+
+#: admin/panel.php:1758
+msgid "Cantidad en la entrada"
+msgstr "Girişteki miktar"
+
+#: admin/panel.php:1759
+msgid "Escoge la cantidad de versiones que aparecerá en la caja de la entrada"
+msgstr "Gönderide görünecek sürüm sayısını seçin"
+
+#: admin/panel.php:1764
+msgid "Cajas a quitar de la entrada de versión antigua"
+msgstr "Eski sürüm girişinden kaldırılacak kutular"
+
+#: admin/panel.php:1765
+msgid ""
+"Marca las cajas que no quieres que aparezca en las entradas de historial de "
+"versiones."
+msgstr ""
+"Sürüm geçmişi girişlerinde görünmesini istemediğiniz kutuları işaretleyin."
+
+#: admin/panel.php:1779
+msgid "Mostrar enlace directo de descarga"
+msgstr "Doğrudan indirme bağlantısını göster"
+
+#: admin/panel.php:1779
+msgid ""
+"Esta opción permitirá mostrar el enlace de descarga de la versión antigua "
+"sin necesidad que el usuario acceda al post a descargar. Mostrará el primer "
+"enlace de descarga. En caso no exista, el enlace será hacia el post."
+msgstr ""
+"Bu seçenek, kullanıcının indirilecek gönderiye erişmesine gerek kalmadan "
+"eski sürümün indirme bağlantısını göstermenize olanak tanır. İlk indirme "
+"bağlantısını gösterecektir. Yoksa, bağlantı gönderiye olacaktır."
+
+#: admin/panel.php:1780
+msgid "Permitir ir al primer enlace de descarga directamente"
+msgstr "İlk indirme bağlantısına doğrudan gitmek için izin ver"
+
+#: admin/panel.php:1788
+msgid "Noindex en versiones antiguas"
+msgstr "Eski sürümlerde Noindex"
+
+#: admin/panel.php:1789
+msgid ""
+"Desactiva automáticamente las páginas de versiones antiguas para los "
+"buscadores."
+msgstr ""
+"Arama motorları için eski sürümlerdeki sayfaları otomatik olarak devre dışı "
+"bırakın."
+
+#: admin/panel.php:1804
+msgid "Activo"
+msgstr "Aktif"
+
+#: admin/panel.php:1805
+msgid "Activar o desactivar el sidebar."
+msgstr "Kenar çubuğunu etkinleştirin veya devre dışı bırakın."
+
+#: admin/panel.php:1814
+msgid "Posición del sidebar"
+msgstr "Kenar çubuğu konumu"
+
+#: admin/panel.php:1815
+msgid "Escoja la ubicación del sidebar."
+msgstr "Kenar çubuğunun konumunu seçin."
+
+#: admin/panel.php:1819
+msgid "Derecha"
+msgstr "Sağ"
+
+#: admin/panel.php:1821
+msgid "Izquierda"
+msgstr "Ayrıldı"
+
+#: admin/panel.php:1831
+msgid "Estilo de color"
+msgstr "Renk stili"
+
+#: admin/panel.php:1832
+msgid "Escoja el tipo de tono que tendrá el tema."
+msgstr "Temanın sahip olacağı ton türünü seçin."
+
+#: admin/panel.php:1835
+msgid "Claro"
+msgstr "Işık"
+
+#: admin/panel.php:1837
+msgid "Oscuro"
+msgstr "Karanlık"
+
+#: admin/panel.php:1839
+msgid "Navegador"
+msgstr "Tarayıcı"
+
+#: admin/panel.php:1843
+msgid "Que el usuario escoja color"
+msgstr "Kullanıcının renk seçmesine izin verin"
+
+#: admin/panel.php:1844
+msgid "Permitir que el usuario seleccione el color del tema."
+msgstr "Kullanıcının tema rengini seçmesine izin verin."
+
+#: admin/panel.php:1852
+msgid "Color principal"
+msgstr "Ana renk"
+
+#: admin/panel.php:1853
+msgid "Escoja el color principal del tema."
+msgstr "Temanın ana rengini seçin."
+
+#: admin/panel.php:1859
+msgid "Color botón de descarga"
+msgstr "Düğme rengini indir"
+
+#: admin/panel.php:1865
+msgid "Color cinta nuevo"
+msgstr "Yeni şerit rengi"
+
+#: admin/panel.php:1871
+msgid "Color cinta actualizado"
+msgstr "Şerit rengi güncellendi"
+
+#: admin/panel.php:1878
+msgid "Color estrellas"
+msgstr "Yıldız renkleri"
+
+#: admin/panel.php:1885
+msgid "Color etiqueta MOD"
+msgstr "MOD etiket rengi"
+
+#: admin/panel.php:1899
+msgid "Sección Blog en Home"
+msgstr "Ana Sayfa'daki blog bölümü"
+
+#: admin/panel.php:1900
+msgid "Coloque la cantidad de posts que debe aparecer en el home."
+msgstr "Ana sayfada görünmesi gereken gönderi sayısını yerleştirin."
+
+#: admin/panel.php:1909
+msgid "Blog Page"
+msgstr "Blog Sayfası"
+
+#: admin/panel.php:1910
+msgid "Coloque la cantidad de posts que debe aparecer en la página blog"
+msgstr "Blog sayfasında görünmesi gereken gönderi sayısını yerleştirin"
+
+#: admin/panel.php:1919
+msgid "Blog Sidebar"
+msgstr "Blog Kenar Çubuğu"
+
+#: admin/panel.php:1920
+msgid ""
+"Activa esta opción para que puedas agregar widgets al sidebar exclusivo del "
+"área de blog"
+msgstr ""
+"Blog alanının özel kenar çubuğuna widget'lar ekleyebilmek için bu seçeneği "
+"etkinleştirin"
+
+#: admin/panel.php:1947
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: admin/panel.php:1948
+msgid "Coloca el ID de Analytics"
+msgstr "Analytics Kimliğini girin"
+
+#: admin/panel.php:1953
+#, php-format
+msgid "Coloca los códigos en el header (dentro de la etiqueta %s)"
+msgstr "Kodları başlığa yerleştirin (%s etiketinin içine)"
+
+#: admin/panel.php:1957
+msgid "Códigos body"
+msgstr "Vücut kodları"
+
+#: admin/panel.php:1958
+#, php-format
+msgid "Coloca códigos debajo de la etiqueta %s"
+msgstr "Kodları %s etiketinin altına yerleştirin"
+
+#: admin/panel.php:1962
+msgid "Añade el código de anuncio para la versión AMP"
+msgstr "AMP sürümü için reklam kodu ekleyin"
+
+#: admin/panel.php:1968
+msgid "Añade el código de anuncio para el single y page en la versión AMP."
+msgstr "AMP sürümündeki tek ve sayfa için reklam kodunu ekleyin."
+
+#: admin/panel.php:1975
+msgid ""
+"Añade el código de anuncio para el single y page en la parte central en la "
+"versión AMP."
+msgstr "AMP sürümünde ortadaki tek ve sayfa için reklam kodunu ekleyin."
+
+#: admin/panel.php:1982 admin/panel.php:2039 admin/panel.php:2047
+#: admin/panel.php:2055 admin/panel.php:2063
+msgid "(Página interna)"
+msgstr "(Dahili sayfa)"
+
+#: admin/panel.php:1983
+msgid ""
+"Añade el código de anuncio para la parte superior de los enlaces de descarga "
+"en la página interna de la versión AMP."
+msgstr ""
+"AMP sürümünün dahili sayfasındaki indirme bağlantılarının en üstüne reklam "
+"kodunu ekleyin."
+
+#: admin/panel.php:1995
+msgid "Texto encima de cada anuncio (Opcional)"
+msgstr "Her reklamın üstündeki metin (İsteğe bağlı)"
+
+#: admin/panel.php:1996
+msgid "Coloca un texto encima de cada anuncio."
+msgstr "Her reklamın üstüne bir metin yerleştirin."
+
+#: admin/panel.php:2002
+msgid "Añade el código de anuncio debajo del header."
+msgstr "Reklam kodunu başlığın altına ekleyin."
+
+#: admin/panel.php:2007 admin/panel.php:2019 admin/panel.php:2031
+#: admin/panel.php:2055 admin/panel.php:2063 admin/panel.php:2095
+#: admin/panel.php:2103 admin/panel.php:2111
+msgid "Móvil"
+msgstr "Mobil"
+
+#: admin/panel.php:2008
+msgid "Añade el código de anuncio para la versión móvil"
+msgstr "Mobil sürüm için reklam kodunu ekleyin"
+
+#: admin/panel.php:2014
+msgid "Añade el código de anuncio para el single y page."
+msgstr "Tek ve sayfa için reklam kodunu ekleyin."
+
+#: admin/panel.php:2020
+msgid "Añade el código de anuncio para el single y page en la versión móvil."
+msgstr "Mobil sürümde single ve sayfa için reklam kodunu ekleyin."
+
+#: admin/panel.php:2026
+msgid "Añade el código de anuncio para el single y page en la parte central."
+msgstr "Tek ve sayfanın reklam kodunu ortaya ekleyin."
+
+#: admin/panel.php:2032
+msgid ""
+"Añade el código de anuncio para el single y page en la parte central en la "
+"versión móvil."
+msgstr ""
+"Mobil versiyonda orta kısımdaki tekli ve sayfalı reklam kodunu ekleyin."
+
+#: admin/panel.php:2040
+msgid ""
+"Añade el código de anuncio para la parte superior de los enlaces de descarga "
+"en la página interna."
+msgstr ""
+"Reklam kodunu dahili sayfadaki indirme bağlantılarının en üstüne ekleyin."
+
+#: admin/panel.php:2048
+msgid ""
+"Añade el código de anuncio para la parte inferior de los enlaces de descarga "
+"en la página interna."
+msgstr "Reklam kodunu dahili sayfadaki indirme bağlantılarının altına ekleyin."
+
+#: admin/panel.php:2056
+msgid ""
+"Añade el código de anuncio para la parte superior de los enlaces de descarga "
+"en la página interna en la versión móvil."
+msgstr ""
+"Reklam kodunu, mobil sürümde dahili sayfadaki indirme bağlantılarının en "
+"üstüne ekleyin."
+
+#: admin/panel.php:2064
+msgid ""
+"Añade el código de anuncio para la parte inferior de los enlaces de descarga "
+"en la página interna en la versión móvil."
+msgstr ""
+"Reklam kodunu, mobil sürümde dahili sayfadaki indirme bağlantılarının altına "
+"ekleyin."
+
+#: admin/panel.php:2071 admin/panel.php:2079 admin/panel.php:2087
+#: admin/panel.php:2095 admin/panel.php:2103 admin/panel.php:2111
+msgid "(Página única)"
+msgstr "(Tek sayfa)"
+
+#: admin/panel.php:2072
+msgid ""
+"Añade el código de anuncio para la parte superior de los enlaces de descarga "
+"en la página única."
+msgstr "Reklam kodunu tek sayfadaki indirme bağlantılarının en üstüne ekleyin."
+
+#: admin/panel.php:2080 admin/panel.php:2088
+msgid ""
+"Añade el código de anuncio para la parte inferior de los enlaces de descarga "
+"en la página única."
+msgstr "Reklam kodunu tek sayfadaki indirme bağlantılarının altına ekleyin."
+
+#: admin/panel.php:2096
+msgid ""
+"Añade el código de anuncio para la parte superior de los enlaces de descarga "
+"en la página única en la versión móvil."
+msgstr ""
+"Mobil cihazlarda tek sayfadaki indirme bağlantılarının en üstüne reklam "
+"kodunu ekleyin."
+
+#: admin/panel.php:2104 admin/panel.php:2112
+msgid ""
+"Añade el código de anuncio para la parte inferior de los enlaces de descarga "
+"en la página única en la versión móvil."
+msgstr ""
+"Mobil cihazlarda tek sayfadaki indirme bağlantılarının altına reklam kodunu "
+"ekleyin."
+
+#: admin/panel.php:2127
+#, php-format
+msgid "Coloca el API Key del acortador que prefieras. %s"
+msgstr "Tercih ettiğiniz kısaltıcının API Anahtarını yerleştirin. %s"
+
+#: admin/panel.php:2160
+msgid "Mostrar enlace de descarga original"
+msgstr "Orijinal indirmenin çoğu"
+
+#: admin/panel.php:2161
+msgid "Muestra el enlace de descarga original en vez de los enlaces acortados"
+msgstr ""
+"Orijinal bağlantıların orijinal bağlantılarını gösteren bir indirme "
+"bağlantısı gösterin"
+
+#: admin/panel.php:2178
+msgid "Texto Footer"
+msgstr "Altbilgi metni"
+
+#: admin/panel.php:2179
+msgid "Coloca cualquier texto en el footer. Permite HTML."
+msgstr "Herhangi bir metni altbilgiye yerleştirin. HTML'ye izin ver."
+
+#: admin/panel.php:2184
+msgid "Códigos Footer"
+msgstr "Altbilgi kodları"
+
+#: admin/panel.php:2226
+msgid ""
+"Estos valores son importantes para poder descargar y/o subir el APK de gran "
+"peso a su servidor o servidores externos."
+msgstr ""
+"Bu değerler, ağır APK'yı indirebilmek ve/veya sunucunuza veya harici "
+"sunuculara yükleyebilmek için önemlidir."
+
+#: admin/panel.php:2226
+msgid "¿Cómo cambiar estos valores?"
+msgstr "Bu değerler nasıl değiştirilir?"
+
+#: admin/panel.php:2231
+msgid "Activado"
+msgstr "Aktif"
+
+#: admin/panel.php:2231
+msgid "Desactivado"
+msgstr "Engelli"
+
+#: admin/panel.php:2235 admin/panel.php:2239
+msgid "Se recomienda mayor o igual a 300"
+msgstr "300'e eşit veya daha büyük olması önerilir"
+
+#: admin/panel.php:2243 admin/panel.php:2247 admin/panel.php:2251
+msgid "Se recomienda mayor o igual a 4G"
+msgstr "4G'ye eşit veya daha büyük önerilir"
+
+#: admin/panel.php:2525
+msgid "Número de elementos por página"
+msgstr "Sayfa başına öğe sayısı"
+
+#: amp/single-versions.php:27 functions.php:2095 single-versions.php:27
+#: template-parts/single-infoapp.php:73 template-parts/single-infoapp.php:77
+#: template-parts/template-download.php:8
+msgid "Regresar"
+msgstr "Geri git"
+
+#: archive-blog.php:19 archive.php:33 category.php:28 includes/ajax.php:391
+#: includes/widget-mas-calificados.php:60
+#: includes/widget-mas-vistos-blog.php:40 includes/widget-mas-vistos.php:60
+#: includes/widget-mejor-calificados.php:61
+#: includes/widget-ultimos-posts-blog.php:39
+#: includes/widget-ultimos-posts.php:59 tag.php:22 taxonomy-cblog.php:21
+#: taxonomy-dev.php:23 taxonomy-tblog.php:22 template-most-rated-apps.php:44
+#: template-most-viewed-apps.php:44 template-parts/content-search.php:69
+msgid "No hay entradas"
+msgstr "Sonuç Bulunamadı"
+
+#: archive.php:8 archive.php:11
+msgid "Apps"
+msgstr "Uygulamalar"
+
+#: archive.php:14
+msgid "Apps de"
+msgstr "Uygulamaları"
+
+#: comments.php:12
+msgid "Un comentario en"
+msgstr "Hakkında bir yorum"
+
+#: comments.php:12
+msgid "comentarios en"
+msgstr "yorum"
+
+#: functions.php:38
+msgid "Menú"
+msgstr "Menü"
+
+#: functions.php:39
+msgid "Menú movil"
+msgstr "Mobil Menü"
+
+#: functions.php:40
+msgid "Menú footer"
+msgstr "Alt Bilgi Menüsü"
+
+#: functions.php:99
+msgid "Theme Appyn para aplicaciones Android"
+msgstr "Android uygulamaları için Tema Appyn"
+
+#: functions.php:113
+msgid "Derechos reservados"
+msgstr "Tüm hakları Saklıdır"
+
+#: functions.php:137 functions.php:229
+msgid "¿Cómo instalar [Title] APK?"
+msgstr "[Title] APK'sı nasıl yüklenir?"
+
+#: functions.php:138 functions.php:230
+msgid "1. Toca el archivo [Title] APK descargado."
+msgstr "1. İndirilen APK [Title] dosyasına dokunun."
+
+#: functions.php:139 functions.php:231
+msgid "2. Toca instalar."
+msgstr "2. Yükle'ye dokunun."
+
+#: functions.php:140 functions.php:232
+msgid "3. Sigue los pasos que aparece en pantalla."
+msgstr "3. Ekrandaki adımları izleyin."
+
+#: functions.php:144 functions.php:237
+msgid "¿Cómo instalar [Title]?"
+msgstr "[Başlık] nasıl yüklenir?"
+
+#: functions.php:145 functions.php:238
+msgid "1. Descargar el archivo ZIP."
+msgstr "1. ZIP dosyasını indirin."
+
+#: functions.php:146 functions.php:239
+#, php-format
+msgid "2. Instale la aplicación %s"
+msgstr "2. %s uygulamasını yükleyin"
+
+#: functions.php:147 functions.php:240
+msgid "3. Abra la aplicación y pulse en \"Instalar APKs\"."
+msgstr "3. \"Install APKs\" ile ilgili güncel bilgiler."
+
+#: functions.php:148 functions.php:241
+msgid ""
+"4. Busque la carpeta donde se encuentra el ZIP descargado y selecciónelo."
+msgstr "4. İndirilen ZIP'in bulunduğu klasöre göz atın ve onu seçin."
+
+#: functions.php:149 functions.php:242
+msgid "5. Sigue los pasos que aparece en pantalla."
+msgstr "5. Ekrandaki adımları izleyin."
+
+#: functions.php:155 template-parts/single-infoapp.php:92
+msgid "Descargar APK"
+msgstr "APK indir"
+
+#: functions.php:189 includes/widget-mas-vistos.php:9
+#: includes/widget-mas-vistos.php:21 includes/widget-mas-vistos.php:77
+msgid "Apps más vistas"
+msgstr "En çok görüntülenen uygulamalar"
+
+#: functions.php:277 functions.php:282 includes/ajax.php:39
+#: includes/template-actions.php:1715 includes/template-actions.php:1721
+#: includes/template-functions.php:1477 taxonomy-dev.php:6
+msgid "Desarrollador"
+msgstr "Geliştirici"
+
+#: functions.php:338
+msgid "versiones"
+msgstr "versiyonlar"
+
+#: functions.php:418
+msgid "Información de la aplicación"
+msgstr "Başvuru bilgileri"
+
+#: functions.php:419
+msgid "Video de la aplicación"
+msgstr "Uygulama videosu"
+
+#: functions.php:420
+msgid "Imágenes de la aplicación"
+msgstr "Uygulama Resimleri"
+
+#: functions.php:421
+msgid "Enlaces de descarga de la aplicación"
+msgstr "Uygulama indirme bağlantıları"
+
+#: functions.php:423
+msgid "Cajas personalizadas permanentes"
+msgstr "Kalıcı özel kutular"
+
+#: functions.php:424
+msgid "Control de anuncios"
+msgstr "Reklam kontrolü"
+
+#: functions.php:425
+msgid "Control de elementos"
+msgstr "Elemanların kontrolü"
+
+#: functions.php:436 includes/class-list-table-atul.php:136
+msgid "Fecha de actualización"
+msgstr "Güncelleme Tarihi"
+
+#: functions.php:495
+msgid "No hay versiones"
+msgstr "Sürüm yok"
+
+#: functions.php:507
+msgid "Desactivar anuncios"
+msgstr "Reklamları devre dışı bırak"
+
+#: functions.php:515
+msgid "Ocultar sidebar"
+msgstr "Kenar çubuğunu gizle"
+
+#: functions.php:516
+msgid "Ocultar post meta"
+msgstr "Post metayı gizle"
+
+#: functions.php:531 functions.php:551 includes/ajax.php:104
+#: includes/ajax.php:123
+msgid "Título para la caja"
+msgstr "Kutu Başlığı"
+
+#: functions.php:535 functions.php:555 includes/ajax.php:110
+#: includes/ajax.php:127
+msgid "Borrar caja"
+msgstr "Sil kutu"
+
+#: functions.php:540 functions.php:560
+msgid "Añadir caja"
+msgstr "Kutu ekle"
+
+#: functions.php:569
+msgid "Estado de aplicación"
+msgstr "Uygulama durumu"
+
+#: functions.php:570
+msgid ""
+"Con esta opción aparecerá una franja en cada aplicación lo cual indicará si "
+"se ha actualizado o es una aplicación nueva. La opción activa tendrá un "
+"tiempo de duración de 2 semanas basada en la fecha de publicación del post. "
+"Por ejemplo, si usted marca \"Actualizado\" y la fecha de creación del post "
+"es hoy, la franja aparecerá solo por 2 semanas."
+msgstr ""
+"Bu seçenekle, her uygulamada güncellenmiş mi yoksa yeni bir uygulama mı "
+"olduğunu gösteren bir şerit görünecektir. Aktif seçeneğin süresi, gönderinin "
+"yayın tarihine göre 2 hafta olacaktır. Örneğin, \"Güncellendi\" seçeneğini "
+"işaretlerseniz ve gönderi oluşturma tarihi bugün ise, şerit yalnızca 2 hafta "
+"boyunca görünür."
+
+#: functions.php:576
+msgid "Tipo de aplicación"
+msgstr "Uygulama türü"
+
+#: functions.php:591 includes/template-actions.php:1745
+#: includes/template-functions.php:1480 template-parts/template-download.php:22
+msgid "Tamaño"
+msgstr "Boyut"
+
+#: functions.php:595 includes/template-actions.php:1733
+#: includes/template-functions.php:1478
+msgid "Lanzamiento"
+msgstr "Yayınlandığı tarih"
+
+#: functions.php:599
+msgid "Última actualización"
+msgstr "Son Güncelleme"
+
+#: functions.php:607 includes/template-actions.php:1770
+#: includes/template-functions.php:1484
+msgid "Consíguelo en"
+msgstr "Google Playden İndir"
+
+#: functions.php:615
+msgid "Número de votos"
+msgstr "Oy sayısı"
+
+#: functions.php:619
+msgid "Media"
+msgstr "Medya"
+
+#: functions.php:623 includes/template-actions.php:1763
+#: includes/template-functions.php:1483
+msgid "Descargas"
+msgstr "İndirilenler"
+
+#: functions.php:626
+msgid "Tipo de aplicación (Categoría)"
+msgstr "Uygulama türü (Kategori)"
+
+#: functions.php:635
+msgid "Sistema operativo"
+msgstr "İşletim sistemi"
+
+#: functions.php:643
+msgid "Gratis"
+msgstr "Bedava"
+
+#: functions.php:644
+msgid "Pago"
+msgstr "Ödemek"
+
+#: functions.php:677 functions.php:816
+msgid "Subir"
+msgstr "Artırmak"
+
+#: functions.php:715
+msgid "Añadir imágenes"
+msgstr "Görsel ekle"
+
+#: functions.php:728 functions.php:733 functions.php:810
+msgid "Enlace directo / Redirección"
+msgstr "Doğrudan Bağlantı / Yönlendirme"
+
+#: functions.php:730 functions.php:734 functions.php:815
+msgid "Descarga directa"
+msgstr "Direkt indirme"
+
+#: functions.php:741
+msgid "Tipo de archivos"
+msgstr "Dosya türü"
+
+#: functions.php:742
+#, php-format
+msgid ""
+"Marque qué tipo de archivo el usuario descargará. Gracias a esto podrá "
+"mostrar unos pasos según el tipo de opción escogida. <a href=\"%s\">Ver/"
+"Editar los pasos</a>"
+msgstr ""
+"Kullanıcının ne tür bir dosya indireceğini işaretleyin. Bu sayede seçilen "
+"seçeneğin Türüne göre birkaç adım gösterebilirsiniz. <a href=\"%s\"> "
+"Adımları Görüntüle / Düzenle </a>"
+
+#: functions.php:757
+msgid "Para eliminar un campo solo déjelo vacío"
+msgstr "Bir alanı silmek için boş bırakın"
+
+#: functions.php:758
+msgid "Enlaces 'nofollow' por defecto"
+msgstr "Varsayılan 'nofollow' bağlantıları"
+
+#: functions.php:765
+msgid "Enlace"
+msgstr "Bağlantı"
+
+#: functions.php:766
+msgid "Texto"
+msgstr "Metin"
+
+#: functions.php:767
+msgid "Atributo"
+msgstr "Nitelik"
+
+#: functions.php:802
+msgid "Añadir enlace"
+msgstr "Bağlantı Ekle"
+
+#: functions.php:803
+msgid "Ver en la documentación"
+msgstr "Belgelere Bakın"
+
+#: functions.php:925
+msgid "Seguir leyendo"
+msgstr "Okumaya devam et"
+
+#: functions.php:1470
+msgid "Votar"
+msgstr "Oy"
+
+#: functions.php:1471 includes/template-functions.php:47
+msgid "Votos"
+msgstr "Oylar"
+
+#: functions.php:1473
+msgid "Leer menos"
+msgstr "Daha Az Göster"
+
+#: functions.php:1474
+msgid "de"
+msgstr "itibaren"
+
+#: functions.php:1475
+msgid "Gracias por enviarnos su reporte."
+msgstr "Raporunuzu bize gönderdiğiniz için teşekkür ederiz."
+
+#: functions.php:1619
+msgid "No hay archivo para descargar."
+msgstr "İndirilecek dosya yok."
+
+#: functions.php:2163 includes/admin.php:223
+msgid "Enlaces de descarga rotos"
+msgstr "Kırık indirme bağlantıları"
+
+#: includes/admin.php:41
+msgid "Ocurrió un error"
+msgstr "Bir hata oluştu"
+
+#: includes/admin.php:48
+msgid "Importante: Este post es una versión antigua"
+msgstr "Önemli: Bu gönderi eski bir sürümdür"
+
+#: includes/admin.php:51
+msgid "Imagen"
+msgstr "Resim"
+
+#: includes/admin.php:55
+msgid ""
+"¿Quiere actualizar la información de esta aplicación? Recuerda que "
+"reemplazará toda la información."
+msgstr ""
+"Bu uygulamadaki bilgileri güncellemek istiyor musunuz? Tüm bilgilerin yerini "
+"alacağını unutmayın."
+
+#: includes/admin.php:75
+#, php-format
+msgid "Está disponible una nueva versión del theme %s"
+msgstr "%s temasının yeni bir sürümü mevcut"
+
+#: includes/admin.php:75
+#, php-format
+msgid "Revisa los detalles de la versión %s"
+msgstr "%s sürümünün ayrıntılarını kontrol edin"
+
+#: includes/admin.php:75
+msgid "Descárgala ahora"
+msgstr "Şimdi indir"
+
+#: includes/admin.php:87
+#, php-format
+msgid ""
+"Debe colocar una %s para hacer uso del %s, ver la lista de %s y el área de "
+"%s."
+msgstr "%s'i kullanmak için %s koymalısınız, %s listesine ve %s alanına bakın."
+
+#: includes/admin.php:198
+msgid "Convertir en versión anterior"
+msgstr "Önceki sürüme dönüştür"
+
+#: includes/admin.php:250
+msgid "Actualizar información"
+msgstr "Bilgileri güncelle"
+
+#: includes/admin.php:263
+msgid "Ver post padre"
+msgstr "Ebeveyn gönderisine bakın"
+
+#: includes/admin.php:382
+msgid "Convertir a versión anterior"
+msgstr "Önceki sürüme dönüştür"
+
+#: includes/admin.php:446 includes/class-ftp.php:30
+#, php-format
+msgid "No se pudo conectar a \"%s\". Verifique nuevamente"
+msgstr "\"%s\" ile bağlantı kurulamadı. Tekrar kontrol et"
+
+#: includes/admin.php:448
+msgid "Complete el campo URL"
+msgstr "URL alanını doldurun"
+
+#: includes/admin.php:451 includes/class-ftp.php:35
+msgid "No se puede cambiar al modo pasivo"
+msgstr "Pasif moda geçemiyorum"
+
+#: includes/admin.php:461
+msgid "¡Se ha creado el archivo \"test-file.txt\" en su servidor!"
+msgstr "Sunucunuzda \"test-file.txt\" dosyası oluşturuldu!"
+
+#: includes/admin.php:464
+msgid ""
+"Es importante que coloque el campo URL ya que esa será la dirección con la "
+"que los usuarios accederán a descargar los archivos. Complete el campo y "
+"realice nuevamente el test de conexión."
+msgstr ""
+"URL alanını koymanız önemlidir, çünkü bu, kullanıcıların dosyaları indirmek "
+"için erişecekleri adres olacaktır. Alanı doldurun ve bağlantı testini tekrar "
+"yapın."
+
+#: includes/admin.php:466
+#, php-format
+msgid "Accede al archivo a través de este %s"
+msgstr "Dosyaya bu %s üzerinden erişin"
+
+#: includes/admin.php:466
+msgid "enlace"
+msgstr "bağlantı"
+
+#: includes/admin.php:466
+msgid ""
+"Si no puede acceder al enlace debe colocar el campo URL de manera correcta."
+msgstr "Bağlantıya erişemiyorsanız, URL alanını doğru girmelisiniz."
+
+#: includes/admin.php:467
+msgid ""
+"Si accedió al enlace y apareció el texto \"Hello World\" entonces la "
+"conexión fue exitosa."
+msgstr ""
+"Bağlantıya eriştiyseniz ve \"Merhaba Dünya\" metni belirdiyse, bağlantı "
+"başarılı olmuştur."
+
+#: includes/admin.php:470
+msgid ""
+"No se pudo generar el archivo de prueba. Es posible que el directorio que ha "
+"colocado no exista."
+msgstr ""
+"Test dosyası oluşturulamadı. Yerleştirdiğiniz dizin mevcut olmayabilir."
+
+#: includes/admin.php:474 includes/class-ftp.php:49
+msgid "Datos del servidor incorrectos. Verifique nuevamente"
+msgstr "Yanlış sunucu verileri. Tekrar kontrol et"
+
+#: includes/ajax.php:178
+msgid "Post reportado"
+msgstr "Gönderi bildirildi"
+
+#: includes/ajax.php:179
+msgid "Hola, tienes un post reportado"
+msgstr "Merhaba, şikayet edilmiş bir yayınınız var"
+
+#: includes/ajax.php:180
+msgid "Post"
+msgstr "Gönder"
+
+#: includes/ajax.php:181
+msgid "Asunto"
+msgstr "Konu"
+
+#: includes/ajax.php:187
+msgid "Email"
+msgstr "E-posta"
+
+#: includes/ajax.php:237
+msgid "Archivo subido y asignado al post."
+msgstr "Dosya yüklendi ve gönderiye atandı."
+
+#: includes/ajax.php:439 includes/class-list-table-latestapps.php:165
+#: includes/class-list-table-modapps.php:216
+msgid "View post"
+msgstr "View post"
+
+#: includes/ajax.php:481
+msgid "Inténtelo nuevamente..."
+msgstr "Tekrar deneyin..."
+
+#: includes/ajax.php:623
+msgid ""
+"No se encontró el ID de la app por lo que no se importó datos como las "
+"calificaciones, capturas de pantalla, etc."
+msgstr ""
+"Uygulama kimliği bulunamadığından derecelendirmeler, ekran görüntüleri vb. "
+"veriler içe aktarılmadı."
+
+#: includes/class-dropbox.php:200
+msgid "Error: Token de acceso incorrecto"
+msgstr "Hata: Hatalı erişim belirteci"
+
+#: includes/class-ftp.php:43
+msgid "No se pudo subir el archivo"
+msgstr "Dosya yüklenemedi"
+
+#: includes/class-list-table-atul.php:87
+msgid "No hay apps para actualizar"
+msgstr "Güncellenecek uygulama yok"
+
+#: includes/class-list-table-atul.php:98
+#: includes/class-list-table-latestapps.php:169
+msgid "Ver en Google Play"
+msgstr "Google Play'de görüntüle"
+
+#: includes/class-list-table-atul.php:121
+#: includes/class-list-table-atul.php:153
+msgid "Actualizar"
+msgstr "Güncelleme"
+
+#: includes/class-list-table-atul.php:133
+#: includes/class-list-table-latestapps.php:188
+#: includes/class-list-table-modapps.php:239
+msgid "App"
+msgstr "App"
+
+#: includes/class-list-table-atul.php:134
+msgid "Versión actual"
+msgstr "Güncel sürüm"
+
+#: includes/class-list-table-atul.php:135
+msgid "Nueva Versión"
+msgstr "Yeni sürüm"
+
+#: includes/class-list-table-atul.php:199
+#: includes/class-list-table-latestapps.php:235
+#: includes/class-list-table-modapps.php:289
+msgid "Todos"
+msgstr "Herşey"
+
+#: includes/class-list-table-latestapps.php:157
+msgid "No hay apps"
+msgstr "Hiçbir uygulama yok"
+
+#: includes/class-list-table-latestapps.php:177
+#: includes/class-list-table-modapps.php:228
+msgid "Re-importar"
+msgstr "Yeniden içe aktar"
+
+#: includes/class-list-table-latestapps.php:177
+#: includes/class-list-table-latestapps.php:198
+#: includes/class-list-table-modapps.php:228
+#: includes/class-list-table-modapps.php:249
+msgid "Importar"
+msgstr "İçe aktarmak"
+
+#: includes/class-list-table-latestapps.php:236
+#: includes/class-list-table-modapps.php:290
+msgid "Importados"
+msgstr "İthal"
+
+#: includes/class-list-table-latestapps.php:237
+#: includes/class-list-table-modapps.php:291
+msgid "No importados"
+msgstr "İçe aktarılmadı"
+
+#: includes/class-list-table-modapps.php:209
+msgid "No hay apps modificadas"
+msgstr "Mod uygulaması yok"
+
+#: includes/class-list-table-modapps.php:287
+msgid "Últimas apps modificadas"
+msgstr "En yeni mod uygulamaları"
+
+#: includes/class-upload-apk.php:89
+msgid "ERROR: El acortador seleccionado no tiene la API Key..."
+msgstr "HATA: Seçilen kısaltıcının API Anahtarı yok..."
+
+#: includes/class-upload-apk.php:271 includes/class-upload-apk.php:275
+#, php-format
+msgid "Error: %s"
+msgstr "Hatalar: %s"
+
+#: includes/class-upload-apk.php:275 includes/class-upload-apk.php:565
+msgid "Ocurrió un problema con el servidor de carga"
+msgstr "Yükleme sunucusuyla ilgili bir sorun oluştu"
+
+#: includes/class-upload-apk.php:297
+msgid "El archivo pesa 0KB. No fue descargado ni subido"
+msgstr "Dosya 0KB'dir. Ne indirildi ne de yüklendi"
+
+#: includes/class-upload-apk.php:349
+msgid "Falta la conexión con Dropbox"
+msgstr "Dropbox bağlantısı eksik"
+
+#: includes/class-upload-apk.php:379
+msgid "No ha realizado la conexión a Google Drive"
+msgstr "Google Drive ile bağlantı kurmadınız"
+
+#: includes/class-upload-apk.php:421
+msgid "Complete los campos para la conexión FTP"
+msgstr "FTP bağlantısı için alanları doldurun"
+
+#: includes/class-upload-apk.php:450
+msgid "Coloque el API Key de 1Fichier"
+msgstr "1Fichier API Anahtarını yerleştirin"
+
+#: includes/class-upload-apk.php:483
+msgid "No ha realizado la conexión a OneDrive"
+msgstr "OneDrive bağlanmadınız"
+
+#: includes/class-upload-apk.php:515
+msgid "Coloque el token y el ID de chat"
+msgstr "Belirteci ve sohbet kimliğini girin"
+
+#: includes/template-actions.php:104 includes/template-actions.php:670
+msgid "Anterior"
+msgstr "Öncesi"
+
+#: includes/template-actions.php:105 includes/template-actions.php:670
+msgid "Siguiente"
+msgstr "Sonraki"
+
+#: includes/template-actions.php:516
+msgid "Peso"
+msgstr "Ağırlık"
+
+#: includes/template-actions.php:518
+msgid "Fecha"
+msgstr "Tarih"
+
+#: includes/template-actions.php:588
+msgid "Para esta versión falta completar los datos"
+msgstr "Bu sürüm için bilgiler eksik"
+
+#: includes/template-actions.php:599
+msgid "Ver más versiones"
+msgstr "Daha fazla versiyona bakın"
+
+#: includes/template-actions.php:844
+msgid "Apps del desarrollador"
+msgstr "Geliştirici uygulamaları"
+
+#: includes/template-actions.php:866 single-blog.php:20
+msgid "TAGS"
+msgstr "ETİKETLER"
+
+#: includes/template-actions.php:1218
+msgid "Enlace de descarga"
+msgstr "İndirme: Linki"
+
+#: includes/template-actions.php:1260 template-parts/single-infoapp.php:89
+msgid "Descargar"
+msgstr "Buradan İndir"
+
+#: includes/template-actions.php:1640
+msgid "Mostrar enlaces"
+msgstr "Bağlantıları göster"
+
+#: includes/template-actions.php:1739 includes/template-functions.php:1479
+msgid "Actualización"
+msgstr "Güncellendi"
+
+#: includes/template-actions.php:1786 includes/template-functions.php:1287
+msgid "Ninguno"
+msgstr "Hayır"
+
+#: includes/template-actions.php:2248 includes/widget-fixed.php:9
+#: includes/widget-fixed.php:19 includes/widget-fixed.php:33
+msgid "Widget Fijado"
+msgstr "Sabit Widget"
+
+#: includes/template-actions.php:2262
+msgid "Solo apps modificadas"
+msgstr "Yalnızca değiştirilmiş uygulamalar"
+
+#: includes/template-functions.php:37
+msgid "Calificación"
+msgstr "Değerlendirme"
+
+#: includes/template-functions.php:37
+msgid "estrellas"
+msgstr "yıldızlar"
+
+#: includes/template-functions.php:145
+msgid "Navegación de comentarios"
+msgstr "Yorum gezintisi"
+
+#: includes/template-functions.php:148
+msgid "Comentarios antiguos"
+msgstr "Eski yorumlar"
+
+#: includes/template-functions.php:152
+msgid "Comentarios más nuevos"
+msgstr "Daha yeni yorumlar"
+
+#: includes/template-functions.php:187
+msgid "No funcionan los enlaces de descarga"
+msgstr "İndirme bağlantıları çalışmıyor"
+
+#: includes/template-functions.php:188
+msgid "Hay una nueva versión"
+msgstr "Yeni bir sürüm var"
+
+#: includes/template-functions.php:189
+msgid "Otros"
+msgstr "Diğerleri"
+
+#: includes/template-functions.php:300
+msgid ""
+"Error: Debe activar cURL. Contacte con el soporte de su hosting para que le "
+"habiliten cURL."
+msgstr ""
+"Hata: cURL'yi etkinleştirmelisiniz. CURL'nin sizin için etkinleştirilmesi "
+"için barındırma desteğinizle iletişime geçin."
+
+#: includes/template-functions.php:333
+msgid "Deja un comentario"
+msgstr "Yorum Yap"
+
+#: includes/template-functions.php:353
+msgid "Pingback:"
+msgstr "Geri bildirim:"
+
+#: includes/template-functions.php:353 includes/template-functions.php:359
+#: includes/template-functions.php:389
+msgid "(Editar)"
+msgstr "(Düzenlemek)"
+
+#: includes/template-functions.php:359
+msgid "Trackback:"
+msgstr "Geri izleme:"
+
+#: includes/template-functions.php:376
+msgid "dice"
+msgstr "diyorki"
+
+#: includes/template-functions.php:379
+msgid "Tu comentario está en espera de aprobación."
+msgstr "Yorumunuz onay bekliyor."
+
+#: includes/template-functions.php:384
+#, php-format
+msgid "%1$s a las %2$s"
+msgstr "%1$s saat %2$s"
+
+#: includes/template-functions.php:604
+msgid "Reportar esta app"
+msgstr "Bu uygulamayı bildir"
+
+#: includes/template-functions.php:611
+msgid "Detalle del reporte (Opcional)"
+msgstr "Rapor detayı (Opsiyonel)"
+
+#: includes/template-functions.php:616
+msgid "Email *"
+msgstr "E-posta *"
+
+#: includes/template-functions.php:618 template-parts/single-infoapp.php:114
+msgid "Reportar"
+msgstr "Rapor Et"
+
+#: includes/template-functions.php:839
+msgid "De pago"
+msgstr "Ödeme"
+
+#: includes/template-functions.php:1030 includes/template-functions.php:1276
+msgid "Nuevo"
+msgstr "Yeni"
+
+#: includes/template-functions.php:1035 includes/template-functions.php:1039
+#: includes/template-functions.php:1277
+msgid "Actualizado"
+msgstr "Güncellenmiş"
+
+#: includes/template-functions.php:1151 includes/template-functions.php:1159
+#: includes/template-functions.php:1161
+msgid "(No activado)"
+msgstr "(Aktif değil)"
+
+#: includes/template-functions.php:1153
+msgid "(Falta token de acceso)"
+msgstr "(Erişim jetonu eksik)"
+
+#: includes/template-functions.php:1161
+msgid "(Máximo 20 MB)"
+msgstr "(Maksimum 20 MB)"
+
+#: includes/template-functions.php:1314
+msgid "Juegos"
+msgstr "Oyunlar"
+
+#: includes/template-functions.php:1315
+msgid "Juegos de acción"
+msgstr "Aksiyon oyunları"
+
+#: includes/template-functions.php:1316
+msgid "Juegos de aventura"
+msgstr "Macera oyunları"
+
+#: includes/template-functions.php:1317
+msgid "Juegos de carreras"
+msgstr "Yarış oyunları"
+
+#: includes/template-functions.php:1318
+msgid "Juegos de cartas"
+msgstr "Kart oyunları"
+
+#: includes/template-functions.php:1319
+msgid "Juegos de casino"
+msgstr "Casino oyunları"
+
+#: includes/template-functions.php:1320
+msgid "Juegos educativos"
+msgstr "Eğitici oyunlar"
+
+#: includes/template-functions.php:1321
+msgid "Juegos de estrategia"
+msgstr "Strateji oyunları"
+
+#: includes/template-functions.php:1322
+msgid "Juegos de deportes"
+msgstr "Spor oyunları"
+
+#: includes/template-functions.php:1323
+msgid "Juegos de mesa"
+msgstr "Masa oyunları"
+
+#: includes/template-functions.php:1324
+msgid "Juegos de palabras"
+msgstr "Kelime oyunları"
+
+#: includes/template-functions.php:1325
+msgid "Juegos de rol"
+msgstr "Rol yapma oyunları"
+
+#: includes/template-functions.php:1326
+msgid "Juegos ocasionales"
+msgstr "Gündelik oyunlar"
+
+#: includes/template-functions.php:1327
+msgid "Juegos de música"
+msgstr "Müzik oyunları"
+
+#: includes/template-functions.php:1328
+msgid "Preguntas y respuestas"
+msgstr "Sorular ve yanıtlar"
+
+#: includes/template-functions.php:1329
+msgid "Juegos de rompecabezas"
+msgstr "Bulmaca oyunları"
+
+#: includes/template-functions.php:1330
+msgid "Sala de juegos"
+msgstr "Oyun odası"
+
+#: includes/template-functions.php:1331
+msgid "Juegos de simulación"
+msgstr "Simülasyon oyunları"
+
+#: includes/template-functions.php:1332
+msgid "Aplicaciones de video"
+msgstr "Video uygulamaları"
+
+#: includes/template-functions.php:1333
+msgid "Apps de reloj"
+msgstr "Saat uygulamaları"
+
+#: includes/template-functions.php:1334
+msgid "Arte y diseño"
+msgstr "Sanat ve Tasarım"
+
+#: includes/template-functions.php:1335
+msgid "Autos y vehículos"
+msgstr "Arabalar ve araçlar"
+
+#: includes/template-functions.php:1336
+msgid "Belleza"
+msgstr "Güzellik"
+
+#: includes/template-functions.php:1337
+msgid "Bibliotecas y demostración"
+msgstr "Kütüphaneler ve gösteri"
+
+#: includes/template-functions.php:1338
+msgid "Caras de reloj"
+msgstr "Saat yüzleri"
+
+#: includes/template-functions.php:1339
+msgid "Comer y beber"
+msgstr "Ye ve iç"
+
+#: includes/template-functions.php:1340
+msgid "Compras"
+msgstr "Satın alma"
+
+#: includes/template-functions.php:1341
+msgid "Comunicación"
+msgstr "İletişim"
+
+#: includes/template-functions.php:1342
+msgid "Conocer personas"
+msgstr "İnsanlarla tanış"
+
+#: includes/template-functions.php:1343
+msgid "Cómics"
+msgstr "Komik"
+
+#: includes/template-functions.php:1344
+msgid "Deportes"
+msgstr "Spor Dalları"
+
+#: includes/template-functions.php:1345
+msgid "Educación"
+msgstr "Eğitim"
+
+#: includes/template-functions.php:1346
+msgid "Entretenimiento"
+msgstr "Eğlence"
+
+#: includes/template-functions.php:1347
+msgid "Estilo de vida"
+msgstr "Yaşam Tarzı"
+
+#: includes/template-functions.php:1348
+msgid "Eventos"
+msgstr "Etkinlikler"
+
+#: includes/template-functions.php:1349
+msgid "Finanzas"
+msgstr "Finans"
+
+#: includes/template-functions.php:1350
+msgid "Fotografía"
+msgstr "Resim"
+
+#: includes/template-functions.php:1351
+msgid "Herramientas"
+msgstr "Araçlar"
+
+#: includes/template-functions.php:1352
+msgid "Inmuebles y hogar"
+msgstr "Emlak ve ev"
+
+#: includes/template-functions.php:1353
+msgid "Libros y referencias"
+msgstr "Kitaplar ve referanslar"
+
+#: includes/template-functions.php:1354
+msgid "Mapas y navegación"
+msgstr "Haritalar ve navigasyon"
+
+#: includes/template-functions.php:1355
+msgid "Medicina"
+msgstr "İlaç"
+
+#: includes/template-functions.php:1356
+msgid "Música y audio"
+msgstr "Müzik ve ses"
+
+#: includes/template-functions.php:1357
+msgid "Negocios"
+msgstr "İş"
+
+#: includes/template-functions.php:1358
+msgid "Noticias y revistas"
+msgstr "Haberler ve dergiler"
+
+#: includes/template-functions.php:1359
+msgid "Personalización"
+msgstr "Kişiselleştirme"
+
+#: includes/template-functions.php:1360
+msgid "Productividad"
+msgstr "Verimlilik"
+
+#: includes/template-functions.php:1361
+msgid "Salud y bienestar"
+msgstr "Sağlık ve zindelik"
+
+#: includes/template-functions.php:1362
+msgid "Ser padres"
+msgstr "Ebeveynlik"
+
+#: includes/template-functions.php:1363
+msgid "Social"
+msgstr "Sosyal"
+
+#: includes/template-functions.php:1364
+msgid "Tiempo"
+msgstr "Zaman"
+
+#: includes/template-functions.php:1365
+msgid "Viajes"
+msgstr "Seyahatler"
+
+#: includes/widget-categories.php:10
+msgid "Muestra las categorías"
+msgstr "Kategorileri görüntüle"
+
+#: includes/widget-categories.php:55
+msgid "Columnas"
+msgstr "Sütunlar"
+
+#: includes/widget-categories.php:59
+msgid "Escoger categorías"
+msgstr "Kategorileri seç"
+
+#: includes/widget-categories.php:60
+msgid "Seleccionar todos"
+msgstr "Hepsini seç"
+
+#: includes/widget-facebook.php:12
+msgid "Muestra la caja de tu página de Facebook"
+msgstr "Facebook sayfa kutunuzu gösterin"
+
+#: includes/widget-facebook.php:39
+msgid "Facebook"
+msgstr "Facebook"
+
+#: includes/widget-fixed.php:10
+msgid "Muestra un widget que sigue al usuario cuando hace scroll en la página"
+msgstr "Sayfayı kaydırdıklarında kullanıcıyı takip eden bir widget gösterir"
+
+#: includes/widget-fixed.php:42
+msgid "Se permite HTML también..."
+msgstr "HTML'ye de izin verilir..."
+
+#: includes/widget-mas-calificados.php:10
+msgid "Muestra las apps más calificadas de tu sitio"
+msgstr "Sitenizde en yüksek puan alan uygulamaları gösterin"
+
+#: includes/widget-mas-calificados.php:85 includes/widget-mas-vistos.php:85
+#: includes/widget-mejor-calificados.php:86
+#: includes/widget-ultimos-posts.php:84
+msgid "De una categoría"
+msgstr "Bir kategorinin"
+
+#: includes/widget-mas-calificados.php:87 includes/widget-mas-vistos.php:87
+#: includes/widget-mejor-calificados.php:88
+#: includes/widget-ultimos-posts.php:86
+msgid "Ninguna"
+msgstr "Hayır"
+
+#: includes/widget-mas-calificados.php:101
+#: includes/widget-mas-vistos-blog.php:64 includes/widget-mas-vistos.php:101
+#: includes/widget-mejor-calificados.php:101
+#: includes/widget-ultimos-posts-blog.php:63
+#: includes/widget-ultimos-posts.php:100
+msgid "Número de entradas a mostrar"
+msgstr "Görüntülenecek giriş sayısı"
+
+#: includes/widget-mas-vistos-blog.php:9 includes/widget-mas-vistos-blog.php:19
+#: includes/widget-mas-vistos-blog.php:56
+msgid "Posts más vistos"
+msgstr "En çok görüntülenen gönderiler"
+
+#: includes/widget-mas-vistos-blog.php:10
+msgid "Muestra los posts más vistos de tu sitio"
+msgstr "Sitenizde en çok görüntülenen gönderileri gösterin"
+
+#: includes/widget-mas-vistos.php:10
+msgid "Muestra las apps más vistas de tu sitio"
+msgstr "Sitenizde en çok görüntülenen uygulamaları gösterin"
+
+#: includes/widget-mejor-calificados.php:9
+#: includes/widget-mejor-calificados.php:21
+#: includes/widget-mejor-calificados.php:78
+msgid "Apps mejor calificadas"
+msgstr "En çok oy alan uygulamalar"
+
+#: includes/widget-mejor-calificados.php:10
+msgid "Muestra las apps mejor calificadas de tu sitio"
+msgstr "Sitenizde en çok oy alan uygulamaları gösterin"
+
+#: includes/widget-twitter.php:10
+msgid "Coloca tu nombre de usuario de Twitter y comenzarán a seguirte"
+msgstr "Twitter kullanıcı adınızı girin, sizi takip etmeye başlayacaklar"
+
+#: includes/widget-twitter.php:19 includes/widget-twitter.php:39
+msgid "Síguenos en Twitter"
+msgstr "Bizi Twitter'da takip edin"
+
+#: includes/widget-ultimos-posts-blog.php:9
+#: includes/widget-ultimos-posts-blog.php:19
+#: includes/widget-ultimos-posts-blog.php:55
+msgid "Últimos posts"
+msgstr "Son Gönderiler"
+
+#: includes/widget-ultimos-posts-blog.php:10
+msgid "Muestra los últimos posts de tu sitio"
+msgstr "Sitenizdeki en son gönderileri gösterin"
+
+#: includes/widget-ultimos-posts.php:9 includes/widget-ultimos-posts.php:21
+#: includes/widget-ultimos-posts.php:76
+msgid "Últimas Aplicaciones"
+msgstr "Son Uygulamalar"
+
+#: includes/widget-ultimos-posts.php:10
+msgid "Muestra las últimas aplicaciones de tu sitio"
+msgstr "Sitenizdeki en son uygulamaları gösterin"
+
+#: includes/widget-youtube.php:10
+msgid "Muestra cualquier video de YouTube colocando solo el ID"
+msgstr "Yalnızca kimliği girerek herhangi bir YouTube videosunu gösterin"
+
+#: includes/widget-youtube.php:36
+msgid "Youtube"
+msgstr "Youtube"
+
+#: tag.php:5 taxonomy-tblog.php:7
+msgid "TAG"
+msgstr "ETİKET"
+
+#: template-parts/single-infoapp.php:26 template-parts/template-download.php:40
+msgid "No hay enlace de redirección..."
+msgstr "Yönlendirme bağlantısı yok..."
+
+#: template-parts/single-infoapp.php:29 template-parts/template-download.php:43
+msgid "Será redireccionado en unos segundos..."
+msgstr "Birkaç saniye içinde yönlendirileceksiniz..."
+
+#: template-parts/single-infoapp.php:30 template-parts/template-download.php:44
+msgid "Si la redirección no funciona, haga clic"
+msgstr "Yönlendirme işe yaramazsa. Buraya"
+
+#: template-parts/single-infoapp.php:30 template-parts/template-download.php:44
+msgid "aquí"
+msgstr "burada"
+
+#: template-parts/single-infoapp.php:82 template-parts/single-infoapp.php:98
+msgid "Última versión"
+msgstr "Son sürüm"
+
+#: template-parts/template-download.php:14
+msgid "Nombre del paquete"
+msgstr "Paket ismi"
+
+#~ msgid "Añade el código de anuncio para esas secciones en la versión AMP."
+#~ msgstr "Bu bölümler için reklam kodunu AMP sürümüne ekleyin."
+
+#~ msgid "Añade el código de anuncio para esas secciones."
+#~ msgstr "Bu bölümler için reklam kodunu ekleyin."
+
+#~ msgid "Añade el código de anuncio para esas secciones en la versión móvil."
+#~ msgstr "Bu bölümler için reklam kodunu mobil sürüme ekleyin."
+
+#~ msgid "Volver a importar esta lista"
+#~ msgstr "Bu listeyi yeniden içe aktarın"
+
+#, php-format
+#~ msgid "Aplica para la sección %s"
+#~ msgstr "%s bölümü için geçerlidir"
+
+#~ msgid "Escribir..."
+#~ msgstr "Yazmak..."
+
+#~ msgid "UptoBox"
+#~ msgstr "UptoBox"
+
+#~ msgid "No existe el token de acceso"
+#~ msgstr "Erişim belirteci mevcut değil"
+
+#~ msgid "Error: Este dominio no está habilitado."
+#~ msgstr "Hata: Bu alan etkin değil."
+
+#~ msgid "Error: No se pudo obtener los datos de esta app."
+#~ msgstr "Hata: Bu uygulamadan veri alınamıyor."
+
+#~ msgid "Comentarios cerrados"
+#~ msgstr "Yorumlar kapatıldı"
+
+#~ msgid "Menú inferior fijo (móvil)"
+#~ msgstr "Sabit alt menü (Mobil)"
+
+#~ msgid "Seleccionar"
+#~ msgstr "Seçme"
+
+#~ msgid "Menú inferior fijo (movil)"
+#~ msgstr "Sabit alt menü (mobil)"
+
+#~ msgid "Post meta"
+#~ msgstr "Meta gönder"
+
+#~ msgid "Icono"
+#~ msgstr "Ikon"
+
+#~ msgid "menu"
+#~ msgstr "menü"
+
+#~ msgid "Token de acceso"
+#~ msgstr "Erişim belirteci"
+
+#~ msgid "Error: Falta token de acceso"
+#~ msgstr "Hata: Erişim belirteci eksik"
+
+#~ msgid "Appyn"
+#~ msgstr "Appyn"
+
+#~ msgid "Esperar"
+#~ msgstr "Bekle"
+
+#~ msgid "https:%20//themespixel.net"
+#~ msgstr "https:%20//themespixel.net"
+
+#~ msgid "https:%20//themespixel.net/appyn/"
+#~ msgstr "https:%20//themespixel.net/appyn/"
+
+#~ msgid "No hay enlace de descarga..."
+#~ msgstr "İndirme linki yok..."
+
+#~ msgid "Si no descarga el archivo, haga clic"
+#~ msgstr "Dosyayı indirmediyseniz, tıklayın"
+
+#~ msgid "Su descarga comenzará en un momento..."
+#~ msgstr "İndirmeniz hemen başlayacak..."
+
+#~ msgid "Theme Wordpress para aplicaciones Android."
+#~ msgstr "Android uygulamaları için tema wordpress."

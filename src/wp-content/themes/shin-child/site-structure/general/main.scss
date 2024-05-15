@@ -1,0 +1,18 @@
+@import "animation";
+@import "fonts";
+@import "mixins";
+#header nav{
+  margin-left: 0px !important;
+}
+
+#header{
+  border-color: transparent !important;
+  background: linear-gradient(90deg, #05880a, #34cb39) !important;
+}
+
+.appie-btn-box{
+  display: none;
+  @include tablet{
+    display: block;
+  }
+}
