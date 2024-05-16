@@ -22,14 +22,34 @@ function func_subheader()
 									<div style="position:absolute;margin:20px 0 0 243px;width:40px;height:40px;border-radius:100%;background:#2F670B;">
 										<img src="<?php echo THEME_URL . '-child/assets/icons/arrow-index.png' ?>" width="24" height="24" style="margin:9px 0 0 9px;" class="bounce" alt="download">
 									</div>
-									<img class="index_header_bg" src="<?php echo THEME_URL . '-child/assets/icons/bg.png' ?>" width="300" height="78" alt="button">
+										<a href="<?php echo get_field('download_link', 'option'); ?>">
+											<img class="index_header_bg" src=" <?php echo THEME_URL . '-child/assets/icons/bg.png' ?>" width="300" height="78" alt="button">
+										</a>
 								</div>
 							</div>
-							<p id="header-hm-content">Published on: Apr 17, 2024<br>Latest version: 3.1.0<br>Size: 16.2 MB<br></p>
+
+
+							<p id="header-hm-content">Published on: <?php echo esc_html(get_field('published_on', 'option')); ?>
+
+								<br>Latest version: <?php if (get_field('latest_version:', 'option')) : ?>
+									<?php echo esc_html(get_field('latest_version:', 'option', false)); ?>
+								<?php endif; ?>
+
+								<br>Size: <?php if (get_field('size', 'option')) : ?>
+									<?php echo esc_html(get_field('size', 'option')); ?>
+								<?php endif; ?>
+
+								<br>
+							</p>
 						</div>
 					</div>
 					<div class="col-lg-6" style="text-align:center;">
-						<img src="<?php echo THEME_URL . '-child/assets/icons/hero_index.webp' ?>" class="hero_thumb lozad" width="510" height="566" alt="HappyMod" data-loaded="true">
+						<?php if (get_field('image_banner', 'option')) : ?>
+							<img src="<?php the_field('image_banner', 'option'); ?>" alt="<?php the_field(''); ?>" class="hero_thumb lozad" width="510" height="566" alt="HappyMod" data-loaded="true">
+						<?php else : ?>
+							<img src="<?php echo THEME_URL . '-child/assets/icons/hero_index.webp' ?>" class="hero_thumb lozad" width="510" height="566" alt="HappyMod" data-loaded="true">
+
+						<?php endif; ?>
 					</div>
 				</div>
 			</div>
@@ -141,7 +161,7 @@ function func_action_home()
 		$aprmv = appyn_options('apps_per_row_movil', 2);
 		?>
 		<div class="section">
-			This is content
+			<?php get_template_part('template-parts/contents/homepage'); ?>
 			<div class="title-section"><?php echo px_gte('uadnw'); ?></div>
 			<div class="baps" data-cols="<?php echo $aprpc; ?>">
 				<?php
@@ -2223,9 +2243,9 @@ function pt()
 	global $post;
 	$get_download = get_query_var('download');
 
-	echo '<div class="box' . (($get_download == "true" || $get_download == "redirect" || $get_download == "links") ? ' box-download' : '') . '">';
+	echo '<div class="box' . (($get_download == "true" || $get_download == "redirect" || $get_download == "links") ? ' box-download' : '') . '" style="display:flex;">';
 	get_template_part('template-parts/single-infoapp');
-	do_action('px_social_buttons');
+	// do_action('px_social_buttons');
 	echo '</div>';
 
 	echo do_action('box_report');

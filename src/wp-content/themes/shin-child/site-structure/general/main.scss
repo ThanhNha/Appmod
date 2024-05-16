@@ -1,18 +1,62 @@
 @import "animation";
 @import "fonts";
 @import "mixins";
-#header nav{
+#header nav {
   margin-left: 0px !important;
 }
 
-#header{
+#header {
   border-color: transparent !important;
   background: linear-gradient(90deg, #05880a, #34cb39) !important;
 }
 
-.appie-btn-box{
+.appie-btn-box {
   display: none;
-  @include tablet{
+  @include tablet {
     display: block;
   }
+}
+
+.box {
+  flex-wrap: wrap;
+  .app-icb.s1 {
+    float: none !important;
+
+    display: block;
+    width: 100%;
+  }
+  .app-spe.s2 {
+    display: block;
+    float: none !important;
+    margin-top: 20px;
+
+    width: 100%;
+  }
+}
+
+@include tablet {
+  .box {
+    .app-icb.s1 {
+      width: 40%;
+    }
+    .app-spe.s2 {
+      margin-top: 0px;
+
+      width: 60%;
+    }
+  }
+}
+.entry.homepage {
+  padding: 40px 0px;
+  h2 {
+    font-size: 30px;
+    color: #34cb39;
+  }
+  h3 {
+    color: #34cb39;
+  }
+}
+
+.box-rating .rating-text{
+  text-align: left !important;
 }
