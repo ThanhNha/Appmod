@@ -23,9 +23,6 @@
 						</a>
 					</div>
 					<?php px_nav_menu(); ?>
-					<div class="appie-btn-box text-right"><a class="main-btn ml-30 dlink" href="javascript:;">Get Started <i class="right-click"></i></a>
-						<div class="toggle-btn ml-30 d-lg-none d-block"><i class="fa menu_click"></i></div>
-					</div>
 				</div>
 			</header>
 		</div>

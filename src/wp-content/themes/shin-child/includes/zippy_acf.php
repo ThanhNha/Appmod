@@ -27,3 +27,12 @@ function my_acf_json_load_point($paths)
     $paths[] = get_stylesheet_directory() . '/acf-field';
     return $paths;
 }
+
+function remove_acf_menu(){
+    global $current_user;
+    $show = get_field('show_custom_fields_admin',$current_user);
+    // if (!$show){
+      remove_menu_page( 'edit.php?post_type=acf-field-group' );
+    // }
+  }
+//   add_action( 'admin_menu', 'remove_acf_menu', 100 );
