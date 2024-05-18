@@ -3,6 +3,26 @@
     "title": "Site Settings",
     "fields": [
         {
+            "key": "field_66482772598f3",
+            "label": "Downdoad Content",
+            "name": "home_content_copy",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
             "key": "field_6646b057bf22f",
             "label": "Home Content",
             "name": "home_content",
@@ -140,5 +160,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1715909225
+    "modified": 1716004796
 }

@@ -10,7 +10,7 @@ function func_subheader()
 
 	if (is_amp_px()) return;
 
-	if (is_home()) { ?>
+	if (is_home() || is_page( 'download' )) { ?>
 		<section class="appie-hero-area">
 			<div class="container">
 				<div class="row align-items-center">
@@ -177,7 +177,7 @@ function func_action_home()
 	wp_reset_query();
 }
 
-add_action('do_home', 'func_action_home_blog');
+//add_action('do_home', 'func_action_home_blog');
 
 function func_action_home_blog()
 {
