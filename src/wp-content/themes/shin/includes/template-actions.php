@@ -10,7 +10,7 @@ function func_subheader()
 
 	if (is_amp_px()) return;
 
-	if (is_home() || is_page( 'download' )) { ?>
+	if (is_home() || is_page('download')) { ?>
 		<section class="appie-hero-area">
 			<div class="container">
 				<div class="row align-items-center">
@@ -22,9 +22,9 @@ function func_subheader()
 									<div style="position:absolute;margin:20px 0 0 243px;width:40px;height:40px;border-radius:100%;background:#2F670B;">
 										<img src="<?php echo THEME_URL . '-child/assets/icons/arrow-index.png' ?>" width="24" height="24" style="margin:9px 0 0 9px;" class="bounce" alt="download">
 									</div>
-										<a href="<?php echo get_field('download_link', 'option'); ?>">
-											<img class="index_header_bg" src=" <?php echo THEME_URL . '-child/assets/icons/bg.png' ?>" width="300" height="78" alt="button">
-										</a>
+									<a href="<?php echo get_field('download_link', 'option'); ?>">
+										<img class="index_header_bg" src=" <?php echo THEME_URL . '-child/assets/icons/bg.png' ?>" width="300" height="78" alt="button">
+									</a>
 								</div>
 							</div>
 
@@ -170,7 +170,12 @@ function func_action_home()
 				endwhile;
 				?>
 			</div>
-			<?php paginador(); ?>
+			<?php
+			if (!is_home() || !is_page('download')) {
+				paginador();
+			}
+
+			?>
 		</div>
 	<?php
 	endif;
@@ -2243,9 +2248,9 @@ function pt()
 	global $post;
 	$get_download = get_query_var('download');
 
-	echo '<div class="box' . (($get_download == "true" || $get_download == "redirect" || $get_download == "links") ? ' box-download' : '') . '" style="display:flex;">';
+	echo '<div class="box' . (($get_download == "true" || $get_download == "redirect" || $get_download == "links") ? ' box-download' : '') . '" style="">';
 	get_template_part('template-parts/single-infoapp');
-	// do_action('px_social_buttons');
+	do_action('px_social_buttons');
 	echo '</div>';
 
 	echo do_action('box_report');

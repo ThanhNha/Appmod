@@ -2,12 +2,14 @@
     "key": "group_60bf13cd8e1e0",
     "title": "Site Settings",
     "fields": [
+        
+       
         {
-            "key": "field_66482772598f3",
-            "label": "Downdoad Content",
-            "name": "home_content_copy",
+            "key": "field_66487aac884d3",
+            "label": "Links old Versions",
+            "name": "",
             "aria-label": "",
-            "type": "wysiwyg",
+            "type": "tab",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -16,11 +18,87 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
-            "tabs": "all",
-            "toolbar": "full",
-            "media_upload": 1,
-            "delay": 0
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_66487a5f3d17b",
+            "label": "Old Version list",
+            "name": "old_version_list",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "table",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Add Row",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_66487a7b3d17c",
+                    "label": "Link",
+                    "name": "link",
+                    "aria-label": "",
+                    "type": "link",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "parent_repeater": "field_66487a5f3d17b"
+                },
+                {
+                    "key": "field_66487a913d17d",
+                    "label": "Version name",
+                    "name": "version_name",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_66487a5f3d17b"
+                }
+            ]
+        },
+        {
+            "key": "field_66488cfe11579",
+            "label": "Home Page Content",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
         },
         {
             "key": "field_6646b057bf22f",
@@ -41,6 +119,23 @@
             "toolbar": "full",
             "media_upload": 1,
             "delay": 0
+        },
+        {
+            "key": "field_66487c11cb6a1",
+            "label": "Menu Content",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
         },
         {
             "key": "field_664604344d670",
@@ -160,5 +255,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1716004796
+    "modified": 1716030735
 }

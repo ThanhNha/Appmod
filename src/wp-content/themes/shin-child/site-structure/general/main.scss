@@ -48,7 +48,7 @@
 // }
 .entry.homepage {
   padding: 40px 0px;
-  h1{
+  h1 {
     font-size: 35px;
     color: #34cb39;
   }
@@ -58,6 +58,27 @@
   }
   h3 {
     color: #34cb39;
+  }
+}
+.app-icb.data-app {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+  .heading-old-version {
+    width: 100%;
+    padding-right: 15px;
+    @include tablet {
+      width: 30%;
+    }
+  }
+  .old-versions {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    @include tablet {
+      width: 70%;
+    }
   }
 }
 
