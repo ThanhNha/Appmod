@@ -171,7 +171,7 @@ function func_action_home()
 				?>
 			</div>
 			<?php
-			if (!is_home() || !is_page('download')) {
+			if (!is_home()) {
 				paginador();
 			}
 
