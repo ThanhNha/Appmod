@@ -16,7 +16,11 @@ function func_subheader()
 				<div class="row align-items-center">
 					<div class="col-lg-6">
 						<div class="appie-hero-content" style="padding-right:40px;">
-							<h1 class="appie-title" style="margin-top:100px;">HappyMod</h1>
+							<?php if (get_field('app_name','option')) : ?>
+								<h1 class="appie-title" style="margin-top:100px;">
+									<?php echo get_field('app_name','option'); ?>
+								</h1>
+							<?php endif; ?>
 							<div class="dlink" style="margin-top:10px;">
 								<div style="width:300px;" class="hmbtn_box">
 									<div style="position:absolute;margin:20px 0 0 243px;width:40px;height:40px;border-radius:100%;background:#2F670B;">

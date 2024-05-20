@@ -136,6 +136,25 @@
             },
             "placement": "top",
             "endpoint": 0
+        },{
+            "key": "field_664aefe36382e",
+            "label": "App name",
+            "name": "app_name",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
         },
         {
             "key": "field_664604344d670",
